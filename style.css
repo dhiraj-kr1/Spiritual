@@ -1,0 +1,3045 @@
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  
+  border-width: 0;
+  
+  border-style: solid;
+  
+  border-color: #e5e7eb;
+  
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+
+
+html,
+:host {
+  line-height: 1.5;
+  
+  -webkit-text-size-adjust: 100%;
+  
+  -moz-tab-size: 4;
+  
+  -o-tab-size: 4;
+     tab-size: 4;
+  
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+  font-feature-settings: normal;
+  
+  font-variation-settings: normal;
+
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+
+
+body {
+  margin: 0;
+  
+  line-height: inherit;
+  
+}
+
+
+
+hr {
+  height: 0;
+  
+  color: inherit;
+  
+  border-top-width: 1px;
+  
+}
+
+
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+  font-feature-settings: normal;
+  
+  font-variation-settings: normal;
+  
+  font-size: 1em;
+  
+}
+
+
+small {
+  font-size: 80%;
+}
+
+
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+
+
+table {
+  text-indent: 0;
+  
+  border-color: inherit;
+  
+  border-collapse: collapse;
+  
+}
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  
+  font-feature-settings: inherit;
+  
+  font-variation-settings: inherit;
+  
+  font-size: 100%;
+  
+  font-weight: inherit;
+  
+  line-height: inherit;
+  
+  letter-spacing: inherit;
+  
+  color: inherit;
+  
+  margin: 0;
+  
+  padding: 0;
+  
+}
+
+
+
+button,
+select {
+  text-transform: none;
+}
+
+
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button;
+  
+  background-color: transparent;
+  
+  background-image: none;
+  
+}
+
+
+
+:-moz-focusring {
+  outline: auto;
+}
+
+
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+
+
+progress {
+  vertical-align: baseline;
+}
+
+
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  
+  outline-offset: -2px;
+  
+}
+
+
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  
+  font: inherit;
+  
+}
+
+
+
+summary {
+  display: list-item;
+}
+
+
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+dialog {
+  padding: 0;
+}
+
+
+
+textarea {
+  resize: vertical;
+}
+
+
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+  
+  color: #9ca3af;
+  
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  
+  color: #9ca3af;
+  
+}
+
+
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+
+
+:disabled {
+  cursor: default;
+}
+
+
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  
+  vertical-align: middle;
+  
+}
+
+
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+:is(.home-component-012,.ramcharitmanas-component-779,.ramcharitmanas-component-791) {
+  pointer-events: none;
+}
+
+:is(.home-component-012,.home-component-110,.home-component-117,.home-component-136,.home-component-138,.home-component-140,.home-component-150,.home-component-152,.home-component-155,.ayodhya-component-345,.ayodhya-icon-351,.history-component-447,.history-component-453,.history-component-463,.history-component-469,.history-component-472,.history-component-481,.mandir-component-544,.mandir-component-545,.granth-component-651,.granth-component-659,.granth-component-660,.ramcharitmanas-component-779,.ramcharitmanas-component-791) {
+  position: absolute;
+}
+
+:is(.home-section-011,.home-component-014,.home-component-030,.home-section-033,.home-section-061,.home-section-087,.home-component-109,.home-component-112,.home-component-114,.home-component-135,.home-component-148,.home-component-151,.home-component-153,.home-component-160,.home-component-162,.janmbhoomi-section-221,.janmbhoomi-component-223,.janmbhoomi-section-233,.janmbhoomi-section-261,.janmbhoomi-section-304,.ayodhya-section-335,.ayodhya-component-343,.ayodhya-component-357,.ayodhya-component-365,.ayodhya-section-387,.history-component-436,.history-section-440,.history-component-446,.history-component-448,.history-component-460,.history-component-480,.mandir-section-492,.mandir-component-541,.mandir-component-542,.mandir-section-585,.granth-component-650,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794) {
+  position: relative;
+}
+
+:is(.site-component-002) {
+  position: sticky;
+}
+
+:is(.home-component-012,.home-component-110,.home-component-136,.home-component-138,.home-component-150,.home-component-152,.mandir-component-544) {
+  inset: 0px;
+}
+
+:is(.ramcharitmanas-component-779,.ramcharitmanas-component-791) {
+  bottom: -1rem;
+}
+
+:is(.ramcharitmanas-component-779,.ramcharitmanas-component-791) {
+  right: -1rem;
+}
+
+:is(.history-component-447) {
+  bottom: 0px;
+}
+
+:is(.mandir-component-545) {
+  bottom: 1.5rem;
+}
+
+:is(.granth-component-651,.granth-component-659,.granth-component-660) {
+  left: 0px;
+}
+
+:is(.home-component-155) {
+  left: 0.75rem;
+}
+
+:is(.ayodhya-component-345,.ayodhya-icon-351,.history-component-447,.history-component-453,.history-component-463,.history-component-469,.history-component-472,.history-component-481) {
+  left: 1rem;
+}
+
+:is(.mandir-component-545) {
+  left: 1.5rem;
+}
+
+:is(.granth-component-651,.granth-component-659,.granth-component-660) {
+  right: 0px;
+}
+
+:is(.home-component-117,.home-component-140) {
+  right: 1rem;
+}
+
+:is(.mandir-component-545) {
+  right: 1.5rem;
+}
+
+:is(.site-component-002,.history-component-447,.granth-component-651,.granth-component-659,.granth-component-660) {
+  top: 0px;
+}
+
+:is(.home-component-155) {
+  top: 0.75rem;
+}
+
+:is(.home-component-117,.home-component-140,.ayodhya-component-345,.ayodhya-icon-351) {
+  top: 1rem;
+}
+
+:is(.home-component-014,.home-component-030,.home-component-112,.home-component-114,.home-component-117,.janmbhoomi-component-223,.history-component-436) {
+  z-index: 10;
+}
+
+:is(.site-component-002) {
+  z-index: 50;
+}
+
+:is(.mandir-component-583) {
+  grid-column: span 2 / span 2;
+}
+
+:is(.ramcharitmanas-component-808) {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+:is(.janmbhoomi-component-232) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+:is(.site-component-003,.home-component-014,.home-copy-021,.home-component-022,.home-component-024,.home-component-034,.home-component-035,.home-component-126,.home-copy-129,.janmbhoomi-component-223,.janmbhoomi-copy-229,.janmbhoomi-component-234,.janmbhoomi-component-235,.janmbhoomi-copy-308,.ayodhya-copy-334,.ayodhya-component-336,.ayodhya-component-337,.ayodhya-section-353,.ayodhya-component-412,.ayodhya-component-414,.ayodhya-component-422,.history-component-436,.history-copy-439,.history-component-444,.history-component-446,.mandir-component-484,.mandir-section-517,.mandir-component-518,.mandir-section-539,.mandir-component-567,.mandir-component-579,.mandir-component-582,.mandir-component-584,.granth-component-619,.granth-copy-622,.granth-section-629,.granth-copy-631,.granth-component-649,.panchang-section-678,.panchang-component-690,.panchang-component-691,.panchang-section-705,.panchang-component-769,.panchang-copy-772,.ramcharitmanas-copy-774,.ramcharitmanas-section-775,.ramcharitmanas-component-801,.ramcharitmanas-component-817) {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:is(.ramcharitmanas-component-808) {
+  margin-bottom: -1.5rem;
+}
+
+:is(.home-heading-185,.panchang-heading-735) {
+  margin-bottom: 0.125rem;
+}
+
+:is(.home-icon-045,.home-icon-053,.home-icon-058,.home-component-078,.home-component-115,.home-heading-124,.home-component-172,.home-component-175,.home-component-176,.home-component-197,.home-icon-210,.home-icon-217,.janmbhoomi-icon-245,.janmbhoomi-icon-251,.janmbhoomi-icon-260,.ayodhya-copy-400,.ayodhya-component-426,.ayodhya-component-435,.history-icon-457,.history-icon-466,.history-icon-471,.mandir-icon-487,.mandir-icon-490,.mandir-component-554,.mandir-heading-565,.mandir-component-593,.mandir-icon-604,.granth-heading-626,.panchang-heading-696,.panchang-heading-728,.panchang-heading-747,.panchang-component-764,.ramcharitmanas-component-809,.ramcharitmanas-component-814,.ramcharitmanas-component-816) {
+  margin-bottom: 0.25rem;
+}
+
+:is(.mandir-component-609) {
+  margin-bottom: 0.375rem;
+}
+
+:is(.home-component-015,.home-copy-169,.history-component-437,.granth-component-630,.granth-component-649,.panchang-component-691,.panchang-component-706,.ramcharitmanas-copy-774) {
+  margin-bottom: 2.5rem;
+}
+
+:is(.janmbhoomi-copy-229,.janmbhoomi-component-265,.ayodhya-component-337,.ayodhya-component-379,.mandir-component-493) {
+  margin-bottom: 3rem;
+}
+
+:is(.mandir-component-518) {
+  margin-bottom: 3.5rem;
+}
+
+:is(.home-component-035,.home-component-126,.janmbhoomi-component-235,.ayodhya-component-412,.history-component-448,.history-component-460) {
+  margin-bottom: 4rem;
+}
+
+:is(.home-icon-093,.home-icon-099,.home-heading-166,.home-component-178,.janmbhoomi-heading-312,.janmbhoomi-heading-315,.janmbhoomi-heading-318,.janmbhoomi-heading-324,.janmbhoomi-heading-327,.janmbhoomi-heading-330,.ayodhya-component-338,.ayodhya-heading-362,.ayodhya-icon-369,.ayodhya-component-378,.ayodhya-component-392,.ayodhya-component-393,.ayodhya-heading-429,.history-component-441,.history-component-450,.history-component-462,.history-component-468,.history-component-474,.history-component-476,.history-component-477,.mandir-heading-496,.mandir-component-510,.mandir-component-513,.mandir-component-515,.mandir-component-532,.mandir-heading-536,.mandir-heading-570,.mandir-component-579,.mandir-component-582,.mandir-component-584,.granth-heading-636,.granth-heading-648,.granth-component-670,.granth-copy-673,.panchang-heading-684,.panchang-component-695,.panchang-component-703,.panchang-heading-720,.panchang-component-723,.panchang-copy-730,.panchang-copy-736,.panchang-component-755,.panchang-copy-758,.ramcharitmanas-heading-799) {
+  margin-bottom: 0.5rem;
+}
+
+:is(.home-icon-036,.home-heading-037,.home-copy-039,.home-heading-046,.home-heading-066,.home-copy-100,.home-component-102,.home-component-118,.home-component-127,.home-heading-143,.home-heading-158,.home-heading-181,.janmbhoomi-heading-246,.janmbhoomi-heading-252,.janmbhoomi-heading-256,.janmbhoomi-heading-296,.janmbhoomi-heading-299,.janmbhoomi-heading-302,.janmbhoomi-component-305,.ayodhya-heading-347,.ayodhya-component-354,.ayodhya-heading-373,.ayodhya-icon-374,.ayodhya-heading-388,.mandir-component-519,.mandir-heading-525,.mandir-component-561,.granth-heading-621,.granth-component-633,.granth-component-664,.panchang-copy-754,.ramcharitmanas-component-805) {
+  margin-bottom: 0.75rem;
+}
+
+:is(.home-component-043,.home-component-051,.home-component-056,.home-component-063,.home-copy-070,.home-component-088,.home-heading-094,.home-copy-095,.home-heading-128,.home-heading-168,.home-heading-193,.janmbhoomi-heading-227,.janmbhoomi-component-236,.janmbhoomi-component-262,.janmbhoomi-component-267,.janmbhoomi-copy-271,.janmbhoomi-component-292,.janmbhoomi-component-311,.janmbhoomi-component-314,.janmbhoomi-component-317,.janmbhoomi-component-320,.janmbhoomi-component-323,.janmbhoomi-component-326,.janmbhoomi-component-329,.janmbhoomi-component-332,.ayodhya-heading-339,.ayodhya-copy-348,.ayodhya-heading-355,.ayodhya-component-358,.ayodhya-component-361,.ayodhya-copy-389,.ayodhya-heading-413,.mandir-component-495,.mandir-component-499,.mandir-component-501,.mandir-component-503,.mandir-copy-526,.mandir-component-567,.mandir-component-586,.mandir-heading-588,.granth-heading-640,.granth-heading-654,.panchang-heading-679,.panchang-component-692,.panchang-component-714,.panchang-component-724,.panchang-component-770,.panchang-heading-771,.ramcharitmanas-icon-784,.ramcharitmanas-component-797,.ramcharitmanas-component-802) {
+  margin-bottom: 1rem;
+}
+
+:is(.home-heading-018,.home-copy-121,.home-copy-144,.janmbhoomi-component-244,.janmbhoomi-component-250,.janmbhoomi-component-255,.janmbhoomi-component-259,.ayodhya-component-416,.ayodhya-component-419,.ayodhya-component-420,.mandir-component-523,.mandir-component-529,.mandir-component-530,.panchang-component-743,.panchang-component-763) {
+  margin-bottom: 1.25rem;
+}
+
+:is(.home-copy-020,.home-copy-038,.home-copy-067,.home-copy-101,.home-component-106,.home-component-196,.janmbhoomi-heading-239,.janmbhoomi-component-321,.ayodhya-heading-333,.ayodhya-component-371,.ayodhya-component-377,.mandir-component-505,.mandir-copy-562,.mandir-copy-571,.mandir-component-592,.mandir-component-596,.mandir-component-607,.granth-component-652,.granth-copy-655,.ramcharitmanas-copy-785) {
+  margin-bottom: 1.5rem;
+}
+
+:is(.home-copy-182) {
+  margin-bottom: 1.75rem;
+}
+
+:is(.home-copy-021,.home-copy-068,.janmbhoomi-component-224,.janmbhoomi-copy-228,.ayodhya-copy-334,.ayodhya-copy-396,.history-copy-439,.ramcharitmanas-copy-818) {
+  margin-bottom: 2rem;
+}
+
+:is(.ayodhya-component-395) {
+  margin-left: 1rem;
+}
+
+:is(.home-component-097,.home-copy-105,.home-icon-213,.home-copy-215,.ayodhya-component-409,.mandir-component-581) {
+  margin-top: 0.125rem;
+}
+
+:is(.mandir-component-489,.mandir-heading-525,.mandir-heading-547,.mandir-copy-548,.mandir-component-564,.granth-copy-647,.granth-copy-658) {
+  margin-top: 0.25rem;
+}
+
+:is(.history-copy-452,.history-icon-459,.mandir-heading-570,.granth-heading-621,.granth-heading-626,.granth-copy-628,.granth-heading-640,.granth-heading-648,.granth-heading-654,.panchang-copy-694) {
+  margin-top: 0.5rem;
+}
+
+:is(.panchang-copy-698) {
+  margin-top: 0.75rem;
+}
+
+:is(.janmbhoomi-component-248,.janmbhoomi-component-253,.janmbhoomi-component-257,.history-component-444,.history-copy-445,.history-component-455,.history-component-464,.mandir-component-497,.granth-component-638,.granth-copy-662,.panchang-component-685,.panchang-component-688) {
+  margin-top: 1rem;
+}
+
+:is(.panchang-component-699) {
+  margin-top: 1.25rem;
+}
+
+:is(.home-component-048,.home-component-131,.home-component-189,.home-component-208,.janmbhoomi-component-275,.ayodhya-component-433) {
+  margin-top: 1.5rem;
+}
+
+:is(.ayodhya-component-376) {
+  margin-top: 2rem;
+}
+
+:is(.home-component-096,.home-component-107,.ramcharitmanas-component-819) {
+  margin-top: auto;
+}
+
+:is(.home-icon-036,.home-icon-045,.home-icon-053,.home-icon-058,.home-icon-093,.home-icon-099,.home-component-115,.home-component-127,.home-component-197,.home-icon-210,.home-icon-217,.janmbhoomi-icon-269,.janmbhoomi-icon-281,.janmbhoomi-icon-288,.janmbhoomi-component-290,.janmbhoomi-component-291,.ayodhya-icon-369,.ayodhya-icon-374,.ayodhya-component-393,.ayodhya-component-410,.history-icon-457,.history-icon-459,.history-icon-466,.history-icon-471,.mandir-component-593,.mandir-icon-604,.panchang-component-695,.panchang-component-703,.panchang-component-723,.ramcharitmanas-icon-784,.ramcharitmanas-component-809,.ramcharitmanas-component-814,.ramcharitmanas-component-816) {
+  display: block;
+}
+
+:is(.home-component-016,.home-component-119,.janmbhoomi-component-225,.history-component-450,.history-component-462,.history-component-468,.history-component-474,.history-component-476,.history-component-477,.panchang-component-682,.panchang-icon-687,.panchang-component-700,.panchang-component-701,.panchang-component-704,.panchang-component-734,.panchang-component-737,.panchang-component-738,.panchang-component-740,.panchang-component-744,.panchang-component-749,.panchang-component-757,.ramcharitmanas-component-773,.ramcharitmanas-component-810,.ramcharitmanas-component-811,.ramcharitmanas-component-813) {
+  display: inline-block;
+}
+
+:is(.site-component-001,.site-component-003,.site-component-004,.site-component-008,.home-section-011,.home-component-012,.home-component-014,.home-component-024,.home-component-025,.home-component-030,.home-component-042,.home-component-043,.home-component-048,.home-component-051,.home-component-056,.home-component-063,.home-link-071,.home-component-075,.home-component-076,.home-component-078,.home-component-082,.home-component-085,.home-component-092,.home-component-096,.home-component-107,.home-component-109,.home-component-110,.home-component-118,.home-component-131,.home-component-134,.home-component-136,.home-component-138,.home-component-142,.home-component-145,.home-icon-146,.home-icon-147,.home-component-150,.home-component-152,.home-component-159,.home-component-171,.home-component-172,.home-component-175,.home-component-176,.home-component-178,.home-component-183,.home-component-184,.home-component-187,.home-component-188,.home-component-189,.home-link-191,.home-component-195,.home-component-196,.home-component-199,.home-component-202,.home-icon-203,.home-component-208,.home-component-209,.home-component-211,.home-component-212,.home-component-216,.home-component-218,.home-component-219,.janmbhoomi-component-230,.janmbhoomi-component-242,.janmbhoomi-component-243,.janmbhoomi-component-244,.janmbhoomi-component-248,.janmbhoomi-component-249,.janmbhoomi-component-250,.janmbhoomi-component-253,.janmbhoomi-component-254,.janmbhoomi-component-255,.janmbhoomi-component-257,.janmbhoomi-component-258,.janmbhoomi-component-259,.janmbhoomi-component-266,.janmbhoomi-component-267,.janmbhoomi-component-268,.janmbhoomi-component-275,.janmbhoomi-component-276,.janmbhoomi-component-279,.janmbhoomi-component-280,.janmbhoomi-component-295,.janmbhoomi-component-297,.janmbhoomi-component-298,.janmbhoomi-component-300,.janmbhoomi-component-301,.janmbhoomi-component-303,.janmbhoomi-component-310,.janmbhoomi-component-311,.janmbhoomi-component-313,.janmbhoomi-component-314,.janmbhoomi-component-316,.janmbhoomi-component-317,.janmbhoomi-component-319,.janmbhoomi-component-320,.janmbhoomi-component-322,.janmbhoomi-component-323,.janmbhoomi-component-325,.janmbhoomi-component-326,.janmbhoomi-component-328,.janmbhoomi-component-329,.janmbhoomi-component-331,.janmbhoomi-component-332,.ayodhya-component-342,.ayodhya-component-346,.ayodhya-component-349,.ayodhya-component-350,.ayodhya-component-352,.ayodhya-component-357,.ayodhya-component-358,.ayodhya-component-359,.ayodhya-component-363,.ayodhya-component-364,.ayodhya-component-365,.ayodhya-icon-366,.ayodhya-component-367,.ayodhya-component-370,.ayodhya-component-371,.ayodhya-component-377,.ayodhya-component-391,.ayodhya-component-392,.ayodhya-component-395,.ayodhya-component-398,.ayodhya-component-399,.ayodhya-component-402,.ayodhya-list-item-408,.ayodhya-component-409,.ayodhya-component-415,.ayodhya-component-416,.ayodhya-component-418,.ayodhya-component-419,.ayodhya-component-420,.ayodhya-component-423,.ayodhya-component-425,.ayodhya-component-426,.ayodhya-component-430,.ayodhya-icon-431,.ayodhya-component-434,.ayodhya-component-435,.history-component-448,.history-component-453,.history-component-460,.history-component-463,.history-component-469,.history-component-472,.history-component-480,.history-component-481,.mandir-component-494,.mandir-component-495,.mandir-component-497,.mandir-component-498,.mandir-component-499,.mandir-component-500,.mandir-component-501,.mandir-component-502,.mandir-component-503,.mandir-component-505,.mandir-component-506,.mandir-component-507,.mandir-component-509,.mandir-component-510,.mandir-component-513,.mandir-component-515,.mandir-component-523,.mandir-component-529,.mandir-component-530,.mandir-component-554,.mandir-component-564,.mandir-component-567,.mandir-component-573,.mandir-component-576,.mandir-component-579,.mandir-component-582,.mandir-component-584,.mandir-component-591,.mandir-component-592,.mandir-component-595,.mandir-component-597,.mandir-component-601,.mandir-component-603,.mandir-component-606,.mandir-component-609,.granth-component-624,.granth-component-632,.granth-component-633,.granth-component-643,.granth-component-644,.granth-component-650,.granth-component-652,.granth-component-661,.granth-component-664,.granth-component-665,.granth-component-670,.panchang-component-681,.panchang-component-685,.panchang-component-688,.panchang-component-702,.panchang-component-743,.panchang-component-750,.panchang-component-751,.panchang-component-755,.panchang-component-763,.panchang-component-764,.ramcharitmanas-component-778,.ramcharitmanas-icon-781,.ramcharitmanas-component-786,.ramcharitmanas-component-790,.ramcharitmanas-icon-792,.ramcharitmanas-component-794,.ramcharitmanas-component-797,.ramcharitmanas-component-805,.ramcharitmanas-component-812,.ramcharitmanas-component-815,.ramcharitmanas-component-820,.ramcharitmanas-copy-822) {
+  display: flex;
+}
+
+:is(.home-component-015,.home-component-088,.janmbhoomi-component-224,.janmbhoomi-component-236,.janmbhoomi-component-262,.janmbhoomi-component-292,.janmbhoomi-component-305,.janmbhoomi-component-321,.ayodhya-component-338,.ayodhya-component-354,.ayodhya-component-378,.history-component-437,.history-component-441,.mandir-component-519,.mandir-component-532,.mandir-component-550,.mandir-component-561,.mandir-component-586,.panchang-component-692,.panchang-component-724,.ramcharitmanas-link-787,.ramcharitmanas-component-802) {
+  display: inline-flex;
+}
+
+:is(.home-component-041,.home-component-062,.home-component-091,.home-component-102,.home-component-106,.home-component-108,.home-component-122,.home-component-133,.home-component-164,.home-component-170,.home-component-194,.janmbhoomi-component-241,.janmbhoomi-component-265,.janmbhoomi-component-286,.janmbhoomi-component-309,.ayodhya-component-341,.ayodhya-component-356,.ayodhya-component-379,.ayodhya-component-390,.ayodhya-component-414,.mandir-component-485,.mandir-component-493,.mandir-component-533,.mandir-component-540,.mandir-component-559,.mandir-component-577,.mandir-component-590,.granth-component-623,.granth-component-641,.granth-component-668,.panchang-component-680,.panchang-component-706,.panchang-component-714,.panchang-component-719,.panchang-component-726,.panchang-component-733,.panchang-component-741,.panchang-component-745,.panchang-component-759,.ramcharitmanas-component-804) {
+  display: grid;
+}
+
+:is(.site-component-006,.home-component-019) {
+  display: none;
+}
+
+:is(.history-component-444,.granth-component-651,.granth-component-659,.granth-component-660) {
+  height: 0.25rem;
+}
+
+:is(.ayodhya-component-410) {
+  height: 0.375rem;
+}
+
+:is(.home-component-043,.home-component-051,.home-component-056,.home-component-076,.home-component-082,.home-component-085,.home-component-172,.home-component-175,.home-component-176,.home-component-184,.home-component-187,.home-component-188,.janmbhoomi-component-268,.janmbhoomi-component-280,.history-component-453,.history-component-463,.history-component-469,.history-component-472,.history-component-481,.mandir-component-495,.mandir-component-499,.mandir-component-501,.mandir-component-503,.mandir-component-564,.mandir-component-579,.mandir-component-582,.mandir-component-584,.ramcharitmanas-icon-781,.ramcharitmanas-icon-792) {
+  height: 2.5rem;
+}
+
+:is(.home-component-199,.home-component-211,.home-component-218,.janmbhoomi-component-244,.janmbhoomi-component-250,.janmbhoomi-component-255,.janmbhoomi-component-259,.janmbhoomi-component-323,.janmbhoomi-component-326,.janmbhoomi-component-329,.janmbhoomi-component-332,.ayodhya-component-395,.mandir-component-523,.mandir-component-529,.mandir-component-530,.mandir-component-595,.mandir-component-606,.granth-component-652) {
+  height: 3rem;
+}
+
+:is(.janmbhoomi-component-311,.janmbhoomi-component-314,.janmbhoomi-component-317,.janmbhoomi-component-320,.ayodhya-component-371,.ayodhya-component-377) {
+  height: 3.5rem;
+}
+
+:is(.ayodhya-component-416,.ayodhya-component-419,.ayodhya-component-420) {
+  height: 4rem;
+}
+
+:is(.home-component-016,.home-component-119,.home-icon-204,.home-component-206,.janmbhoomi-component-225,.ramcharitmanas-component-773) {
+  height: 0.5rem;
+}
+
+:is(.mandir-component-567) {
+  height: 5rem;
+}
+
+:is(.ayodhya-component-409) {
+  height: 1rem;
+}
+
+:is(.ayodhya-component-361) {
+  height: 11rem;
+}
+
+:is(.home-component-153,.home-component-160,.home-component-162) {
+  height: 12rem;
+}
+
+:is(.home-component-028) {
+  height: 1.25rem;
+}
+
+:is(.home-component-135,.home-component-148,.home-component-151) {
+  height: 13rem;
+}
+
+:is(.ayodhya-component-343) {
+  height: 14rem;
+}
+
+:is(.home-component-109) {
+  height: 18rem;
+}
+
+:is(.ayodhya-component-359,.ayodhya-icon-366,.ayodhya-component-399,.mandir-component-507,.granth-component-644) {
+  height: 2rem;
+}
+
+:is(.granth-component-665) {
+  height: 2.25rem;
+}
+
+:is(.janmbhoomi-component-231) {
+  height: 1px;
+}
+
+:is(.home-component-132) {
+  height: 2px;
+}
+
+:is(.mandir-image-543) {
+  height: 520px;
+}
+
+:is(.ayodhya-image-344) {
+  height: 100%;
+}
+
+:is(.mandir-component-520,.mandir-component-551) {
+  height: 1px;
+}
+
+:is(.home-section-011) {
+  min-height: 680px;
+}
+
+:is(.site-component-001) {
+  min-height: 100vh;
+}
+
+:is(.history-component-447) {
+  width: 0.125rem;
+}
+
+:is(.ayodhya-component-410) {
+  width: 0.375rem;
+}
+
+:is(.home-component-043,.home-component-051,.home-component-056,.home-component-076,.home-component-082,.home-component-085,.home-component-172,.home-component-175,.home-component-176,.home-component-184,.home-component-187,.home-component-188,.janmbhoomi-component-268,.janmbhoomi-component-280,.history-component-453,.history-component-463,.history-component-469,.history-component-472,.history-component-481,.mandir-component-495,.mandir-component-499,.mandir-component-501,.mandir-component-503,.mandir-component-564,.mandir-component-579,.mandir-component-582,.mandir-component-584,.ramcharitmanas-icon-781,.ramcharitmanas-icon-792) {
+  width: 2.5rem;
+}
+
+:is(.home-component-132,.home-component-199,.home-component-211,.home-component-218,.janmbhoomi-component-244,.janmbhoomi-component-250,.janmbhoomi-component-255,.janmbhoomi-component-259,.janmbhoomi-component-323,.janmbhoomi-component-326,.janmbhoomi-component-329,.janmbhoomi-component-332,.ayodhya-component-395,.mandir-component-523,.mandir-component-529,.mandir-component-530,.mandir-component-595,.mandir-component-606,.granth-component-652) {
+  width: 3rem;
+}
+
+:is(.janmbhoomi-component-311,.janmbhoomi-component-314,.janmbhoomi-component-317,.janmbhoomi-component-320,.ayodhya-component-371,.ayodhya-component-377) {
+  width: 3.5rem;
+}
+
+:is(.ayodhya-component-416,.ayodhya-component-419,.ayodhya-component-420) {
+  width: 4rem;
+}
+
+:is(.home-component-016,.home-component-119,.home-icon-204,.home-component-206,.janmbhoomi-component-225,.ramcharitmanas-component-773) {
+  width: 0.5rem;
+}
+
+:is(.mandir-component-567) {
+  width: 5rem;
+}
+
+:is(.janmbhoomi-component-231,.history-component-444) {
+  width: 6rem;
+}
+
+:is(.ayodhya-component-409) {
+  width: 1rem;
+}
+
+:is(.mandir-component-551) {
+  width: 1.5rem;
+}
+
+:is(.ayodhya-component-359,.ayodhya-icon-366,.ayodhya-component-399,.mandir-component-507,.mandir-component-520,.granth-component-644) {
+  width: 2rem;
+}
+
+:is(.granth-component-665) {
+  width: 2.25rem;
+}
+
+:is(.site-component-003,.home-section-011,.ayodhya-image-344,.mandir-image-543,.ramcharitmanas-component-819) {
+  width: 100%;
+}
+
+:is(.home-component-028) {
+  width: 1px;
+}
+
+:is(.home-copy-021,.home-component-035,.janmbhoomi-component-223,.janmbhoomi-copy-308,.ayodhya-component-412,.history-copy-439,.granth-copy-622,.granth-copy-631,.panchang-copy-772,.ramcharitmanas-copy-774) {
+  max-width: 42rem;
+}
+
+:is(.home-component-126,.janmbhoomi-component-235,.ayodhya-component-337,.history-component-436,.mandir-component-518,.granth-component-649,.panchang-component-691,.ramcharitmanas-component-796) {
+  max-width: 48rem;
+}
+
+:is(.home-component-014,.home-component-024,.ayodhya-component-414,.history-component-446,.panchang-component-769,.ramcharitmanas-component-817) {
+  max-width: 56rem;
+}
+
+:is(.site-component-003,.janmbhoomi-component-234,.mandir-component-484,.mandir-section-517,.mandir-section-539) {
+  max-width: 1280px;
+}
+
+:is(.home-component-034,.ayodhya-component-336,.ayodhya-section-353,.ayodhya-component-422,.granth-component-619,.granth-section-629,.panchang-section-678,.panchang-component-690,.panchang-section-705,.ramcharitmanas-section-775,.ramcharitmanas-component-801) {
+  max-width: 1280px;
+}
+
+:is(.home-component-022,.home-copy-129,.janmbhoomi-copy-229,.ayodhya-copy-334) {
+  max-width: 36rem;
+}
+
+:is(.home-component-077,.home-component-142,.home-copy-144,.ayodhya-component-346,.ayodhya-component-397,.ayodhya-component-403) {
+  flex: 1 1 0%;
+}
+
+:is(.home-graphic-026,.home-component-028,.home-component-029,.home-component-076,.home-component-082,.home-component-085,.home-component-184,.home-component-187,.home-component-188,.home-component-199,.home-component-211,.home-component-218,.granth-component-644) {
+  flex-shrink: 0;
+}
+
+:is(.ayodhya-component-395,.ayodhya-component-399,.ayodhya-component-405,.ayodhya-component-409,.mandir-component-564) {
+  flex-shrink: 0;
+}
+
+:is(.site-component-010) {
+  flex-grow: 1;
+}
+
+:is(.history-component-447,.history-component-453,.history-component-463,.history-component-469,.history-component-472,.history-component-481) {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+:is(.history-component-481) {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+:is(.home-link-071) {
+  cursor: pointer;
+}
+
+:is(.home-component-012,.home-icon-111,.home-component-137,.home-component-149,.ramcharitmanas-component-779,.ramcharitmanas-component-791) {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+:is(.home-component-041,.home-component-062,.home-component-091,.home-component-108,.home-component-133,.home-component-164,.home-component-170,.home-component-194,.janmbhoomi-component-241,.janmbhoomi-component-265,.janmbhoomi-component-309,.ayodhya-component-341,.ayodhya-component-356,.ayodhya-component-379,.ayodhya-component-390,.ayodhya-component-414,.mandir-component-493,.mandir-component-533,.mandir-component-540,.mandir-component-559,.mandir-component-590,.granth-component-623,.granth-component-641,.granth-component-668,.panchang-component-680,.panchang-component-706,.panchang-component-714,.panchang-component-719,.panchang-component-726,.panchang-component-733,.panchang-component-741,.panchang-component-745,.panchang-component-759,.ramcharitmanas-component-804) {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+:is(.home-component-106,.home-component-122,.janmbhoomi-component-286,.mandir-component-485,.mandir-component-577) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+:is(.home-component-102) {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+:is(.home-component-024) {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+
+:is(.home-component-025) {
+  white-space: normal !important;
+  word-break: break-word;
+}
+
+@media (min-width: 768px) {
+  :is(.home-component-024) {
+    flex-wrap: nowrap;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  :is(.home-component-025) {
+    white-space: nowrap !important;
+    word-break: normal;
+    flex-shrink: 0;
+  }
+}
+
+:is(.site-component-001,.home-section-011,.home-component-014,.home-component-042,.home-component-092,.home-component-109,.home-component-134,.home-component-142,.home-component-171,.home-component-195,.home-component-209,.home-component-216,.janmbhoomi-component-242,.janmbhoomi-component-243,.janmbhoomi-component-249,.janmbhoomi-component-254,.janmbhoomi-component-258,.janmbhoomi-component-266,.janmbhoomi-component-279,.janmbhoomi-component-295,.janmbhoomi-component-298,.janmbhoomi-component-301,.janmbhoomi-component-310,.janmbhoomi-component-313,.janmbhoomi-component-316,.janmbhoomi-component-319,.janmbhoomi-component-322,.ayodhya-component-342,.ayodhya-component-346,.ayodhya-component-350,.ayodhya-component-357,.ayodhya-component-365,.ayodhya-component-370,.ayodhya-component-391,.ayodhya-component-415,.ayodhya-component-418,.ayodhya-component-423,.ayodhya-component-434,.history-component-448,.history-component-460,.history-component-480,.mandir-component-494,.mandir-component-498,.mandir-component-500,.mandir-component-502,.mandir-component-505,.mandir-component-509,.mandir-component-591,.mandir-component-603,.granth-component-624,.granth-component-632,.granth-component-650,.granth-component-661,.panchang-component-681,.panchang-component-702,.panchang-component-750,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794,.ramcharitmanas-component-812,.ramcharitmanas-component-815) {
+  flex-direction: column;
+}
+
+:is(.ayodhya-component-430) {
+  flex-wrap: wrap;
+}
+
+:is(.home-component-062,.home-component-075,.home-component-096,.home-component-183,.home-component-196,.home-component-212,.home-component-219,.ayodhya-component-392,.ayodhya-component-398,.ayodhya-component-402,.ayodhya-list-item-408,.ayodhya-component-425,.history-component-448,.history-component-460,.history-component-480,.mandir-component-505,.granth-component-643,.ramcharitmanas-component-805) {
+  align-items: flex-start;
+}
+
+:is(.home-component-138,.home-component-150,.home-component-152) {
+  align-items: flex-end;
+}
+
+:is(.site-component-003,.site-component-004,.site-component-006,.site-component-008,.home-section-011,.home-component-012,.home-component-014,.home-component-015,.home-component-024,.home-component-025,.home-component-030,.home-component-043,.home-component-048,.home-component-051,.home-component-056,.home-component-063,.home-link-071,.home-component-076,.home-component-078,.home-component-082,.home-component-085,.home-component-088,.home-component-107,.home-component-108,.home-component-110,.home-component-118,.home-component-131,.home-component-136,.home-component-145,.home-icon-146,.home-icon-147,.home-component-159,.home-component-172,.home-component-175,.home-component-176,.home-component-178,.home-component-184,.home-component-187,.home-component-188,.home-component-189,.home-link-191,.home-component-199,.home-component-202,.home-icon-203,.home-component-208,.home-component-211,.home-component-218,.janmbhoomi-component-224,.janmbhoomi-component-230,.janmbhoomi-component-236,.janmbhoomi-component-244,.janmbhoomi-component-248,.janmbhoomi-component-250,.janmbhoomi-component-253,.janmbhoomi-component-255,.janmbhoomi-component-257,.janmbhoomi-component-259,.janmbhoomi-component-262,.janmbhoomi-component-267,.janmbhoomi-component-268,.janmbhoomi-component-275,.janmbhoomi-component-276,.janmbhoomi-component-280,.janmbhoomi-component-292,.janmbhoomi-component-297,.janmbhoomi-component-300,.janmbhoomi-component-303,.janmbhoomi-component-305,.janmbhoomi-component-310,.janmbhoomi-component-311,.janmbhoomi-component-313,.janmbhoomi-component-314,.janmbhoomi-component-316,.janmbhoomi-component-317,.janmbhoomi-component-319,.janmbhoomi-component-320,.janmbhoomi-component-321,.janmbhoomi-component-323,.janmbhoomi-component-325,.janmbhoomi-component-326,.janmbhoomi-component-328,.janmbhoomi-component-329,.janmbhoomi-component-331,.janmbhoomi-component-332,.ayodhya-component-338,.ayodhya-component-349,.ayodhya-component-352,.ayodhya-component-354,.ayodhya-component-358,.ayodhya-component-359,.ayodhya-component-363,.ayodhya-component-364,.ayodhya-icon-366,.ayodhya-component-367,.ayodhya-component-371,.ayodhya-component-377,.ayodhya-component-378,.ayodhya-component-395,.ayodhya-component-399,.ayodhya-component-409,.ayodhya-component-415,.ayodhya-component-416,.ayodhya-component-418,.ayodhya-component-419,.ayodhya-component-420,.ayodhya-component-426,.ayodhya-icon-431,.ayodhya-component-435,.history-component-437,.history-component-441,.history-component-453,.history-component-463,.history-component-469,.history-component-472,.history-component-481,.mandir-component-495,.mandir-component-497,.mandir-component-499,.mandir-component-501,.mandir-component-503,.mandir-component-506,.mandir-component-507,.mandir-component-510,.mandir-component-513,.mandir-component-515,.mandir-component-519,.mandir-component-523,.mandir-component-529,.mandir-component-530,.mandir-component-532,.mandir-component-540,.mandir-component-550,.mandir-component-554,.mandir-component-559,.mandir-component-561,.mandir-component-564,.mandir-component-567,.mandir-component-579,.mandir-component-582,.mandir-component-584,.mandir-component-586,.mandir-component-592,.mandir-component-595,.mandir-component-597,.mandir-component-601,.mandir-component-606,.mandir-component-609,.granth-component-633,.granth-component-644,.granth-component-652,.granth-component-664,.granth-component-665,.granth-component-670,.panchang-component-685,.panchang-component-688,.panchang-component-692,.panchang-component-724,.panchang-component-743,.panchang-component-751,.panchang-component-755,.panchang-component-763,.panchang-component-764,.ramcharitmanas-icon-781,.ramcharitmanas-component-786,.ramcharitmanas-link-787,.ramcharitmanas-icon-792,.ramcharitmanas-component-797,.ramcharitmanas-component-802,.ramcharitmanas-component-820,.ramcharitmanas-copy-822) {
+  align-items: center;
+}
+
+:is(.home-component-194,.mandir-component-590) {
+  align-items: stretch;
+}
+
+:is(.home-section-011,.home-component-012,.home-component-024,.home-component-030,.home-component-043,.home-component-051,.home-component-056,.home-component-076,.home-component-082,.home-component-085,.home-component-110,.home-component-131,.home-component-136,.home-component-172,.home-component-175,.home-component-176,.home-component-184,.home-component-187,.home-component-188,.home-component-199,.home-component-211,.home-component-218,.janmbhoomi-component-230,.janmbhoomi-component-244,.janmbhoomi-component-250,.janmbhoomi-component-255,.janmbhoomi-component-259,.janmbhoomi-component-268,.janmbhoomi-component-280,.janmbhoomi-component-311,.janmbhoomi-component-314,.janmbhoomi-component-317,.janmbhoomi-component-320,.janmbhoomi-component-323,.janmbhoomi-component-326,.janmbhoomi-component-329,.janmbhoomi-component-332,.ayodhya-component-359,.ayodhya-icon-366,.ayodhya-component-371,.ayodhya-component-377,.ayodhya-component-395,.ayodhya-component-399,.ayodhya-component-409,.ayodhya-component-416,.ayodhya-component-419,.ayodhya-component-420,.history-component-453,.history-component-463,.history-component-469,.history-component-472,.history-component-481,.mandir-component-495,.mandir-component-499,.mandir-component-501,.mandir-component-503,.mandir-component-507,.mandir-component-523,.mandir-component-529,.mandir-component-530,.mandir-component-564,.mandir-component-567,.mandir-component-579,.mandir-component-582,.mandir-component-584,.mandir-component-595,.mandir-component-606,.granth-component-644,.granth-component-652,.granth-component-665,.ramcharitmanas-icon-781,.ramcharitmanas-icon-792) {
+  justify-content: center;
+}
+
+:is(.site-component-003,.home-component-042,.home-component-048,.home-component-078,.home-component-107,.home-component-109,.home-component-145,.home-component-189,.home-component-195,.home-component-196,.home-component-202,.home-component-209,.home-component-216,.janmbhoomi-component-242,.janmbhoomi-component-249,.janmbhoomi-component-254,.janmbhoomi-component-258,.janmbhoomi-component-266,.janmbhoomi-component-275,.janmbhoomi-component-279,.janmbhoomi-component-295,.janmbhoomi-component-298,.janmbhoomi-component-301,.janmbhoomi-component-322,.ayodhya-component-342,.ayodhya-component-346,.ayodhya-component-349,.ayodhya-component-350,.ayodhya-component-352,.ayodhya-component-357,.ayodhya-component-358,.ayodhya-component-363,.ayodhya-component-365,.ayodhya-component-367,.ayodhya-component-370,.ayodhya-component-392,.ayodhya-component-423,.ayodhya-component-425,.ayodhya-component-434,.mandir-component-494,.mandir-component-498,.mandir-component-500,.mandir-component-502,.mandir-component-505,.mandir-component-509,.mandir-component-573,.mandir-component-576,.mandir-component-591,.mandir-component-592,.mandir-component-597,.mandir-component-603,.mandir-component-609,.granth-component-624,.granth-component-632,.granth-component-633,.granth-component-650,.granth-component-661,.granth-component-670,.panchang-component-681,.panchang-component-702,.panchang-component-743,.panchang-component-751,.panchang-component-755,.panchang-component-764,.ramcharitmanas-component-778,.ramcharitmanas-component-786,.ramcharitmanas-component-790,.ramcharitmanas-component-794,.ramcharitmanas-component-805,.ramcharitmanas-component-812,.ramcharitmanas-component-815,.ramcharitmanas-component-820) {
+  justify-content: space-between;
+}
+
+:is(.home-icon-147,.janmbhoomi-component-325,.janmbhoomi-component-328,.janmbhoomi-component-331,.ayodhya-component-364,.ayodhya-icon-431,.ramcharitmanas-copy-822) {
+  gap: 0.25rem;
+}
+
+:is(.home-link-071,.home-icon-146,.home-link-191,.janmbhoomi-component-276,.janmbhoomi-component-297,.janmbhoomi-component-300,.janmbhoomi-component-303,.ayodhya-component-354,.ayodhya-component-378,.history-component-441,.mandir-component-497,.ramcharitmanas-link-787) {
+  gap: 0.375rem;
+}
+
+:is(.mandir-component-559) {
+  gap: 2.5rem;
+}
+
+:is(.mandir-component-540) {
+  gap: 3rem;
+}
+
+:is(.home-component-062,.home-component-108) {
+  gap: 4rem;
+}
+
+:is(.site-component-004,.home-component-025,.home-component-063,.home-component-088,.home-component-118,.home-component-159,.home-component-171,.home-component-178,.home-icon-203,.home-component-208,.janmbhoomi-component-224,.janmbhoomi-component-236,.janmbhoomi-component-248,.janmbhoomi-component-253,.janmbhoomi-component-257,.janmbhoomi-component-262,.janmbhoomi-component-292,.janmbhoomi-component-305,.janmbhoomi-component-321,.ayodhya-component-338,.ayodhya-component-426,.ayodhya-component-430,.ayodhya-component-435,.history-component-437,.mandir-component-510,.mandir-component-513,.mandir-component-515,.mandir-component-519,.mandir-component-532,.mandir-component-550,.mandir-component-554,.mandir-component-561,.mandir-component-586,.panchang-component-685,.panchang-component-688,.panchang-component-692,.panchang-component-724,.panchang-component-763,.ramcharitmanas-component-802,.ramcharitmanas-component-805) {
+  gap: 0.5rem;
+}
+
+:is(.home-component-015,.home-component-219,.ayodhya-list-item-408,.mandir-component-601) {
+  gap: 0.625rem;
+}
+
+:is(.home-component-030,.home-component-096,.home-component-102,.home-component-106,.home-component-212,.janmbhoomi-component-267,.mandir-component-506,.granth-component-664,.panchang-component-745,.panchang-component-750) {
+  gap: 0.75rem;
+}
+
+:is(.site-component-008,.home-component-075,.home-component-122,.home-component-170,.home-component-183,.home-component-196,.janmbhoomi-component-286,.ayodhya-component-398,.ayodhya-component-402,.ayodhya-component-425,.mandir-component-485,.mandir-component-505,.mandir-component-577,.granth-component-623,.granth-component-643,.panchang-component-714,.panchang-component-719,.panchang-component-726,.panchang-component-733,.panchang-component-751,.panchang-component-764,.ramcharitmanas-component-797) {
+  gap: 1rem;
+}
+
+:is(.janmbhoomi-component-309,.granth-component-641,.granth-component-668) {
+  gap: 1.25rem;
+}
+
+:is(.home-component-041,.home-component-164,.janmbhoomi-component-241,.ayodhya-component-379,.ayodhya-component-414,.mandir-component-493,.mandir-component-533,.panchang-component-680,.panchang-component-706,.panchang-component-741,.panchang-component-759,.ramcharitmanas-component-804) {
+  gap: 1.5rem;
+}
+
+:is(.site-component-006,.home-component-091,.home-component-133,.home-component-194,.janmbhoomi-component-265,.ayodhya-component-341,.ayodhya-component-356,.ayodhya-component-390,.mandir-component-590) {
+  gap: 2rem;
+}
+
+:is(.ayodhya-component-397) > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0px * var(--tw-space-y-reverse));
+}
+
+:is(.ayodhya-component-383,.mandir-component-527,.mandir-component-572) > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+:is(.home-component-201,.ayodhya-component-407,.mandir-component-596) > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+:is(.home-component-073,.mandir-component-607) > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+:is(.ayodhya-component-403,.mandir-component-563) > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
+:is(.ayodhya-component-424,.mandir-component-549) > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
+:is(.ayodhya-component-422) > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+:is(.home-section-011,.home-component-109,.home-component-134,.home-component-135,.home-component-148,.home-component-151,.home-component-153,.home-component-160,.home-component-162,.janmbhoomi-section-221,.ayodhya-component-342,.ayodhya-component-343,.ayodhya-component-350,.ayodhya-component-357,.ayodhya-component-361,.ayodhya-component-365,.mandir-section-492,.mandir-component-542,.granth-component-650,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794) {
+  overflow: hidden;
+}
+
+:is(.home-component-025,.panchang-component-744,.panchang-component-749,.panchang-component-752,.panchang-component-757) {
+  white-space: nowrap;
+}
+
+:is(.home-component-202,.home-component-212,.home-component-219,.ayodhya-component-405,.history-component-450,.history-component-462,.history-component-468,.history-component-474,.history-component-476,.history-component-477,.mandir-component-494,.mandir-component-495,.mandir-component-498,.mandir-component-499,.mandir-component-500,.mandir-component-501,.mandir-component-502,.mandir-component-503,.mandir-icon-508,.mandir-component-509,.granth-component-625,.granth-component-634,.granth-component-671,.granth-component-675,.granth-component-676,.granth-component-677) {
+  border-radius: 0.25rem;
+}
+
+:is(.home-component-092,.home-component-109,.home-component-134,.home-component-177,.janmbhoomi-component-266,.janmbhoomi-component-279,.janmbhoomi-component-295,.janmbhoomi-component-298,.janmbhoomi-component-301,.janmbhoomi-component-310,.janmbhoomi-component-313,.janmbhoomi-component-316,.janmbhoomi-component-319,.janmbhoomi-component-322,.ayodhya-component-391,.ayodhya-component-415,.ayodhya-component-418,.mandir-component-522,.mandir-component-534,.mandir-component-538,.mandir-component-542,.mandir-component-566,.mandir-component-591,.mandir-component-603) {
+  border-radius: 1rem;
+}
+
+:is(.site-action-009,.home-component-015,.home-component-016,.home-component-076,.home-component-082,.home-component-085,.home-component-088,.home-component-113,.home-component-119,.home-component-132,.home-component-156,.home-component-161,.home-component-163,.home-component-172,.home-component-175,.home-component-176,.home-component-184,.home-component-187,.home-component-188,.home-component-199,.home-icon-204,.home-component-206,.home-component-211,.home-component-218,.janmbhoomi-component-224,.janmbhoomi-component-225,.janmbhoomi-component-236,.janmbhoomi-component-244,.janmbhoomi-component-250,.janmbhoomi-component-255,.janmbhoomi-component-259,.janmbhoomi-component-262,.janmbhoomi-component-268,.janmbhoomi-component-280,.janmbhoomi-component-292,.janmbhoomi-component-311,.janmbhoomi-component-314,.janmbhoomi-component-317,.janmbhoomi-component-320,.janmbhoomi-component-321,.janmbhoomi-component-323,.janmbhoomi-component-326,.janmbhoomi-component-329,.janmbhoomi-component-332,.ayodhya-component-345,.ayodhya-icon-351,.ayodhya-component-354,.ayodhya-component-359,.ayodhya-icon-366,.ayodhya-component-371,.ayodhya-component-377,.ayodhya-component-395,.ayodhya-component-399,.ayodhya-component-409,.ayodhya-component-410,.ayodhya-component-416,.ayodhya-component-419,.ayodhya-component-420,.ayodhya-icon-431,.history-component-437,.history-component-453,.history-component-463,.history-component-469,.history-component-472,.history-component-481,.mandir-component-507,.mandir-component-535,.mandir-component-564,.mandir-component-567,.mandir-component-579,.mandir-component-582,.mandir-component-584,.mandir-component-586,.mandir-component-595,.mandir-component-606,.mandir-icon-611,.mandir-icon-614,.mandir-icon-617,.granth-component-644,.granth-component-652,.granth-component-665,.panchang-component-682,.panchang-icon-687,.panchang-component-692,.panchang-component-700,.panchang-component-701,.panchang-component-704,.panchang-component-724,.panchang-component-734,.panchang-component-737,.panchang-component-738,.panchang-component-740,.panchang-component-744,.panchang-component-749,.panchang-component-757,.ramcharitmanas-component-773,.ramcharitmanas-icon-781,.ramcharitmanas-icon-782,.ramcharitmanas-icon-792,.ramcharitmanas-icon-793,.ramcharitmanas-component-802,.ramcharitmanas-component-810,.ramcharitmanas-component-811,.ramcharitmanas-component-813) {
+  border-radius: 9999px;
+}
+
+:is(.home-component-043,.home-component-051,.home-component-056,.home-component-103,.home-component-195,.home-component-209,.home-component-216,.ayodhya-component-361,.ayodhya-component-423,.ayodhya-component-434,.mandir-component-504,.granth-component-656,.panchang-component-746,.panchang-component-748,.panchang-component-751) {
+  border-radius: 0.5rem;
+}
+
+:is(.home-component-022,.home-component-042,.home-component-069,.home-component-074,.home-component-081,.home-component-084,.home-component-123,.home-component-165,.home-component-167,.home-component-171,.home-component-183,.janmbhoomi-component-242,.janmbhoomi-component-249,.janmbhoomi-component-254,.janmbhoomi-component-258,.janmbhoomi-component-272,.janmbhoomi-component-287,.ayodhya-component-342,.ayodhya-component-350,.ayodhya-component-357,.ayodhya-component-365,.ayodhya-component-370,.ayodhya-component-380,.ayodhya-component-384,.ayodhya-component-404,.history-component-456,.history-component-465,.history-component-470,.history-component-473,.history-component-475,.history-component-479,.mandir-component-486,.mandir-component-523,.mandir-component-529,.mandir-component-530,.mandir-component-553,.mandir-component-557,.mandir-component-572,.mandir-component-578,.mandir-component-583,.mandir-component-597,.mandir-component-601,.mandir-component-608,.mandir-component-612,.mandir-component-615,.granth-component-624,.granth-component-632,.granth-component-642,.granth-component-643,.granth-component-650,.granth-component-661,.granth-component-663,.granth-component-669,.panchang-component-681,.panchang-component-702,.panchang-component-707,.panchang-component-712,.panchang-component-715,.panchang-component-722,.panchang-component-727,.panchang-component-739,.panchang-component-742,.panchang-component-760,.panchang-component-761,.panchang-component-762,.panchang-component-766,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794,.ramcharitmanas-component-812,.ramcharitmanas-component-815) {
+  border-radius: 0.75rem;
+}
+
+:is(.ramcharitmanas-component-808) {
+  border-bottom-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
+
+:is(.home-component-096) {
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+:is(.home-component-015,.home-component-022,.home-component-042,.home-component-069,.home-component-074,.home-component-081,.home-component-084,.home-component-088,.home-component-092,.home-component-123,.home-component-134,.home-component-165,.home-component-167,.home-component-171,.home-component-177,.home-component-183,.home-component-195,.home-component-209,.home-component-216,.janmbhoomi-component-224,.janmbhoomi-component-236,.janmbhoomi-component-262,.janmbhoomi-component-272,.janmbhoomi-component-287,.janmbhoomi-component-292,.janmbhoomi-component-310,.janmbhoomi-component-313,.janmbhoomi-component-316,.janmbhoomi-component-319,.janmbhoomi-component-321,.janmbhoomi-component-322,.ayodhya-component-345,.ayodhya-component-354,.ayodhya-component-370,.ayodhya-component-391,.ayodhya-component-415,.ayodhya-component-423,.ayodhya-component-434,.history-component-437,.mandir-component-486,.mandir-component-504,.mandir-component-509,.mandir-component-534,.mandir-component-538,.mandir-component-553,.mandir-component-566,.mandir-component-578,.mandir-component-583,.mandir-component-586,.mandir-component-597,.mandir-component-601,.granth-component-624,.granth-component-632,.granth-component-642,.granth-component-643,.granth-component-644,.granth-component-650,.granth-component-656,.granth-component-661,.granth-component-663,.granth-component-669,.panchang-component-692,.panchang-component-715,.panchang-component-724,.panchang-component-727,.panchang-component-742,.panchang-component-746,.panchang-component-748,.panchang-component-751,.ramcharitmanas-icon-781,.ramcharitmanas-icon-792,.ramcharitmanas-component-802) {
+  border-width: 1px;
+}
+
+:is(.ayodhya-component-409,.ayodhya-component-418,.mandir-component-542,.panchang-component-702,.panchang-component-722,.panchang-component-739) {
+  border-width: 2px;
+}
+
+:is(.history-component-453,.history-component-463,.history-component-469,.history-component-472,.history-component-481) {
+  border-width: 4px;
+}
+
+:is(.panchang-component-681,.panchang-component-762,.panchang-component-766,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794,.ramcharitmanas-component-812,.ramcharitmanas-component-815) {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
+:is(.ayodhya-section-335,.ayodhya-section-368,.mandir-section-531,.granth-section-639,.panchang-section-689,.panchang-section-768) {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+:is(.site-component-002,.janmbhoomi-section-233,.janmbhoomi-section-261,.janmbhoomi-section-304,.ayodhya-component-398,.mandir-section-483,.mandir-component-505,.mandir-component-573,.mandir-section-585,.mandir-component-592,.granth-section-618,.panchang-component-681,.panchang-component-762,.panchang-component-766,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794,.ramcharitmanas-component-812,.ramcharitmanas-component-815) {
+  border-bottom-width: 1px;
+}
+
+:is(.home-component-096,.janmbhoomi-component-266,.janmbhoomi-component-279,.mandir-component-557,.mandir-component-608,.mandir-component-612,.mandir-component-615,.panchang-component-707,.panchang-component-712,.panchang-component-760,.panchang-component-761) {
+  border-left-width: 4px;
+}
+
+:is(.home-section-033,.home-component-048,.home-section-061,.home-section-087,.home-component-107,.home-component-145,.home-component-159,.home-component-189,.home-component-201,.home-component-208,.janmbhoomi-component-248,.janmbhoomi-component-253,.janmbhoomi-component-257,.janmbhoomi-component-275,.janmbhoomi-component-297,.janmbhoomi-component-300,.janmbhoomi-component-303,.janmbhoomi-component-325,.janmbhoomi-component-328,.janmbhoomi-component-331,.ayodhya-component-349,.ayodhya-component-352,.ayodhya-component-363,.ayodhya-component-367,.ayodhya-component-376,.ayodhya-component-383,.ayodhya-section-387,.ayodhya-section-411,.ayodhya-component-433,.mandir-section-492,.mandir-component-497,.mandir-component-527,.mandir-section-558,.granth-component-638,.granth-copy-662,.panchang-component-685,.panchang-component-688,.panchang-component-699,.ramcharitmanas-component-786,.ramcharitmanas-component-808) {
+  border-top-width: 1px;
+}
+
+:is(.janmbhoomi-component-310,.janmbhoomi-component-313,.janmbhoomi-component-316,.janmbhoomi-component-319,.ayodhya-component-342,.ayodhya-component-350,.ayodhya-component-357,.ayodhya-component-365,.ayodhya-component-380,.ayodhya-component-384,.history-component-456,.history-component-465,.history-component-470,.history-component-473,.history-component-475,.history-component-479,.mandir-component-522,.panchang-component-681,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794,.ramcharitmanas-component-812,.ramcharitmanas-component-815,.ramcharitmanas-component-819) {
+  border-top-width: 2px;
+}
+
+:is(.home-component-195,.home-component-209,.home-component-216,.janmbhoomi-component-242,.janmbhoomi-component-249,.janmbhoomi-component-254,.janmbhoomi-component-258,.janmbhoomi-component-295,.janmbhoomi-component-298,.janmbhoomi-component-301,.ayodhya-component-423,.ayodhya-component-434,.mandir-component-494,.mandir-component-498,.mandir-component-500,.mandir-component-502,.mandir-component-591,.mandir-component-603,.panchang-component-762,.panchang-component-766) {
+  border-top-width: 4px;
+}
+
+:is(.janmbhoomi-component-249,.janmbhoomi-component-266,.janmbhoomi-component-298,.mandir-component-557) {
+  --tw-border-opacity: 1;
+  border-color: rgb(115 92 0 / var(--tw-border-opacity, 1));
+}
+
+:is(.janmbhoomi-component-224,.history-component-437) {
+  border-color: rgb(115 92 0 / 0.4);
+}
+
+:is(.janmbhoomi-component-242,.janmbhoomi-component-279,.janmbhoomi-component-301) {
+  --tw-border-opacity: 1;
+  border-color: rgb(143 78 0 / var(--tw-border-opacity, 1));
+}
+
+:is(.ayodhya-component-409) {
+  border-color: rgb(143 78 0 / 0.4);
+}
+
+:is(.janmbhoomi-component-254,.janmbhoomi-component-295) {
+  --tw-border-opacity: 1;
+  border-color: rgb(178 43 29 / var(--tw-border-opacity, 1));
+}
+
+:is(.home-component-022) {
+  border-color: rgb(200 169 110 / 0.4);
+}
+
+:is(.home-component-015) {
+  border-color: rgb(200 169 110 / 0.5);
+}
+
+:is(.site-component-002,.janmbhoomi-section-233,.janmbhoomi-section-261,.janmbhoomi-section-304,.ayodhya-section-387,.ayodhya-section-411,.mandir-section-483,.mandir-component-486,.mandir-section-531,.mandir-component-534,.mandir-component-538,.mandir-section-558,.mandir-component-573,.mandir-component-578,.mandir-component-583) {
+  border-color: rgb(219 194 176 / 0.3);
+}
+
+:is(.janmbhoomi-component-248,.janmbhoomi-component-253,.janmbhoomi-component-257,.janmbhoomi-component-272,.janmbhoomi-component-275,.janmbhoomi-component-287,.janmbhoomi-component-297,.janmbhoomi-component-300,.janmbhoomi-component-303,.janmbhoomi-component-325,.janmbhoomi-component-328,.janmbhoomi-component-331,.ayodhya-component-398,.mandir-component-527,.mandir-component-553) {
+  border-color: rgb(219 194 176 / 0.4);
+}
+
+:is(.ayodhya-component-391,.ayodhya-component-415) {
+  border-color: rgb(219 194 176 / 0.5);
+}
+
+:is(.janmbhoomi-component-310,.janmbhoomi-component-313,.janmbhoomi-component-316,.janmbhoomi-component-319,.janmbhoomi-component-322) {
+  border-color: rgb(219 194 176 / 0.6);
+}
+
+:is(.janmbhoomi-component-236,.janmbhoomi-component-262,.janmbhoomi-component-292,.janmbhoomi-component-321,.mandir-component-522,.mandir-component-542,.mandir-component-566) {
+  --tw-border-opacity: 1;
+  border-color: rgb(233 195 73 / var(--tw-border-opacity, 1));
+}
+
+:is(.ramcharitmanas-component-819) {
+  --tw-border-opacity: 1;
+  border-color: rgb(254 214 91 / var(--tw-border-opacity, 1));
+}
+
+:is(.janmbhoomi-component-258,.ayodhya-component-418) {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 153 51 / var(--tw-border-opacity, 1));
+}
+
+:is(.panchang-component-766) {
+  --tw-border-opacity: 1;
+  border-color: rgb(186 26 26 / var(--tw-border-opacity, 1));
+}
+
+:is(.panchang-component-739) {
+  --tw-border-opacity: 1;
+  border-color: rgb(22 163 74 / var(--tw-border-opacity, 1));
+}
+
+:is(.panchang-component-712) {
+  border-color: rgb(85 67 54 / 0.3);
+}
+
+:is(.ramcharitmanas-component-815) {
+  --tw-border-opacity: 1;
+  border-color: rgb(219 194 176 / var(--tw-border-opacity, 1));
+}
+
+:is(.home-component-048,.home-component-107,.home-component-145,.home-component-159,.home-component-183,.home-component-189,.home-component-201,.home-component-208,.ayodhya-component-363,.ayodhya-component-367,.mandir-component-497,.mandir-component-509,.granth-component-638,.granth-component-656,.granth-copy-662,.panchang-component-685,.panchang-component-688,.panchang-component-699,.panchang-component-746,.panchang-component-748,.panchang-component-751,.ramcharitmanas-component-786,.ramcharitmanas-component-808) {
+  border-color: rgb(219 194 176 / 0.2);
+}
+
+:is(.home-section-033,.home-component-042,.home-section-061,.home-component-074,.home-component-081,.home-component-084,.home-section-087,.home-component-092,.home-component-134,.home-component-165,.home-component-167,.home-component-171,.home-component-177,.home-component-195,.home-component-209,.home-component-216,.ayodhya-section-335,.ayodhya-component-345,.ayodhya-component-349,.ayodhya-component-352,.ayodhya-component-354,.ayodhya-section-368,.ayodhya-component-376,.ayodhya-component-383,.ayodhya-component-423,.ayodhya-component-433,.ayodhya-component-434,.mandir-section-492,.mandir-component-505,.mandir-section-585,.mandir-component-592,.mandir-component-597,.mandir-component-601,.granth-section-618,.granth-component-624,.granth-component-632,.granth-section-639,.granth-component-642,.granth-component-643,.granth-component-650,.granth-component-661,.granth-component-663,.granth-component-669,.panchang-component-681,.panchang-section-689,.panchang-component-715,.panchang-component-727,.panchang-component-742,.panchang-component-762,.panchang-component-766,.panchang-section-768,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794,.ramcharitmanas-component-812,.ramcharitmanas-component-815) {
+  border-color: rgb(219 194 176 / 0.3);
+}
+
+:is(.ayodhya-component-370) {
+  border-color: rgb(219 194 176 / 0.4);
+}
+
+:is(.ramcharitmanas-icon-781,.ramcharitmanas-component-802) {
+  border-color: rgb(219 194 176 / 0.5);
+}
+
+:is(.home-component-195,.ayodhya-component-350,.ayodhya-component-357,.ayodhya-component-380,.ayodhya-component-423,.history-component-465,.history-component-475,.mandir-component-494,.mandir-component-591,.mandir-component-612,.panchang-component-722,.panchang-component-760) {
+  --tw-border-opacity: 1;
+  border-color: rgb(143 78 0 / var(--tw-border-opacity, 1));
+}
+
+:is(.history-component-479,.mandir-component-502,.ramcharitmanas-icon-792) {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 153 51 / var(--tw-border-opacity, 1));
+}
+
+:is(.home-component-209,.ayodhya-component-365,.ayodhya-component-384,.ayodhya-component-434,.history-component-456,.history-component-473,.mandir-component-498,.mandir-component-603,.mandir-component-608,.panchang-component-761,.panchang-component-762) {
+  --tw-border-opacity: 1;
+  border-color: rgb(115 92 0 / var(--tw-border-opacity, 1));
+}
+
+:is(.home-component-096,.panchang-component-681,.panchang-component-707,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794) {
+  --tw-border-opacity: 1;
+  border-color: rgb(254 214 91 / var(--tw-border-opacity, 1));
+}
+
+:is(.home-component-069,.home-component-088,.ayodhya-component-342,.mandir-component-504,.mandir-component-586,.panchang-component-692,.panchang-component-724) {
+  --tw-border-opacity: 1;
+  border-color: rgb(233 195 73 / var(--tw-border-opacity, 1));
+}
+
+:is(.home-component-123) {
+  border-color: rgb(233 195 73 / 0.5);
+}
+
+:is(.granth-component-644) {
+  border-color: rgb(115 92 0 / 0.3);
+}
+
+:is(.history-component-453,.history-component-463,.history-component-469,.history-component-472,.history-component-481) {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
+}
+
+:is(.home-component-216,.history-component-470,.mandir-component-500,.mandir-component-615) {
+  --tw-border-opacity: 1;
+  border-color: rgb(178 43 29 / var(--tw-border-opacity, 1));
+}
+
+:is(.panchang-component-702,.ramcharitmanas-component-812) {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 149 133 / var(--tw-border-opacity, 1));
+}
+
+:is(.janmbhoomi-component-313) {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(115 92 0 / var(--tw-border-opacity, 1));
+}
+
+:is(.janmbhoomi-component-310) {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(143 78 0 / var(--tw-border-opacity, 1));
+}
+
+:is(.janmbhoomi-component-316) {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(178 43 29 / var(--tw-border-opacity, 1));
+}
+
+:is(.janmbhoomi-component-319) {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(255 153 51 / var(--tw-border-opacity, 1));
+}
+
+:is(.ayodhya-component-420) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(85 67 54 / var(--tw-bg-opacity, 1));
+}
+
+:is(.home-component-161) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(115 92 0 / var(--tw-bg-opacity, 1));
+}
+
+:is(.home-component-016,.mandir-component-551) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(143 78 0 / var(--tw-bg-opacity, 1));
+}
+
+:is(.ayodhya-component-410) {
+  background-color: rgb(143 78 0 / 0.4);
+}
+
+:is(.home-component-163,.janmbhoomi-component-225) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(178 43 29 / var(--tw-bg-opacity, 1));
+}
+
+:is(.home-component-028) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 194 176 / var(--tw-bg-opacity, 1));
+}
+
+:is(.ramcharitmanas-component-819) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 226 226 / var(--tw-bg-opacity, 1));
+}
+
+:is(.mandir-section-558) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 232 232 / var(--tw-bg-opacity, 1));
+}
+
+:is(.mandir-component-542) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 238 238 / var(--tw-bg-opacity, 1));
+}
+
+:is(.janmbhoomi-section-261,.janmbhoomi-component-272,.ayodhya-component-404,.mandir-component-486,.mandir-section-531,.mandir-component-572) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 243 243 / var(--tw-bg-opacity, 1));
+}
+
+:is(.site-component-001,.home-section-033,.janmbhoomi-section-233,.ayodhya-section-387) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 249 249 / var(--tw-bg-opacity, 1));
+}
+
+:is(.janmbhoomi-component-259,.janmbhoomi-component-320,.janmbhoomi-component-332,.mandir-component-564) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 214 91 / var(--tw-bg-opacity, 1));
+}
+
+:is(.home-component-156,.ayodhya-component-395,.ayodhya-component-416,.mandir-component-520,.ramcharitmanas-component-773) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 153 51 / var(--tw-bg-opacity, 1));
+}
+
+:is(.janmbhoomi-component-255,.janmbhoomi-component-292,.janmbhoomi-component-317,.janmbhoomi-component-329,.mandir-component-530,.mandir-component-584) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 218 212 / var(--tw-bg-opacity, 1));
+}
+
+:is(.janmbhoomi-component-236,.janmbhoomi-component-244,.janmbhoomi-component-280,.janmbhoomi-component-311,.janmbhoomi-component-323,.ayodhya-component-399,.mandir-component-523,.mandir-component-579) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 220 194 / var(--tw-bg-opacity, 1));
+}
+
+:is(.janmbhoomi-component-250,.janmbhoomi-component-262,.janmbhoomi-component-268,.janmbhoomi-component-314,.janmbhoomi-component-321,.janmbhoomi-component-326,.ayodhya-component-405,.ayodhya-component-419,.mandir-component-529,.mandir-component-582) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 224 136 / var(--tw-bg-opacity, 1));
+}
+
+:is(.mandir-component-557) {
+  background-color: rgb(255 224 136 / 0.25);
+}
+
+:is(.mandir-component-535,.mandir-component-567) {
+  background-color: rgb(255 224 136 / 0.6);
+}
+
+:is(.home-component-069,.home-section-087,.home-component-096,.home-component-123,.janmbhoomi-section-304,.ayodhya-section-411) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 247 237 / var(--tw-bg-opacity, 1));
+}
+
+:is(.history-section-440) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 249 249 / var(--tw-bg-opacity, 1));
+}
+
+:is(.panchang-component-740) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
+}
+
+:is(.panchang-component-737) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 253 244 / var(--tw-bg-opacity, 1));
+}
+
+:is(.history-component-447) {
+  background-color: rgb(219 194 176 / 0.6);
+}
+
+:is(.home-component-119,.home-icon-204,.ayodhya-icon-351,.history-component-453,.history-component-474,.history-component-481) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(143 78 0 / var(--tw-bg-opacity, 1));
+}
+
+:is(.history-component-472) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 153 51 / var(--tw-bg-opacity, 1));
+}
+
+:is(.ramcharitmanas-icon-792) {
+  background-color: rgb(255 153 51 / 0.2);
+}
+
+:is(.home-component-043,.home-component-076,.home-component-088,.home-component-172,.home-component-184,.home-component-199,.ayodhya-component-359,.history-component-462,.mandir-component-495,.mandir-component-586,.mandir-component-595,.mandir-icon-614,.panchang-component-682,.panchang-component-700,.panchang-component-749,.panchang-component-757) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 220 194 / var(--tw-bg-opacity, 1));
+}
+
+:is(.granth-component-676) {
+  background-color: rgb(255 220 194 / 0.4);
+}
+
+:is(.ayodhya-component-377) {
+  background-color: rgb(255 220 194 / 0.6);
+}
+
+:is(.panchang-component-734) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 242 242 / var(--tw-bg-opacity, 1));
+}
+
+:is(.history-component-463,.history-component-476) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(115 92 0 / var(--tw-bg-opacity, 1));
+}
+
+:is(.home-component-132,.history-component-477,.mandir-component-503,.ramcharitmanas-component-810) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 214 91 / var(--tw-bg-opacity, 1));
+}
+
+:is(.granth-component-665,.granth-component-675,.ramcharitmanas-icon-793) {
+  background-color: rgb(254 214 91 / 0.4);
+}
+
+:is(.home-component-051,.home-component-082,.home-component-175,.home-component-187,.home-component-211,.ayodhya-icon-366,.history-component-450,.mandir-component-499,.mandir-component-606,.mandir-icon-611,.panchang-icon-687,.panchang-component-692,.panchang-component-701,.panchang-component-744) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 224 136 / var(--tw-bg-opacity, 1));
+}
+
+:is(.ayodhya-component-371) {
+  background-color: rgb(255 224 136 / 0.6);
+}
+
+:is(.home-component-183,.home-component-195,.home-component-209,.home-component-216,.ayodhya-section-421,.mandir-component-494,.mandir-component-498,.mandir-component-500,.mandir-component-502,.mandir-component-509,.mandir-component-597,.mandir-component-601,.mandir-component-608,.mandir-component-612,.mandir-component-615,.granth-section-618) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 249 249 / var(--tw-bg-opacity, 1));
+}
+
+:is(.home-component-103,.home-component-202,.home-component-212,.home-component-219,.ayodhya-component-354,.ayodhya-component-361,.ayodhya-section-368,.ayodhya-icon-431,.mandir-icon-508,.granth-component-625,.granth-component-634,.granth-component-644,.granth-component-652,.granth-component-677,.panchang-section-689,.panchang-component-746,.panchang-component-748,.panchang-component-751,.ramcharitmanas-icon-782,.ramcharitmanas-component-811) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 238 238 / var(--tw-bg-opacity, 1));
+}
+
+:is(.ayodhya-component-342,.ayodhya-component-350,.mandir-section-492,.mandir-section-585,.granth-section-639,.granth-component-656,.ramcharitmanas-icon-781) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 243 243 / var(--tw-bg-opacity, 1));
+}
+
+:is(.ramcharitmanas-section-800) {
+  background-color: rgb(243 243 243 / 0.5);
+}
+
+:is(.ramcharitmanas-component-808) {
+  background-color: rgb(243 243 243 / 0.6);
+}
+
+:is(.home-component-042,.home-section-061,.home-component-074,.home-component-081,.home-component-084,.home-component-092,.home-component-134,.home-component-165,.home-component-167,.home-component-171,.home-component-177,.ayodhya-section-335,.ayodhya-component-357,.ayodhya-component-365,.ayodhya-component-370,.ayodhya-component-380,.ayodhya-component-384,.ayodhya-component-423,.ayodhya-component-434,.history-component-456,.history-component-465,.history-component-470,.history-component-473,.history-component-475,.history-component-479,.mandir-component-504,.mandir-component-591,.mandir-component-603,.granth-component-624,.granth-component-632,.granth-component-642,.granth-component-643,.granth-component-650,.granth-component-661,.granth-component-663,.granth-component-669,.panchang-component-681,.panchang-component-702,.panchang-component-707,.panchang-component-712,.panchang-component-715,.panchang-component-722,.panchang-component-727,.panchang-component-739,.panchang-component-742,.panchang-component-760,.panchang-component-761,.panchang-component-762,.panchang-component-766,.panchang-section-768,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794,.ramcharitmanas-component-802,.ramcharitmanas-component-812,.ramcharitmanas-component-815) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+:is(.ayodhya-component-345) {
+  background-color: rgb(255 255 255 / 0.9);
+}
+
+:is(.home-component-206,.history-component-468,.history-component-469) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(178 43 29 / var(--tw-bg-opacity, 1));
+}
+
+:is(.home-component-056,.home-component-085,.home-component-176,.home-component-188,.home-component-218,.mandir-component-501,.mandir-icon-617,.panchang-component-704,.panchang-component-724,.ramcharitmanas-component-813) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 218 212 / var(--tw-bg-opacity, 1));
+}
+
+:is(.granth-component-671) {
+  background-color: rgb(255 218 212 / 0.4);
+}
+
+:is(.janmbhoomi-component-242,.janmbhoomi-component-249,.janmbhoomi-component-254,.janmbhoomi-component-258,.janmbhoomi-component-266,.janmbhoomi-component-279,.janmbhoomi-component-287,.janmbhoomi-component-295,.janmbhoomi-component-298,.janmbhoomi-component-301,.janmbhoomi-component-310,.janmbhoomi-component-313,.janmbhoomi-component-316,.janmbhoomi-component-319,.janmbhoomi-component-322,.ayodhya-component-391,.ayodhya-component-415,.ayodhya-component-418,.mandir-section-483,.mandir-component-522,.mandir-component-534,.mandir-component-538,.mandir-component-553,.mandir-component-566,.mandir-component-578,.mandir-component-583) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+:is(.home-component-113) {
+  background-color: rgb(255 255 255 / 0.2);
+}
+
+:is(.home-component-022) {
+  background-color: rgb(255 255 255 / 0.6);
+}
+
+:is(.home-component-015) {
+  background-color: rgb(255 255 255 / 0.7);
+}
+
+:is(.site-component-002) {
+  background-color: rgb(255 255 255 / 0.9);
+}
+
+:is(.panchang-component-738) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 252 232 / var(--tw-bg-opacity, 1));
+}
+
+:is(.home-section-011,.janmbhoomi-section-221) {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+:is(.home-component-109,.home-component-135,.home-component-138,.home-component-148,.home-component-150,.home-component-151,.home-component-152,.home-component-153,.home-component-160,.home-component-162) {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+:is(.site-action-009,.janmbhoomi-component-231,.history-component-444,.granth-component-651,.granth-component-659,.granth-component-660) {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+:is(.home-component-114,.mandir-component-544) {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+:is(.home-component-109,.home-component-135) {
+  --tw-gradient-from: #0a2540 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(10 37 64 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.home-component-138) {
+  --tw-gradient-from: rgb(26 58 92 / 0.8) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(26 58 92 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.home-component-148) {
+  --tw-gradient-from: #5c2a00 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(92 42 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.home-component-151,.home-component-160) {
+  --tw-gradient-from: #735c00 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(115 92 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.home-component-150) {
+  --tw-gradient-from: rgb(122 58 16 / 0.8) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(122 58 16 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.home-component-152) {
+  --tw-gradient-from: rgb(138 112 0 / 0.8) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(138 112 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.site-action-009,.home-component-153) {
+  --tw-gradient-from: #8f4e00 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(143 78 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.home-component-162) {
+  --tw-gradient-from: #b22b1d var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(178 43 29 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.home-section-011) {
+  --tw-gradient-from: #fdf6ec var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(253 246 236 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.janmbhoomi-section-221) {
+  --tw-gradient-from: #fff7ed var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 247 237 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.home-component-114) {
+  --tw-gradient-from: rgb(0 0 0 / 0.6) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.mandir-component-544) {
+  --tw-gradient-from: rgb(0 0 0 / 0.85) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.granth-component-651) {
+  --tw-gradient-from: #8f4e00 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(143 78 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.granth-component-660) {
+  --tw-gradient-from: #ff9933 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 153 51 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.granth-component-659) {
+  --tw-gradient-from: #735c00 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(115 92 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.janmbhoomi-component-231,.history-component-444) {
+  --tw-gradient-from: transparent var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.janmbhoomi-component-231) {
+  --tw-gradient-to: rgb(115 92 0 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #735c00 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+:is(.home-section-011) {
+  --tw-gradient-to: rgb(254 249 242 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #fef9f2 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+:is(.history-component-444) {
+  --tw-gradient-to: rgb(115 92 0 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #735c00 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+:is(.mandir-component-544) {
+  --tw-gradient-to: rgb(0 0 0 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), transparent var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+:is(.home-component-138) {
+  --tw-gradient-to: rgb(13 34 54 / 0.9) var(--tw-gradient-to-position);
+}
+
+:is(.home-component-109) {
+  --tw-gradient-to: #1a3a5c var(--tw-gradient-to-position);
+}
+
+:is(.home-component-135) {
+  --tw-gradient-to: #1a4a6e var(--tw-gradient-to-position);
+}
+
+:is(.home-component-150) {
+  --tw-gradient-to: rgb(74 30 0 / 0.9) var(--tw-gradient-to-position);
+}
+
+:is(.home-component-152) {
+  --tw-gradient-to: rgb(74 60 0 / 0.9) var(--tw-gradient-to-position);
+}
+
+:is(.home-component-148) {
+  --tw-gradient-to: #8f4e00 var(--tw-gradient-to-position);
+}
+
+:is(.home-component-151) {
+  --tw-gradient-to: #b8960c var(--tw-gradient-to-position);
+}
+
+:is(.home-section-011,.janmbhoomi-section-221) {
+  --tw-gradient-to: #f9f9f9 var(--tw-gradient-to-position);
+}
+
+:is(.home-component-160) {
+  --tw-gradient-to: #fed65b var(--tw-gradient-to-position);
+}
+
+:is(.home-component-162) {
+  --tw-gradient-to: #ff9585 var(--tw-gradient-to-position);
+}
+
+:is(.site-action-009,.home-component-153) {
+  --tw-gradient-to: #ff9933 var(--tw-gradient-to-position);
+}
+
+:is(.granth-component-659) {
+  --tw-gradient-to: #8f4e00 var(--tw-gradient-to-position);
+}
+
+:is(.granth-component-660) {
+  --tw-gradient-to: #735c00 var(--tw-gradient-to-position);
+}
+
+:is(.granth-component-651) {
+  --tw-gradient-to: #fed65b var(--tw-gradient-to-position);
+}
+
+:is(.home-component-114,.janmbhoomi-component-231,.history-component-444,.mandir-component-544) {
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+
+:is(.ayodhya-image-344,.mandir-image-543) {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+:is(.home-component-219) {
+  padding: 0.5rem;
+}
+
+:is(.home-component-202,.home-component-212) {
+  padding: 0.625rem;
+}
+
+:is(.home-component-103,.mandir-component-597) {
+  padding: 0.75rem;
+}
+
+:is(.home-component-096,.home-component-123,.home-component-138,.home-component-150,.home-component-152,.home-component-183,.janmbhoomi-component-272,.janmbhoomi-component-287,.mandir-component-486,.mandir-component-509,.mandir-component-553,.mandir-component-572,.mandir-component-578,.mandir-component-583,.mandir-component-601,.granth-component-656,.panchang-component-727,.panchang-component-746,.panchang-component-748,.panchang-component-751,.ramcharitmanas-component-808) {
+  padding: 1rem;
+}
+
+:is(.home-component-074,.home-component-081,.home-component-084,.home-component-112,.home-component-114,.home-component-171,.history-component-456,.history-component-465,.history-component-470,.history-component-473,.history-component-475,.history-component-479,.mandir-component-557,.mandir-component-608,.mandir-component-612,.mandir-component-615,.granth-component-624,.granth-component-643,.granth-component-669,.panchang-component-715,.panchang-component-722,.panchang-component-739) {
+  padding: 1.25rem;
+}
+
+:is(.home-component-042,.home-component-069,.home-component-142,.home-component-165,.home-component-167,.janmbhoomi-component-242,.janmbhoomi-component-249,.janmbhoomi-component-254,.janmbhoomi-component-258,.janmbhoomi-component-310,.janmbhoomi-component-313,.janmbhoomi-component-316,.janmbhoomi-component-319,.janmbhoomi-component-322,.ayodhya-component-346,.ayodhya-component-357,.ayodhya-component-365,.ayodhya-component-380,.ayodhya-component-384,.ayodhya-component-404,.mandir-component-494,.mandir-component-498,.mandir-component-500,.mandir-component-502,.granth-component-632,.granth-component-642,.granth-component-661,.granth-component-663,.panchang-component-681,.panchang-component-702,.panchang-component-742,.panchang-component-762,.panchang-component-766,.ramcharitmanas-component-812,.ramcharitmanas-component-815) {
+  padding: 1.5rem;
+}
+
+:is(.mandir-component-534,.mandir-component-538,.panchang-component-707,.panchang-component-712,.panchang-component-760,.panchang-component-761) {
+  padding: 1.75rem;
+}
+
+:is(.home-component-092,.home-component-177,.home-component-195,.home-component-209,.home-component-216,.janmbhoomi-component-266,.janmbhoomi-component-279,.janmbhoomi-component-295,.janmbhoomi-component-298,.janmbhoomi-component-301,.ayodhya-component-370,.ayodhya-component-391,.ayodhya-component-415,.ayodhya-component-418,.ayodhya-component-423,.ayodhya-component-434,.mandir-component-504,.mandir-component-522,.mandir-component-566,.mandir-component-591,.mandir-component-603,.granth-component-650,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794) {
+  padding: 2rem;
+}
+
+:is(.home-component-025) {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+:is(.granth-component-625,.granth-component-671,.granth-component-675,.granth-component-676,.granth-component-677,.panchang-component-757) {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+:is(.ayodhya-component-405,.ayodhya-icon-431,.granth-component-634,.panchang-component-682,.panchang-icon-687,.panchang-component-734,.panchang-component-737,.panchang-component-738,.panchang-component-740,.ramcharitmanas-component-810,.ramcharitmanas-component-811,.ramcharitmanas-component-813) {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+:is(.home-component-113,.home-component-156,.home-component-161,.home-component-163,.ayodhya-component-345,.ayodhya-icon-351,.ayodhya-component-354,.history-component-450,.history-component-462,.history-component-468,.history-component-474,.history-component-476,.history-component-477,.mandir-icon-508,.mandir-component-535,.mandir-icon-611,.mandir-icon-614,.mandir-icon-617,.panchang-component-700,.panchang-component-701,.panchang-component-704,.panchang-component-744,.panchang-component-749,.ramcharitmanas-icon-782,.ramcharitmanas-icon-793) {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+:is(.janmbhoomi-component-236,.janmbhoomi-component-262,.janmbhoomi-component-292,.mandir-component-586) {
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+}
+
+:is(.site-component-003,.home-component-088,.janmbhoomi-section-221,.janmbhoomi-component-224,.janmbhoomi-component-321,.history-component-437,.mandir-component-484,.mandir-section-517,.mandir-section-539,.panchang-section-678,.panchang-component-690,.panchang-component-692,.panchang-section-705,.panchang-component-724,.panchang-component-769,.ramcharitmanas-component-802,.ramcharitmanas-component-820) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+:is(.home-component-015) {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+:is(.site-action-009,.home-component-014,.home-component-024,.home-section-033,.home-section-061,.home-section-087,.janmbhoomi-section-233,.janmbhoomi-section-261,.janmbhoomi-section-304,.ayodhya-component-336,.ayodhya-section-353,.ayodhya-section-387,.ayodhya-section-411,.ayodhya-section-421,.mandir-section-492,.mandir-section-585) {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+:is(.home-component-022) {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+:is(.ramcharitmanas-section-775,.ramcharitmanas-component-801,.ramcharitmanas-component-817) {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+:is(.granth-component-619,.granth-section-629) {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+:is(.granth-component-625,.granth-component-671,.granth-component-675,.granth-component-676,.granth-component-677,.panchang-component-734,.panchang-component-737,.panchang-component-738,.panchang-component-740,.panchang-component-757) {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+:is(.home-component-156,.home-component-161,.home-component-163,.ayodhya-component-345,.ayodhya-icon-351,.ayodhya-component-354,.ayodhya-component-405,.ayodhya-icon-431,.history-component-450,.history-component-462,.history-component-468,.history-component-474,.history-component-476,.history-component-477,.mandir-icon-508,.mandir-component-535,.mandir-icon-611,.mandir-icon-614,.mandir-icon-617,.granth-component-634,.panchang-component-682,.panchang-icon-687,.panchang-component-700,.panchang-component-701,.panchang-component-704,.panchang-component-744,.panchang-component-749,.ramcharitmanas-icon-782,.ramcharitmanas-icon-793,.ramcharitmanas-component-810,.ramcharitmanas-component-811,.ramcharitmanas-component-813) {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+:is(.home-component-088,.home-component-113,.janmbhoomi-component-224,.janmbhoomi-component-236,.janmbhoomi-component-262,.janmbhoomi-component-292,.history-component-437,.mandir-component-586,.panchang-component-692,.panchang-component-724,.ramcharitmanas-component-802) {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+
+:is(.mandir-section-483) {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+:is(.ayodhya-section-335,.granth-section-618,.granth-section-629,.granth-section-639,.panchang-section-678,.panchang-section-689,.panchang-section-705,.panchang-section-768,.ramcharitmanas-section-775,.ramcharitmanas-section-800) {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+:is(.home-component-015,.janmbhoomi-component-321) {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+:is(.site-action-009) {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+:is(.ayodhya-section-353,.ayodhya-section-368,.history-section-440,.mandir-section-517,.mandir-section-531,.mandir-section-558) {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+:is(.home-section-033,.home-section-061,.home-section-087,.janmbhoomi-section-221,.janmbhoomi-section-233,.janmbhoomi-section-261,.janmbhoomi-section-304,.ayodhya-section-387,.ayodhya-section-411,.ayodhya-section-421,.mandir-section-492,.mandir-section-539,.mandir-section-585) {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+:is(.site-component-003,.home-component-022,.home-component-024,.janmbhoomi-component-230) {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+:is(.ayodhya-component-398,.ramcharitmanas-component-820) {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+:is(.home-component-030) {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+:is(.mandir-component-573) {
+  padding-bottom: 0.375rem;
+}
+
+:is(.home-component-014) {
+  padding-bottom: 2.5rem;
+}
+
+:is(.mandir-component-505,.mandir-component-592) {
+  padding-bottom: 1rem;
+}
+
+:is(.history-component-449,.history-component-455,.history-component-461,.history-component-464) {
+  padding-left: 3rem;
+}
+
+:is(.home-component-014) {
+  padding-top: 4rem;
+}
+
+:is(.janmbhoomi-component-248,.janmbhoomi-component-253,.janmbhoomi-component-257,.janmbhoomi-component-325,.janmbhoomi-component-328,.janmbhoomi-component-331,.mandir-component-497,.granth-component-638,.granth-copy-662,.panchang-component-685,.panchang-component-688,.panchang-component-699,.ramcharitmanas-component-808) {
+  padding-top: 0.75rem;
+}
+
+:is(.home-component-048,.home-component-107,.home-component-145,.home-component-159,.home-component-201,.home-component-208,.janmbhoomi-component-275,.janmbhoomi-component-297,.janmbhoomi-component-300,.janmbhoomi-component-303,.ayodhya-component-349,.ayodhya-component-352,.ayodhya-component-363,.ayodhya-component-367,.ayodhya-component-376,.ayodhya-component-383,.mandir-component-527,.ramcharitmanas-component-786) {
+  padding-top: 1rem;
+}
+
+:is(.home-component-189,.ayodhya-component-402) {
+  padding-top: 1.25rem;
+}
+
+:is(.ayodhya-component-433) {
+  padding-top: 1.5rem;
+}
+
+:is(.history-component-449,.history-component-461,.history-component-465,.history-component-473,.mandir-component-572) {
+  text-align: left;
+}
+
+:is(.home-component-014,.home-component-035,.home-component-103,.home-component-126,.home-component-137,.home-component-149,.janmbhoomi-component-223,.janmbhoomi-component-235,.janmbhoomi-component-287,.janmbhoomi-component-310,.janmbhoomi-component-313,.janmbhoomi-component-316,.janmbhoomi-component-319,.ayodhya-component-337,.ayodhya-component-412,.ayodhya-component-415,.ayodhya-copy-417,.ayodhya-component-418,.history-component-436,.mandir-component-485,.mandir-component-518,.mandir-component-566,.mandir-component-578,.mandir-component-583,.granth-component-630,.granth-component-649,.granth-copy-657,.granth-copy-658,.panchang-component-691,.panchang-component-769,.ramcharitmanas-component-817) {
+  text-align: center;
+}
+
+:is(.home-component-086) {
+  text-align: right;
+}
+
+:is(.mandir-heading-512,.mandir-heading-514,.mandir-heading-516,.mandir-copy-589,.panchang-copy-772,.ramcharitmanas-copy-777,.ramcharitmanas-copy-818) {
+  font-family: Plus Jakarta Sans;
+}
+
+:is(.home-copy-039,.home-copy-040,.home-copy-047,.home-copy-068,.home-copy-070,.home-copy-095,.home-copy-098,.home-copy-100,.home-copy-101,.home-copy-125,.home-copy-129,.home-copy-144,.home-copy-169,.home-copy-182,.ayodhya-copy-340,.ayodhya-copy-348,.ayodhya-copy-375,.ayodhya-copy-428,.history-copy-445,.history-copy-452,.history-icon-459,.history-copy-467,.mandir-icon-598,.granth-copy-622,.granth-copy-628,.granth-copy-631,.granth-copy-637,.granth-component-646,.granth-copy-647,.granth-copy-655,.granth-copy-674,.panchang-copy-694,.panchang-component-697,.panchang-copy-698,.panchang-icon-710,.panchang-component-717,.panchang-component-721,.panchang-component-729,.panchang-component-753,.ramcharitmanas-copy-785,.ramcharitmanas-icon-789) {
+  font-family: Plus Jakarta Sans;
+}
+
+:is(.home-heading-037,.home-heading-066,.home-heading-128,.home-heading-168,.home-heading-193,.ayodhya-heading-339,.ayodhya-heading-355,.history-heading-443,.mandir-heading-588,.granth-heading-621,.granth-heading-640,.granth-heading-654) {
+  font-family: EB Garamond;
+}
+
+:is(.home-copy-038,.home-heading-046,.home-copy-067,.home-heading-079,.home-copy-090,.home-heading-094,.home-heading-116,.home-copy-121,.home-heading-143,.home-heading-158,.home-heading-166,.home-heading-174,.home-heading-181,.home-heading-198,.ayodhya-heading-347,.ayodhya-heading-362,.ayodhya-heading-373,.history-heading-451,.history-copy-458,.history-heading-478,.mandir-heading-496,.mandir-heading-594,.mandir-heading-605,.mandir-heading-610,.mandir-icon-611,.mandir-heading-613,.mandir-icon-614,.mandir-heading-616,.mandir-icon-617,.granth-heading-626,.granth-heading-636,.granth-heading-645,.granth-heading-648,.granth-copy-657,.granth-heading-666,.panchang-heading-679,.panchang-heading-684,.panchang-heading-696,.panchang-heading-709,.panchang-heading-716,.panchang-heading-720,.panchang-heading-728,.panchang-heading-732,.panchang-heading-735,.panchang-heading-747,.panchang-heading-756,.panchang-heading-765,.panchang-heading-771,.ramcharitmanas-icon-781,.ramcharitmanas-heading-783,.ramcharitmanas-icon-792,.ramcharitmanas-heading-799,.ramcharitmanas-heading-806) {
+  font-family: EB Garamond;
+}
+
+:is(.home-icon-036,.home-icon-045,.home-icon-049,.home-icon-053,.home-icon-054,.home-icon-058,.home-icon-059,.home-icon-065,.home-link-071,.home-component-080,.home-component-083,.home-component-086,.home-icon-089,.home-icon-093,.home-icon-099,.home-copy-105,.home-component-113,.home-component-115,.home-component-120,.home-component-127,.home-component-139,.home-component-156,.home-component-161,.home-component-163,.home-icon-180,.home-icon-192,.home-component-197,.home-component-208,.home-icon-210,.home-icon-217,.ayodhya-component-338,.ayodhya-component-354,.ayodhya-component-360,.ayodhya-icon-369,.ayodhya-icon-374,.ayodhya-component-378,.ayodhya-icon-381,.ayodhya-icon-385,.ayodhya-heading-429,.history-component-441,.history-component-450,.history-icon-457,.history-component-462,.history-icon-466,.history-component-468,.history-icon-471,.history-component-474,.history-component-476,.history-component-477,.mandir-icon-508,.mandir-icon-587,.mandir-component-593,.mandir-icon-604,.granth-icon-620,.granth-component-625,.granth-component-634,.granth-icon-653,.granth-copy-658,.granth-icon-667,.granth-component-671,.granth-component-675,.granth-component-676,.granth-component-677,.panchang-component-682,.panchang-component-683,.panchang-icon-686,.panchang-icon-687,.panchang-icon-693,.panchang-component-695,.panchang-component-700,.panchang-component-701,.panchang-component-703,.panchang-component-704,.panchang-component-718,.panchang-component-723,.panchang-icon-725,.panchang-icon-731,.panchang-component-734,.panchang-component-737,.panchang-component-738,.panchang-component-740,.panchang-component-744,.panchang-component-749,.panchang-component-757,.ramcharitmanas-icon-776,.ramcharitmanas-icon-782,.ramcharitmanas-icon-784,.ramcharitmanas-link-787,.ramcharitmanas-icon-793,.ramcharitmanas-icon-798,.ramcharitmanas-icon-803,.ramcharitmanas-copy-807,.ramcharitmanas-component-809,.ramcharitmanas-component-810,.ramcharitmanas-component-811,.ramcharitmanas-component-813,.ramcharitmanas-component-814,.ramcharitmanas-component-816) {
+  font-family: Plus Jakarta Sans;
+}
+
+:is(.home-component-013,.janmbhoomi-icon-222) {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+:is(.home-copy-038,.home-heading-094,.home-heading-181,.home-component-200,.janmbhoomi-heading-270,.janmbhoomi-heading-282,.janmbhoomi-heading-296,.janmbhoomi-heading-299,.janmbhoomi-heading-302,.ayodhya-heading-347,.ayodhya-heading-362,.ayodhya-heading-373,.mandir-heading-525,.mandir-heading-536,.mandir-heading-547,.mandir-heading-570,.mandir-heading-594,.mandir-heading-605,.granth-heading-636,.granth-heading-648,.granth-heading-666,.panchang-heading-684,.panchang-heading-696,.panchang-component-708,.panchang-heading-709,.panchang-component-713,.ramcharitmanas-heading-806) {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+:is(.site-component-005,.janmbhoomi-icon-288,.janmbhoomi-component-290,.janmbhoomi-component-291,.ayodhya-component-372,.ayodhya-heading-394,.mandir-icon-487,.mandir-component-488,.mandir-icon-490,.mandir-component-491,.granth-heading-654,.panchang-heading-732,.panchang-heading-771) {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+:is(.home-component-141,.janmbhoomi-heading-239,.ayodhya-heading-388,.ayodhya-heading-413,.mandir-heading-552,.mandir-component-568,.panchang-heading-679,.panchang-component-770) {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+:is(.home-heading-018,.janmbhoomi-heading-227,.ayodhya-heading-333) {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+:is(.ramcharitmanas-component-780) {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+:is(.ramcharitmanas-icon-795) {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+:is(.home-component-154) {
+  font-size: 100px;
+}
+
+:is(.home-copy-105,.janmbhoomi-icon-245,.janmbhoomi-component-248,.janmbhoomi-icon-251,.janmbhoomi-component-253,.janmbhoomi-component-257,.janmbhoomi-icon-260,.janmbhoomi-icon-269,.janmbhoomi-icon-278,.janmbhoomi-icon-281,.janmbhoomi-icon-285,.janmbhoomi-icon-289,.janmbhoomi-component-325,.janmbhoomi-component-328,.janmbhoomi-component-331,.ayodhya-component-393,.ayodhya-component-405,.panchang-component-757) {
+  font-size: 10px;
+}
+
+:is(.home-component-017,.home-icon-045,.home-icon-053,.home-icon-058,.home-icon-065,.home-component-080,.home-component-083,.home-component-086,.home-icon-089,.home-icon-093,.home-icon-099,.home-component-115,.home-component-120,.home-component-156,.home-component-161,.home-component-163,.home-component-208,.janmbhoomi-icon-238,.janmbhoomi-icon-264,.janmbhoomi-icon-294,.mandir-component-489,.mandir-icon-508,.mandir-icon-524,.mandir-component-581,.mandir-icon-587,.mandir-component-593,.mandir-icon-604,.panchang-component-682,.panchang-icon-687,.panchang-component-695,.panchang-component-700,.panchang-component-701,.panchang-component-703,.panchang-component-704,.panchang-component-718,.panchang-component-723,.panchang-icon-731,.panchang-component-734,.panchang-component-737,.panchang-component-738,.panchang-component-740,.panchang-component-744,.panchang-component-749,.ramcharitmanas-icon-782,.ramcharitmanas-icon-793,.ramcharitmanas-component-809,.ramcharitmanas-component-810,.ramcharitmanas-component-811,.ramcharitmanas-component-813,.ramcharitmanas-component-814,.ramcharitmanas-component-816) {
+  font-size: 11px;
+}
+
+:is(.home-component-027) {
+  font-size: 12.5px;
+}
+
+:is(.home-component-029) {
+  font-size: 15px;
+}
+
+:is(.history-component-438,.history-icon-442,.mandir-component-482) {
+  font-size: 16px;
+}
+
+:is(.home-icon-111,.janmbhoomi-icon-222) {
+  font-size: 180px;
+}
+
+:is(.history-component-454) {
+  font-size: 18px;
+}
+
+:is(.home-component-013) {
+  font-size: 420px;
+}
+
+:is(.home-component-137,.home-component-149,.home-component-157) {
+  font-size: 80px;
+}
+
+:is(.home-component-113) {
+  font-size: 9px;
+}
+
+:is(.home-copy-021,.home-copy-023,.home-icon-064,.home-component-076,.home-heading-079,.home-component-082,.home-component-085,.home-component-097,.home-heading-166,.home-heading-174,.janmbhoomi-copy-229,.janmbhoomi-copy-240,.janmbhoomi-copy-308,.ayodhya-copy-334,.ayodhya-heading-406,.ayodhya-component-427,.history-copy-439,.mandir-copy-521,.mandir-component-528,.mandir-copy-562,.mandir-icon-602,.mandir-icon-611,.mandir-icon-614,.mandir-icon-617,.granth-copy-622,.panchang-icon-710,.panchang-heading-747,.panchang-component-753,.panchang-heading-765,.ramcharitmanas-copy-774) {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+:is(.mandir-copy-589,.panchang-copy-772,.ramcharitmanas-copy-777,.ramcharitmanas-copy-818) {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+:is(.home-copy-039,.home-copy-040,.home-copy-129,.home-copy-169,.history-copy-445,.history-copy-452,.ramcharitmanas-copy-785) {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+:is(.home-heading-193,.ayodhya-heading-339,.ayodhya-heading-355,.history-heading-443,.mandir-heading-588,.granth-heading-621,.granth-heading-640) {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+:is(.home-heading-037,.home-heading-066,.home-heading-128,.home-heading-168) {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+:is(.home-heading-198,.history-heading-451,.history-heading-478,.mandir-heading-496,.ramcharitmanas-heading-783,.ramcharitmanas-heading-799) {
+  font-size: 32px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+:is(.home-icon-036,.home-component-127,.home-icon-180,.home-icon-192,.ayodhya-component-338,.ayodhya-component-354,.ayodhya-icon-369,.ayodhya-component-378,.ayodhya-icon-381,.ayodhya-icon-385,.history-component-441,.history-component-450,.history-component-462,.history-component-468,.history-component-474,.history-component-476,.history-component-477,.granth-icon-620,.panchang-icon-693,.panchang-icon-725,.ramcharitmanas-icon-776,.ramcharitmanas-icon-803) {
+  font-size: 12px;
+  line-height: 1.0;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+:is(.home-icon-031,.home-icon-032,.home-heading-158,.home-icon-179,.home-icon-213,.janmbhoomi-heading-324,.janmbhoomi-heading-327,.janmbhoomi-heading-330,.ayodhya-copy-389,.mandir-icon-511,.mandir-component-557,.mandir-icon-599,.mandir-icon-600,.mandir-heading-610,.mandir-heading-613,.mandir-heading-616,.panchang-component-697,.panchang-heading-728,.panchang-heading-735,.panchang-heading-756) {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+:is(.site-link-007,.home-copy-047,.home-component-050,.home-component-055,.home-component-060,.home-copy-068,.home-copy-070,.home-component-072,.home-copy-095,.home-copy-098,.home-copy-100,.home-copy-101,.home-copy-104,.home-heading-124,.home-copy-144,.home-copy-182,.home-heading-185,.home-icon-220,.janmbhoomi-component-226,.janmbhoomi-icon-237,.janmbhoomi-copy-247,.janmbhoomi-icon-263,.janmbhoomi-copy-271,.janmbhoomi-component-277,.janmbhoomi-component-284,.janmbhoomi-component-293,.janmbhoomi-icon-306,.janmbhoomi-icon-307,.ayodhya-copy-348,.ayodhya-copy-375,.ayodhya-component-395,.ayodhya-copy-396,.ayodhya-copy-400,.ayodhya-copy-401,.ayodhya-list-item-408,.ayodhya-copy-417,.history-copy-458,.history-copy-467,.mandir-heading-512,.mandir-heading-514,.mandir-heading-516,.mandir-copy-526,.mandir-component-527,.mandir-component-564,.mandir-copy-571,.mandir-component-579,.mandir-component-580,.mandir-component-582,.mandir-component-584,.mandir-icon-598,.granth-copy-637,.granth-component-644,.granth-copy-647,.granth-copy-674,.panchang-copy-694,.panchang-copy-698,.panchang-component-717,.panchang-component-721,.panchang-copy-754,.panchang-copy-758,.ramcharitmanas-component-788,.ramcharitmanas-copy-821,.ramcharitmanas-copy-822) {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+:is(.home-copy-020,.home-component-044,.home-heading-046,.home-icon-052,.home-icon-057,.home-copy-067,.home-copy-090,.home-heading-116,.home-copy-121,.home-heading-143,.home-component-173,.janmbhoomi-copy-228,.janmbhoomi-component-232,.janmbhoomi-heading-246,.janmbhoomi-heading-252,.janmbhoomi-heading-256,.janmbhoomi-heading-312,.janmbhoomi-heading-315,.janmbhoomi-heading-318,.mandir-heading-496,.granth-heading-626,.granth-heading-645,.panchang-heading-716,.panchang-heading-720,.panchang-component-767,.ramcharitmanas-icon-781,.ramcharitmanas-icon-792) {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+:is(.site-action-009,.home-icon-049,.home-icon-054,.home-icon-059,.home-link-071,.home-copy-125,.home-component-139,.home-component-145,.home-copy-186,.home-copy-190,.home-link-191,.home-component-197,.home-component-202,.home-icon-210,.home-heading-214,.home-copy-215,.home-icon-217,.home-component-219,.janmbhoomi-copy-273,.janmbhoomi-component-275,.janmbhoomi-component-297,.janmbhoomi-component-300,.janmbhoomi-component-303,.ayodhya-component-345,.ayodhya-component-349,.ayodhya-icon-351,.ayodhya-component-352,.ayodhya-component-359,.ayodhya-component-360,.ayodhya-component-363,.ayodhya-icon-366,.ayodhya-component-367,.ayodhya-icon-374,.ayodhya-component-376,.ayodhya-component-383,.ayodhya-component-399,.ayodhya-component-426,.ayodhya-heading-429,.ayodhya-icon-431,.ayodhya-icon-432,.ayodhya-component-435,.history-icon-457,.history-icon-459,.history-icon-466,.history-icon-471,.mandir-component-497,.mandir-component-519,.mandir-component-532,.mandir-component-535,.mandir-component-537,.mandir-component-546,.mandir-copy-548,.mandir-component-550,.mandir-icon-555,.mandir-copy-556,.mandir-component-561,.mandir-icon-569,.mandir-component-572,.mandir-component-601,.granth-component-625,.granth-component-627,.granth-copy-628,.granth-component-634,.granth-component-635,.granth-component-638,.granth-component-646,.granth-icon-653,.granth-copy-658,.granth-copy-662,.granth-icon-667,.granth-component-671,.granth-component-672,.granth-copy-673,.granth-component-675,.granth-component-676,.granth-component-677,.panchang-component-683,.panchang-icon-686,.panchang-component-729,.panchang-copy-730,.panchang-copy-736,.panchang-component-752,.ramcharitmanas-icon-784,.ramcharitmanas-link-787,.ramcharitmanas-icon-789,.ramcharitmanas-icon-798,.ramcharitmanas-copy-807) {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+:is(.site-action-009,.home-component-017,.home-heading-018,.home-heading-046,.home-icon-049,.home-icon-054,.home-icon-059,.home-link-071,.home-component-076,.home-heading-079,.home-component-080,.home-component-082,.home-component-083,.home-component-085,.home-component-086,.home-heading-094,.home-component-156,.home-heading-158,.home-component-161,.home-component-163,.home-heading-166,.home-heading-214,.home-icon-220,.janmbhoomi-heading-227,.janmbhoomi-icon-238,.janmbhoomi-heading-239,.janmbhoomi-icon-245,.janmbhoomi-heading-246,.janmbhoomi-component-248,.janmbhoomi-icon-251,.janmbhoomi-heading-252,.janmbhoomi-component-253,.janmbhoomi-heading-256,.janmbhoomi-component-257,.janmbhoomi-icon-260,.janmbhoomi-icon-264,.janmbhoomi-icon-269,.janmbhoomi-heading-270,.janmbhoomi-icon-278,.janmbhoomi-icon-281,.janmbhoomi-heading-282,.janmbhoomi-icon-285,.janmbhoomi-icon-288,.janmbhoomi-component-290,.janmbhoomi-component-291,.janmbhoomi-icon-294,.janmbhoomi-heading-296,.janmbhoomi-component-297,.janmbhoomi-heading-299,.janmbhoomi-component-300,.janmbhoomi-heading-302,.janmbhoomi-component-303,.janmbhoomi-icon-306,.janmbhoomi-icon-307,.janmbhoomi-heading-312,.janmbhoomi-heading-315,.janmbhoomi-heading-318,.janmbhoomi-heading-324,.janmbhoomi-component-325,.janmbhoomi-heading-327,.janmbhoomi-component-328,.janmbhoomi-heading-330,.janmbhoomi-component-331,.ayodhya-heading-333,.ayodhya-component-345,.ayodhya-heading-347,.ayodhya-icon-351,.ayodhya-component-354,.ayodhya-component-359,.ayodhya-component-360,.ayodhya-heading-362,.ayodhya-icon-366,.ayodhya-heading-373,.ayodhya-icon-374,.ayodhya-icon-381,.ayodhya-icon-385,.ayodhya-heading-388,.ayodhya-component-393,.ayodhya-heading-394,.ayodhya-component-395,.ayodhya-component-399,.ayodhya-copy-400,.ayodhya-component-405,.ayodhya-heading-406,.ayodhya-heading-413,.history-heading-478,.mandir-component-488,.mandir-component-491,.mandir-component-510,.mandir-component-513,.mandir-component-515,.mandir-icon-524,.mandir-heading-525,.mandir-component-535,.mandir-heading-536,.mandir-heading-547,.mandir-heading-552,.mandir-component-554,.mandir-component-564,.mandir-heading-565,.mandir-icon-569,.mandir-heading-570,.mandir-component-575,.mandir-component-579,.mandir-component-580,.mandir-component-582,.mandir-component-584,.mandir-icon-587,.mandir-component-593,.mandir-heading-594,.mandir-icon-604,.mandir-heading-605,.mandir-heading-610,.mandir-icon-611,.mandir-heading-613,.mandir-icon-614,.mandir-heading-616,.mandir-icon-617,.granth-component-625,.granth-heading-626,.granth-component-634,.granth-heading-636,.granth-component-644,.granth-heading-645,.granth-heading-648,.granth-icon-653,.granth-heading-654,.granth-component-665,.granth-heading-666,.granth-component-671,.granth-component-675,.granth-component-676,.granth-component-677,.panchang-component-682,.panchang-icon-686,.panchang-icon-687,.panchang-component-700,.panchang-component-701,.panchang-component-704,.panchang-icon-731,.panchang-component-734,.panchang-component-737,.panchang-component-738,.panchang-component-740,.panchang-component-744,.panchang-component-749,.panchang-component-757,.ramcharitmanas-icon-781,.ramcharitmanas-link-787,.ramcharitmanas-icon-792,.ramcharitmanas-component-809,.ramcharitmanas-component-810,.ramcharitmanas-component-811,.ramcharitmanas-component-813,.ramcharitmanas-component-814,.ramcharitmanas-component-816) {
+  font-weight: 700;
+}
+
+:is(.site-link-007,.home-component-027,.home-component-202,.ayodhya-icon-431,.mandir-component-601,.granth-component-635,.granth-component-638,.granth-copy-673) {
+  font-weight: 500;
+}
+
+:is(.granth-component-627,.granth-component-646,.panchang-component-697,.panchang-icon-710,.panchang-component-717,.panchang-component-721,.panchang-component-729,.panchang-component-753) {
+  font-weight: 400;
+}
+
+:is(.home-icon-032,.home-copy-070,.home-copy-104,.home-heading-116,.home-heading-124,.home-component-130,.home-heading-143,.home-icon-146,.home-icon-147,.home-heading-174,.home-heading-181,.home-heading-185,.home-link-191,.home-icon-205,.home-component-207,.janmbhoomi-component-275,.ayodhya-component-349,.ayodhya-component-352,.ayodhya-component-363,.ayodhya-component-367,.ayodhya-component-426,.ayodhya-component-435,.mandir-component-497,.mandir-icon-598,.granth-component-672,.panchang-heading-684,.panchang-heading-696,.panchang-heading-709,.panchang-heading-716,.panchang-heading-720,.panchang-heading-728,.panchang-copy-730,.panchang-heading-732,.panchang-heading-735,.panchang-heading-747,.panchang-heading-756,.panchang-copy-758,.panchang-heading-765,.ramcharitmanas-heading-783,.ramcharitmanas-icon-793,.ramcharitmanas-heading-799,.ramcharitmanas-heading-806) {
+  font-weight: 600;
+}
+
+:is(.site-action-009,.home-component-017,.home-icon-036,.home-icon-045,.home-icon-049,.home-icon-053,.home-icon-054,.home-icon-058,.home-icon-059,.home-icon-065,.home-link-071,.home-component-080,.home-component-083,.home-component-086,.home-icon-089,.home-icon-093,.home-icon-099,.home-copy-105,.home-component-113,.home-component-115,.home-component-120,.home-component-127,.home-component-139,.home-component-156,.home-component-161,.home-component-163,.home-icon-180,.home-icon-192,.home-component-197,.home-icon-210,.home-icon-217,.janmbhoomi-icon-238,.janmbhoomi-icon-245,.janmbhoomi-component-248,.janmbhoomi-icon-251,.janmbhoomi-component-253,.janmbhoomi-component-257,.janmbhoomi-icon-260,.janmbhoomi-icon-264,.janmbhoomi-icon-269,.janmbhoomi-icon-278,.janmbhoomi-icon-281,.janmbhoomi-icon-285,.janmbhoomi-icon-289,.janmbhoomi-icon-294,.janmbhoomi-component-297,.janmbhoomi-component-300,.janmbhoomi-component-303,.janmbhoomi-icon-306,.janmbhoomi-icon-307,.janmbhoomi-component-325,.janmbhoomi-component-328,.janmbhoomi-component-331,.ayodhya-component-338,.ayodhya-component-360,.ayodhya-icon-369,.ayodhya-icon-374,.ayodhya-component-378,.ayodhya-icon-381,.ayodhya-icon-385,.ayodhya-component-393,.ayodhya-component-405,.ayodhya-component-426,.ayodhya-heading-429,.ayodhya-component-435,.mandir-component-489,.mandir-icon-508,.mandir-component-519,.mandir-icon-524,.mandir-component-532,.mandir-component-537,.mandir-component-546,.mandir-component-550,.mandir-icon-555,.mandir-component-561,.mandir-icon-569,.mandir-icon-587,.mandir-component-593,.mandir-icon-604,.granth-icon-620,.granth-icon-653,.panchang-icon-686,.panchang-icon-693,.panchang-component-695,.panchang-component-703,.panchang-component-723,.panchang-icon-725,.panchang-icon-731,.ramcharitmanas-icon-776,.ramcharitmanas-icon-782,.ramcharitmanas-icon-784,.ramcharitmanas-icon-793,.ramcharitmanas-icon-798,.ramcharitmanas-icon-803,.ramcharitmanas-component-809,.ramcharitmanas-component-814,.ramcharitmanas-component-816) {
+  text-transform: uppercase;
+}
+
+:is(.home-copy-020,.home-copy-023,.home-copy-038,.home-copy-067,.home-copy-090,.home-copy-098,.home-copy-121,.janmbhoomi-copy-228,.ayodhya-component-376,.ayodhya-copy-389,.history-copy-458,.mandir-component-557,.granth-copy-657,.panchang-copy-754,.ramcharitmanas-copy-822) {
+  font-style: italic;
+}
+
+:is(.home-heading-018) {
+  line-height: 1.1;
+}
+
+:is(.home-component-013,.home-icon-111,.home-component-137,.home-component-149,.home-component-154,.home-icon-220,.janmbhoomi-icon-222) {
+  line-height: 1;
+}
+
+:is(.home-copy-021,.home-copy-039,.home-copy-040,.home-copy-047,.home-copy-068,.home-copy-070,.home-copy-095,.home-copy-098,.home-copy-100,.home-copy-101,.home-copy-125,.home-copy-129,.home-copy-144,.home-copy-169,.home-copy-182,.home-copy-186,.home-component-219,.janmbhoomi-copy-229,.janmbhoomi-copy-240,.janmbhoomi-copy-247,.janmbhoomi-copy-271,.janmbhoomi-copy-273,.janmbhoomi-copy-308,.ayodhya-copy-334,.ayodhya-copy-417,.ayodhya-copy-428,.history-copy-439,.mandir-copy-562,.mandir-copy-589,.granth-copy-622,.granth-copy-628,.granth-copy-637,.granth-copy-655,.panchang-copy-698,.panchang-copy-772,.ramcharitmanas-copy-774,.ramcharitmanas-copy-785,.ramcharitmanas-copy-818) {
+  line-height: 1.625;
+}
+
+:is(.home-heading-168,.janmbhoomi-heading-227,.ayodhya-heading-333,.mandir-heading-552) {
+  line-height: 1.25;
+}
+
+:is(.home-icon-032) {
+  letter-spacing: 0.15em;
+}
+
+:is(.home-component-017) {
+  letter-spacing: 0.18em;
+}
+
+:is(.mandir-heading-588) {
+  letter-spacing: -0.025em;
+}
+
+:is(.janmbhoomi-component-226,.panchang-component-683,.panchang-icon-686) {
+  letter-spacing: 0.025em;
+}
+
+:is(.home-icon-045,.home-icon-049,.home-icon-053,.home-icon-054,.home-icon-058,.home-icon-059,.home-component-080,.home-component-083,.home-component-086,.home-icon-089,.home-icon-093,.home-icon-099,.home-copy-105,.home-component-127,.home-component-156,.home-component-161,.home-component-163,.home-icon-180,.home-icon-192,.home-component-197,.home-icon-210,.home-icon-217,.janmbhoomi-icon-245,.janmbhoomi-component-248,.janmbhoomi-icon-251,.janmbhoomi-component-253,.janmbhoomi-component-257,.janmbhoomi-icon-260,.janmbhoomi-icon-269,.janmbhoomi-icon-278,.janmbhoomi-icon-281,.janmbhoomi-icon-285,.janmbhoomi-icon-289,.janmbhoomi-component-297,.janmbhoomi-component-300,.janmbhoomi-component-303,.janmbhoomi-component-325,.janmbhoomi-component-328,.janmbhoomi-component-331,.ayodhya-component-338,.ayodhya-icon-374,.ayodhya-component-378,.ayodhya-component-405,.ayodhya-heading-429,.mandir-component-489,.mandir-icon-508,.mandir-component-519,.mandir-icon-524,.mandir-component-532,.mandir-component-535,.mandir-component-537,.mandir-component-550,.mandir-icon-555,.mandir-component-561,.mandir-icon-569,.mandir-component-593,.mandir-icon-604,.granth-icon-653,.panchang-icon-693,.panchang-icon-725,.ramcharitmanas-icon-782,.ramcharitmanas-icon-793,.ramcharitmanas-copy-807) {
+  letter-spacing: 0.05em;
+}
+
+:is(.site-action-009,.home-icon-036,.home-icon-065,.home-link-071,.home-component-113,.home-component-115,.home-component-120,.home-component-139,.janmbhoomi-icon-238,.janmbhoomi-icon-264,.janmbhoomi-icon-294,.janmbhoomi-icon-306,.janmbhoomi-icon-307,.ayodhya-component-360,.ayodhya-icon-369,.ayodhya-component-393,.ayodhya-component-426,.ayodhya-component-435,.mandir-component-546,.mandir-icon-587,.granth-icon-620,.panchang-component-695,.panchang-component-703,.panchang-component-718,.panchang-component-723,.panchang-icon-731,.ramcharitmanas-icon-776,.ramcharitmanas-icon-784,.ramcharitmanas-icon-798,.ramcharitmanas-icon-803) {
+  letter-spacing: 0.1em;
+}
+
+:is(.site-component-001,.ayodhya-heading-394,.ayodhya-copy-400,.ayodhya-heading-406,.mandir-heading-525,.mandir-heading-536,.mandir-heading-565,.mandir-heading-570,.mandir-component-575,.mandir-component-580) {
+  --tw-text-opacity: 1;
+  color: rgb(26 28 28 / var(--tw-text-opacity, 1));
+}
+
+:is(.janmbhoomi-component-259,.janmbhoomi-icon-264,.janmbhoomi-component-332,.ayodhya-component-405,.mandir-component-535,.mandir-component-564) {
+  --tw-text-opacity: 1;
+  color: rgb(36 26 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.janmbhoomi-icon-238) {
+  --tw-text-opacity: 1;
+  color: rgb(46 21 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.janmbhoomi-icon-294) {
+  --tw-text-opacity: 1;
+  color: rgb(65 0 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.site-link-007,.home-copy-021,.home-copy-023,.home-component-027,.janmbhoomi-copy-229,.janmbhoomi-copy-240,.janmbhoomi-copy-247,.janmbhoomi-copy-271,.janmbhoomi-copy-273,.janmbhoomi-copy-308,.ayodhya-copy-334,.ayodhya-copy-401,.ayodhya-list-item-408,.ayodhya-copy-417,.history-copy-439,.mandir-component-489,.mandir-copy-521,.mandir-copy-526,.mandir-component-527,.mandir-copy-556,.mandir-component-557,.mandir-copy-562,.mandir-copy-571,.ramcharitmanas-copy-774) {
+  --tw-text-opacity: 1;
+  color: rgb(85 67 54 / var(--tw-text-opacity, 1));
+}
+
+:is(.ramcharitmanas-copy-821) {
+  color: rgb(85 67 54 / 0.8);
+}
+
+:is(.home-component-017,.home-copy-020,.janmbhoomi-component-226,.janmbhoomi-copy-228,.janmbhoomi-component-232,.janmbhoomi-component-250,.janmbhoomi-icon-251,.janmbhoomi-heading-252,.janmbhoomi-component-253,.janmbhoomi-icon-263,.janmbhoomi-component-268,.janmbhoomi-icon-269,.janmbhoomi-heading-270,.janmbhoomi-component-274,.janmbhoomi-component-277,.janmbhoomi-icon-278,.janmbhoomi-component-290,.janmbhoomi-heading-299,.janmbhoomi-component-300,.janmbhoomi-component-314,.janmbhoomi-heading-315,.janmbhoomi-component-320,.janmbhoomi-component-326,.janmbhoomi-heading-327,.janmbhoomi-component-328,.ayodhya-copy-389,.ayodhya-copy-396,.ayodhya-component-419,.mandir-component-529,.mandir-component-568,.mandir-component-582) {
+  --tw-text-opacity: 1;
+  color: rgb(115 92 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.janmbhoomi-component-275,.janmbhoomi-icon-289,.mandir-component-537,.mandir-component-574,.mandir-component-581) {
+  --tw-text-opacity: 1;
+  color: rgb(136 115 100 / var(--tw-text-opacity, 1));
+}
+
+:is(.site-component-005,.home-heading-018,.home-component-029,.home-icon-032,.janmbhoomi-heading-227,.janmbhoomi-icon-237,.janmbhoomi-heading-239,.janmbhoomi-component-244,.janmbhoomi-heading-246,.janmbhoomi-component-248,.janmbhoomi-icon-260,.janmbhoomi-component-280,.janmbhoomi-icon-281,.janmbhoomi-heading-282,.janmbhoomi-component-283,.janmbhoomi-component-284,.janmbhoomi-icon-285,.janmbhoomi-icon-288,.janmbhoomi-heading-302,.janmbhoomi-component-303,.janmbhoomi-icon-307,.janmbhoomi-component-311,.janmbhoomi-heading-312,.janmbhoomi-component-323,.janmbhoomi-heading-324,.janmbhoomi-component-325,.ayodhya-heading-333,.ayodhya-heading-388,.ayodhya-component-393,.ayodhya-component-399,.ayodhya-heading-413,.mandir-component-482,.mandir-icon-487,.mandir-component-488,.mandir-component-519,.mandir-component-523,.mandir-icon-524,.mandir-component-528,.mandir-component-532,.mandir-component-550,.mandir-heading-552,.mandir-component-554,.mandir-icon-569,.mandir-component-579,.ramcharitmanas-copy-822) {
+  --tw-text-opacity: 1;
+  color: rgb(143 78 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.janmbhoomi-icon-222) {
+  color: rgb(143 78 0 / 0.05);
+}
+
+:is(.home-component-013) {
+  color: rgb(143 78 0 / 0.045);
+}
+
+:is(.janmbhoomi-icon-245,.janmbhoomi-component-255,.janmbhoomi-heading-256,.janmbhoomi-component-257,.janmbhoomi-component-291,.janmbhoomi-component-293,.janmbhoomi-heading-296,.janmbhoomi-component-297,.janmbhoomi-icon-306,.janmbhoomi-component-317,.janmbhoomi-heading-318,.janmbhoomi-component-329,.janmbhoomi-heading-330,.janmbhoomi-component-331,.mandir-icon-490,.mandir-component-491,.mandir-component-530,.mandir-component-561,.mandir-component-584) {
+  --tw-text-opacity: 1;
+  color: rgb(178 43 29 / var(--tw-text-opacity, 1));
+}
+
+:is(.home-icon-031) {
+  --tw-text-opacity: 1;
+  color: rgb(200 169 110 / var(--tw-text-opacity, 1));
+}
+
+:is(.mandir-component-546) {
+  --tw-text-opacity: 1;
+  color: rgb(255 224 136 / var(--tw-text-opacity, 1));
+}
+
+:is(.panchang-component-767) {
+  --tw-text-opacity: 1;
+  color: rgb(186 26 26 / var(--tw-text-opacity, 1));
+}
+
+:is(.panchang-component-737) {
+  --tw-text-opacity: 1;
+  color: rgb(21 128 61 / var(--tw-text-opacity, 1));
+}
+
+:is(.panchang-component-740) {
+  --tw-text-opacity: 1;
+  color: rgb(22 101 52 / var(--tw-text-opacity, 1));
+}
+
+:is(.ayodhya-heading-355,.history-heading-451) {
+  --tw-text-opacity: 1;
+  color: rgb(26 28 28 / var(--tw-text-opacity, 1));
+}
+
+:is(.ayodhya-icon-351,.history-component-453,.history-component-474,.history-component-481,.mandir-component-507) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+:is(.history-component-472,.ramcharitmanas-icon-792) {
+  --tw-text-opacity: 1;
+  color: rgb(105 56 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.home-icon-089,.home-icon-192,.ayodhya-component-359,.history-component-462,.mandir-icon-587) {
+  --tw-text-opacity: 1;
+  color: rgb(46 21 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.panchang-component-682,.panchang-component-700,.panchang-component-749,.panchang-component-757) {
+  --tw-text-opacity: 1;
+  color: rgb(109 58 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.history-component-463,.history-component-476) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+:is(.history-component-477,.mandir-component-503,.ramcharitmanas-icon-793,.ramcharitmanas-component-810) {
+  --tw-text-opacity: 1;
+  color: rgb(116 92 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.ayodhya-icon-366,.history-component-450,.panchang-icon-731) {
+  --tw-text-opacity: 1;
+  color: rgb(36 26 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.panchang-icon-687,.panchang-icon-693,.panchang-component-701,.panchang-component-744) {
+  --tw-text-opacity: 1;
+  color: rgb(87 69 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.home-heading-046,.home-heading-079,.home-heading-094,.home-copy-104,.home-heading-124,.home-heading-128,.home-heading-143,.home-heading-158,.home-heading-166,.home-heading-168,.home-heading-174,.home-heading-181,.home-heading-185,.home-icon-203,.home-heading-214,.ayodhya-heading-339,.ayodhya-heading-347,.ayodhya-heading-362,.mandir-icon-598,.granth-heading-621,.granth-heading-640,.panchang-component-711,.panchang-heading-771,.ramcharitmanas-heading-806) {
+  --tw-text-opacity: 1;
+  color: rgb(26 28 28 / var(--tw-text-opacity, 1));
+}
+
+:is(.home-copy-039,.home-copy-040,.home-copy-047,.home-copy-068,.home-copy-095,.home-copy-098,.home-copy-100,.home-copy-101,.home-copy-105,.home-copy-125,.home-copy-129,.home-copy-144,.home-copy-169,.home-copy-182,.home-copy-186,.home-copy-190,.home-copy-215,.home-component-219,.ayodhya-copy-340,.ayodhya-copy-348,.ayodhya-copy-375,.ayodhya-component-376,.ayodhya-component-383,.ayodhya-copy-428,.history-copy-445,.history-copy-452,.history-copy-458,.history-copy-467,.mandir-copy-589,.mandir-component-601,.granth-copy-622,.granth-copy-628,.granth-copy-631,.granth-copy-637,.granth-copy-647,.granth-copy-655,.granth-copy-674,.granth-component-677,.panchang-copy-694,.panchang-component-697,.panchang-copy-698,.panchang-icon-710,.panchang-component-713,.panchang-component-717,.panchang-component-721,.panchang-component-729,.panchang-copy-736,.panchang-component-752,.panchang-component-753,.panchang-copy-754,.panchang-copy-772,.ramcharitmanas-copy-777,.ramcharitmanas-icon-782,.ramcharitmanas-copy-785,.ramcharitmanas-component-811,.ramcharitmanas-copy-818) {
+  --tw-text-opacity: 1;
+  color: rgb(85 67 54 / var(--tw-text-opacity, 1));
+}
+
+:is(.ramcharitmanas-icon-789) {
+  color: rgb(85 67 54 / 0.7);
+}
+
+:is(.history-component-468,.history-component-469) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+:is(.panchang-component-704,.panchang-icon-725) {
+  --tw-text-opacity: 1;
+  color: rgb(65 0 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.ramcharitmanas-component-813) {
+  --tw-text-opacity: 1;
+  color: rgb(143 15 7 / var(--tw-text-opacity, 1));
+}
+
+:is(.ayodhya-heading-429,.history-icon-459,.mandir-icon-508,.granth-component-627,.granth-component-635,.granth-component-638,.granth-component-646,.granth-copy-658,.granth-copy-662,.granth-icon-667,.granth-component-672) {
+  --tw-text-opacity: 1;
+  color: rgb(136 115 100 / var(--tw-text-opacity, 1));
+}
+
+:is(.home-icon-036,.home-heading-037,.home-component-044,.home-icon-045,.home-icon-049,.home-component-050,.home-heading-066,.home-copy-070,.home-link-071,.home-component-076,.home-component-080,.home-icon-093,.home-component-120,.home-component-127,.home-component-130,.home-icon-147,.home-component-172,.home-icon-179,.home-icon-180,.home-component-184,.home-link-191,.home-heading-193,.home-component-197,.home-heading-198,.home-component-199,.home-icon-205,.ayodhya-component-345,.ayodhya-component-352,.ayodhya-component-363,.ayodhya-icon-369,.ayodhya-component-371,.ayodhya-heading-373,.ayodhya-component-377,.ayodhya-icon-381,.ayodhya-component-382,.ayodhya-component-426,.history-component-438,.history-heading-443,.history-icon-466,.history-heading-478,.mandir-component-495,.mandir-heading-496,.mandir-component-510,.mandir-heading-512,.mandir-heading-588,.mandir-component-593,.mandir-heading-594,.mandir-component-595,.mandir-icon-602,.mandir-icon-611,.mandir-heading-613,.mandir-icon-614,.granth-icon-620,.granth-heading-626,.granth-heading-636,.granth-component-644,.granth-heading-645,.granth-heading-648,.granth-component-652,.granth-heading-654,.granth-copy-657,.granth-component-665,.granth-heading-666,.granth-component-676,.panchang-heading-679,.panchang-heading-684,.panchang-component-685,.panchang-heading-696,.panchang-heading-709,.panchang-heading-716,.panchang-heading-720,.panchang-component-723,.panchang-heading-728,.panchang-heading-732,.panchang-heading-735,.panchang-heading-747,.panchang-heading-756,.panchang-heading-765,.panchang-component-770,.ramcharitmanas-icon-781,.ramcharitmanas-heading-783,.ramcharitmanas-link-787,.ramcharitmanas-heading-799,.ramcharitmanas-icon-803,.ramcharitmanas-component-809) {
+  --tw-text-opacity: 1;
+  color: rgb(143 78 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.panchang-component-734) {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity, 1));
+}
+
+:is(.home-copy-038,.home-icon-052,.home-icon-053,.home-icon-054,.home-component-055,.home-icon-064,.home-icon-065,.home-copy-067,.home-component-082,.home-component-083,.home-copy-090,.home-component-097,.home-icon-099,.home-copy-121,.home-icon-146,.home-component-175,.home-component-187,.home-component-208,.home-icon-210,.home-component-211,.home-icon-213,.ayodhya-component-338,.ayodhya-component-349,.ayodhya-component-354,.ayodhya-component-360,.ayodhya-component-367,.ayodhya-icon-374,.ayodhya-component-378,.ayodhya-icon-385,.ayodhya-icon-386,.ayodhya-icon-431,.ayodhya-component-435,.history-component-441,.history-icon-457,.mandir-component-497,.mandir-component-499,.mandir-component-513,.mandir-heading-514,.mandir-icon-599,.mandir-icon-604,.mandir-heading-605,.mandir-component-606,.mandir-heading-610,.granth-component-625,.granth-component-634,.granth-icon-653,.granth-copy-673,.granth-component-675,.panchang-component-683,.panchang-component-688,.panchang-component-695,.panchang-component-708,.panchang-component-718,.panchang-copy-730,.panchang-copy-758,.ramcharitmanas-icon-776,.ramcharitmanas-icon-784,.ramcharitmanas-icon-798,.ramcharitmanas-copy-807,.ramcharitmanas-component-816) {
+  --tw-text-opacity: 1;
+  color: rgb(115 92 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.ramcharitmanas-component-791) {
+  color: rgb(254 214 91 / 0.3);
+}
+
+:is(.ramcharitmanas-component-779) {
+  color: rgb(238 238 238 / 0.7);
+}
+
+:is(.home-icon-057,.home-icon-058,.home-icon-059,.home-component-060,.home-component-085,.home-component-086,.home-component-176,.home-component-188,.home-component-207,.home-icon-217,.home-component-218,.home-icon-220,.history-icon-471,.mandir-component-501,.mandir-component-515,.mandir-heading-516,.mandir-icon-600,.mandir-heading-616,.mandir-icon-617,.granth-component-671,.panchang-component-703,.ramcharitmanas-component-814) {
+  --tw-text-opacity: 1;
+  color: rgb(178 43 29 / var(--tw-text-opacity, 1));
+}
+
+:is(.site-action-009,.home-icon-111,.home-component-113,.home-heading-116,.home-component-154,.home-component-156,.home-component-161,.home-component-163,.ayodhya-component-395,.ayodhya-component-416,.ayodhya-component-420,.mandir-component-545) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+:is(.home-component-149) {
+  color: rgb(255 255 255 / 0.1);
+}
+
+:is(.home-component-137) {
+  color: rgb(255 255 255 / 0.2);
+}
+
+:is(.home-component-157) {
+  color: rgb(255 255 255 / 0.3);
+}
+
+:is(.home-component-141) {
+  color: rgb(255 255 255 / 0.4);
+}
+
+:is(.home-component-115,.home-component-139) {
+  color: rgb(255 255 255 / 0.7);
+}
+
+:is(.mandir-copy-548) {
+  color: rgb(255 255 255 / 0.8);
+}
+
+:is(.panchang-component-738) {
+  --tw-text-opacity: 1;
+  color: rgb(161 98 7 / var(--tw-text-opacity, 1));
+}
+
+:is(.site-component-001) {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:is(.home-component-110) {
+  opacity: 0.1;
+}
+
+:is(.ayodhya-icon-351) {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+:is(.ramcharitmanas-icon-781,.ramcharitmanas-icon-792) {
+  --tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+:is(.home-component-109,.history-component-481) {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+:is(.ayodhya-component-350,.ayodhya-component-418,.ayodhya-component-423,.ayodhya-component-434,.history-component-453,.history-component-463,.history-component-469,.history-component-472,.mandir-component-566,.granth-component-650) {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+:is(.site-component-002,.home-component-015,.home-component-022,.home-component-042,.home-component-088,.home-component-092,.home-component-134,.home-component-165,.home-component-167,.home-component-171,.home-component-177,.home-component-195,.home-component-199,.home-component-209,.home-component-211,.home-component-216,.home-component-218,.janmbhoomi-component-236,.janmbhoomi-component-242,.janmbhoomi-component-249,.janmbhoomi-component-254,.janmbhoomi-component-258,.janmbhoomi-component-262,.janmbhoomi-component-266,.janmbhoomi-component-279,.janmbhoomi-component-292,.janmbhoomi-component-295,.janmbhoomi-component-298,.janmbhoomi-component-301,.janmbhoomi-component-310,.janmbhoomi-component-313,.janmbhoomi-component-316,.janmbhoomi-component-319,.janmbhoomi-component-321,.janmbhoomi-component-322,.ayodhya-component-342,.ayodhya-component-391,.mandir-component-494,.mandir-component-498,.mandir-component-500,.mandir-component-502,.mandir-component-504,.mandir-component-522,.mandir-component-586,.mandir-component-591,.mandir-component-595,.mandir-component-603,.mandir-component-606,.mandir-component-608,.mandir-component-612,.mandir-component-615,.granth-component-624,.granth-component-632,.granth-component-642,.granth-component-643,.granth-component-661,.granth-component-663,.granth-component-669,.panchang-component-681,.panchang-component-692,.panchang-component-702,.panchang-component-707,.panchang-component-712,.panchang-component-715,.panchang-component-722,.panchang-component-724,.panchang-component-727,.panchang-component-739,.panchang-component-742,.panchang-component-760,.panchang-component-761,.panchang-component-762,.panchang-component-766,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794,.ramcharitmanas-component-802,.ramcharitmanas-component-812,.ramcharitmanas-component-815) {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+:is(.mandir-component-542) {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline {
+  outline-style: solid;
+}
+
+:is(.ramcharitmanas-component-790) {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+:is(.ramcharitmanas-component-790) {
+  --tw-ring-color: rgb(255 153 51 / 0.2);
+}
+
+:is(.site-component-002) {
+  --tw-backdrop-blur: blur(12px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+:is(.home-component-015,.home-component-022,.home-component-113,.ayodhya-component-345) {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+:is(.site-action-009,.home-component-042,.home-link-071,.home-component-074,.home-component-081,.home-component-084,.home-component-092,.home-component-134,.home-component-165,.home-component-167,.home-component-171,.home-component-183,.home-component-195,.home-component-209,.home-component-216,.janmbhoomi-component-242,.janmbhoomi-component-249,.janmbhoomi-component-254,.janmbhoomi-component-258,.janmbhoomi-component-266,.janmbhoomi-component-279,.janmbhoomi-component-295,.janmbhoomi-component-298,.janmbhoomi-component-301,.janmbhoomi-component-310,.janmbhoomi-component-313,.janmbhoomi-component-316,.janmbhoomi-component-319,.janmbhoomi-component-322,.ayodhya-component-415,.ayodhya-component-423,.ayodhya-component-434,.mandir-component-486,.mandir-component-494,.mandir-component-498,.mandir-component-500,.mandir-component-502,.mandir-component-534,.mandir-component-538,.mandir-component-578,.mandir-component-583,.mandir-component-591,.mandir-component-603,.granth-component-624,.granth-component-632,.granth-component-643,.granth-component-663,.panchang-component-681,.panchang-component-702,.panchang-component-715,.panchang-component-722,.panchang-component-727,.panchang-component-739,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794,.ramcharitmanas-component-812,.ramcharitmanas-component-815) {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+:is(.site-link-007,.ramcharitmanas-heading-783,.ramcharitmanas-link-787,.ramcharitmanas-heading-799) {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+:is(.ayodhya-component-342,.ayodhya-component-350,.mandir-component-522) {
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+:is(.ramcharitmanas-component-779,.ramcharitmanas-component-788,.ramcharitmanas-component-791) {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+:is(.site-link-007,.home-component-134,.home-component-195,.home-component-209,.home-component-216,.ayodhya-component-423,.ayodhya-component-434,.mandir-component-494,.mandir-component-498,.mandir-component-500,.mandir-component-502,.mandir-component-591,.mandir-component-603,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794) {
+  transition-duration: 300ms;
+}
+
+:is(.home-link-071):hover {
+  gap: 0.75rem;
+}
+
+:is(.mandir-component-578,.mandir-component-583):hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(143 78 0 / var(--tw-border-opacity, 1));
+}
+
+:is(.mandir-component-486,.mandir-component-534,.mandir-component-538):hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(233 195 73 / var(--tw-border-opacity, 1));
+}
+
+:is(.home-component-074,.home-component-165,.home-component-183):hover {
+  border-color: rgb(143 78 0 / 0.3);
+}
+
+:is(.granth-component-624,.granth-component-632,.granth-component-643):hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(115 92 0 / var(--tw-border-opacity, 1));
+}
+
+:is(.home-component-081,.home-component-167):hover {
+  border-color: rgb(115 92 0 / 0.3);
+}
+
+:is(.home-component-084):hover {
+  border-color: rgb(178 43 29 / 0.3);
+}
+
+:is(.site-link-007):hover {
+  --tw-text-opacity: 1;
+  color: rgb(143 78 0 / var(--tw-text-opacity, 1));
+}
+
+:is(.ramcharitmanas-link-787):hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 153 51 / var(--tw-text-opacity, 1));
+}
+
+:is(.home-component-134,.ayodhya-component-350,.ayodhya-component-423,.ayodhya-component-434):hover {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+:is(.site-action-009,.home-component-042,.home-component-092,.home-component-165,.home-component-167,.home-component-171,.home-component-195,.home-component-209,.home-component-216,.janmbhoomi-component-242,.janmbhoomi-component-249,.janmbhoomi-component-254,.janmbhoomi-component-258,.janmbhoomi-component-266,.janmbhoomi-component-279,.janmbhoomi-component-295,.janmbhoomi-component-298,.janmbhoomi-component-301,.janmbhoomi-component-310,.janmbhoomi-component-313,.janmbhoomi-component-316,.janmbhoomi-component-319,.janmbhoomi-component-322,.ayodhya-component-342,.ayodhya-component-415,.mandir-component-494,.mandir-component-498,.mandir-component-500,.mandir-component-502,.mandir-component-522,.mandir-component-591,.mandir-component-603,.granth-component-632,.granth-component-663,.panchang-component-681,.panchang-component-702,.panchang-component-715,.panchang-component-722,.panchang-component-727,.panchang-component-739,.ramcharitmanas-component-812,.ramcharitmanas-component-815):hover {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+:is(.home-component-074,.home-component-081,.home-component-084):hover {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+:is(.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794):hover {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+:is(.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794):hover {
+  --tw-shadow-color: rgb(115 92 0 / 0.1);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+:is(.ramcharitmanas-link-787):hover :is(.ramcharitmanas-component-788) {
+  --tw-translate-x: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+:is(.history-component-448,.history-component-460,.history-component-480,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794):hover :is(.ramcharitmanas-component-779,.ramcharitmanas-component-791) {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+:is(.history-component-448,.history-component-460,.history-component-480,.ramcharitmanas-component-778,.ramcharitmanas-component-790,.ramcharitmanas-component-794):hover :is(.ramcharitmanas-heading-783,.ramcharitmanas-heading-799) {
+  --tw-text-opacity: 1;
+  color: rgb(255 153 51 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 640px) {
+  :is(.mandir-component-583) {
+    grid-column: span 1 / span 1;
+  }
+
+  :is(.panchang-component-748) {
+    grid-column: span 2 / span 2;
+  }
+
+  :is(.home-component-019) {
+    display: block;
+  }
+
+  :is(.home-component-164,.home-component-170,.janmbhoomi-component-309,.granth-component-623,.granth-component-668,.panchang-component-680,.panchang-component-714,.panchang-component-719,.panchang-component-726,.panchang-component-733,.panchang-component-745) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  :is(.mandir-component-577) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  :is(.home-heading-018) {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  :is(.home-component-024) {
+    max-width: 900px;
+  }
+
+  :is(.history-component-447,.history-component-453,.history-component-463,.history-component-469,.history-component-472,.history-component-481) {
+    left: 50%;
+  }
+
+  :is(.ramcharitmanas-component-794) {
+    grid-column: span 2 / span 2;
+  }
+
+  :is(.history-component-455,.history-component-464) {
+    margin-top: 0px;
+  }
+
+  :is(.site-component-006) {
+    display: flex;
+  }
+
+  :is(.home-component-109) {
+    height: 24rem;
+  }
+
+  :is(.history-component-449,.history-component-455,.history-component-461,.history-component-464) {
+    width: 50%;
+  }
+
+  :is(.home-component-091,.janmbhoomi-component-241,.ayodhya-component-356,.mandir-component-493,.mandir-component-533,.granth-component-641,.panchang-component-706,.panchang-component-759,.ramcharitmanas-component-804) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  :is(.home-component-041,.home-component-133,.home-component-194,.ayodhya-component-379,.ayodhya-component-414,.mandir-component-485,.granth-component-623) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  :is(.janmbhoomi-component-286) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  :is(.history-component-448,.history-component-480,.mandir-component-505) {
+    flex-direction: row;
+  }
+
+  :is(.history-component-460) {
+    flex-direction: row-reverse;
+  }
+
+  :is(.mandir-component-505) {
+    align-items: center;
+  }
+
+  :is(.site-component-003,.home-component-014,.janmbhoomi-section-221,.mandir-component-484,.mandir-section-517,.mandir-section-539,.ramcharitmanas-component-820) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  :is(.granth-component-619,.granth-section-629,.panchang-section-678,.panchang-component-690,.panchang-section-705,.panchang-component-769) {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  :is(.panchang-section-689,.panchang-section-705) {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  :is(.panchang-section-678,.ramcharitmanas-section-775,.ramcharitmanas-section-800) {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  :is(.history-component-449,.history-component-464) {
+    padding-left: 0px;
+  }
+
+  :is(.history-component-455,.history-component-461) {
+    padding-left: 3rem;
+  }
+
+  :is(.history-component-449,.history-component-464) {
+    padding-right: 3rem;
+  }
+
+  :is(.history-component-449,.history-component-464) {
+    text-align: right;
+  }
+
+  :is(.home-copy-020,.janmbhoomi-copy-228) {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  :is(.home-heading-066,.panchang-heading-732) {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  :is(.janmbhoomi-heading-239,.ayodhya-heading-388,.ayodhya-heading-413,.mandir-heading-552,.panchang-heading-679) {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  :is(.janmbhoomi-heading-227,.ayodhya-heading-333) {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  :is(.home-heading-018) {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  :is(.home-heading-037,.home-heading-128,.home-heading-168) {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+  :is(.home-copy-021,.home-copy-023,.granth-copy-622) {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  :is(.mandir-component-538) {
+    grid-column: span 2 / span 2;
+  }
+
+  :is(.ramcharitmanas-component-794) {
+    grid-column: span 3 / span 3;
+  }
+
+  :is(.mandir-component-541,.mandir-component-566) {
+    grid-column: span 5 / span 5;
+  }
+
+  :is(.mandir-component-549,.mandir-component-560) {
+    grid-column: span 7 / span 7;
+  }
+
+  :is(.mandir-component-540,.mandir-component-559) {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  :is(.home-component-062,.home-component-108,.janmbhoomi-component-265,.ayodhya-component-390,.mandir-component-590,.panchang-component-741) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  :is(.home-component-164,.ayodhya-component-341,.ayodhya-component-356,.mandir-component-533,.granth-component-641,.panchang-component-719,.ramcharitmanas-component-804) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  :is(.janmbhoomi-component-241,.mandir-component-493,.granth-component-668,.panchang-component-680,.panchang-component-714,.panchang-component-733) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  :is(.janmbhoomi-component-309,.granth-component-623) {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  :is(.mandir-component-485,.panchang-component-726) {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  :is(.mandir-component-577) {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  :is(.ramcharitmanas-component-804) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+  .page { display: none; }
+  .page.active { display: block; }
+  .nav-link { cursor: pointer; }
+  .nav-link.active-link { color: #8f4e00; font-weight: 700; }
+  .marigold-glow {
+    box-shadow: 0 10px 30px -5px rgba(212, 175, 55, 0.15);
+  }
+  .mandala-bg {
+    background-image: radial-gradient(#8f4e00 0.75px, transparent 0.75px), radial-gradient(#8f4e00 0.75px, #ffffff 0.75px);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+    opacity: 0.03;
+  }
+  .spiritual-gold-shadow {
+    box-shadow: 0 10px 30px -5px rgba(212, 175, 55, 0.15);
+  }
+  .marigold-watermark {
+    background-image: radial-gradient(circle at 100% 100%, rgba(254, 214, 91, 0.12) 0%, transparent 65%);
+  }
+  .sacred-border-gold {
+    border-top: 2px solid #fed65b;
+  }
+  .text-glow {
+    text-shadow: 0 0 20px rgba(255, 153, 51, 0.25);
+  }
+  .granth-mandala-bg {
+    background-image: radial-gradient(circle at 50% 50%, rgba(254, 214, 91, 0.08) 0%, rgba(249, 249, 249, 0) 70%);
+  }
+
+  
+  section,
+  body.site-component-001,
+  .site-component-001 {
+    background-color: #fbf8f5 !important;
+  }
+
+  
+  section {
+    border-top: none !important;
+    border-bottom: none !important;
+  }
+
+
+  .mandir-idol-image-placeholder {
+    width: 100%;
+    height: 520px;
+    background-color: #f0e8dc;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #c8a96e;
+  }
+
+  .home-section-011,
+  .janmbhoomi-section-221 {
+    background: linear-gradient(to bottom, #ffd9a4, #fbe4c5, #f7e8d2, #feecd2, #f5ece0, #fbf8f5) !important;
+  }
+
+
+  .hero-divider { display: none; }
+
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+  }
+  .divider-line {
+    height: 1px;
+    width: 96px;
+    background: linear-gradient(to right, transparent, #b8860b, transparent);
+  }
+  .divider-symbol {
+    color: #b8860b;
+    font-size: 22px;
+    margin: 0 16px;
+    line-height: 1;
+    user-select: none;
+  }
+
+  [data-reveal] {
+    opacity: 0;
+    transition: opacity 0.75s cubic-bezier(0.16, 0.84, 0.44, 1),
+                transform 0.75s cubic-bezier(0.16, 0.84, 0.44, 1);
+    will-change: opacity, transform;
+  }
+
+  [data-reveal="up"]    { transform: translateY(46px); }
+  [data-reveal="left"]  { transform: translateX(-60px); }
+  [data-reveal="right"] { transform: translateX(60px); }
+  [data-reveal="scale"] { transform: scale(0.84); }
+
+  [data-reveal].is-revealed {
+    opacity: 1;
+    transform: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    [data-reveal] {
+      transition: none !important;
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }
+
+  .nav-hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 6px;
+    border: none;
+    background: transparent;
+    border-radius: 6px;
+  }
+  .nav-hamburger span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #8f4e00;
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+  .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+
+  .nav-mobile-drawer {
+    display: block;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 99999;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-mobile-drawer.open {
+    pointer-events: auto;
+    visibility: visible;
+  }
+  .nav-drawer-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .nav-mobile-drawer.open .nav-drawer-overlay {
+    opacity: 1;
+  }
+  .nav-drawer-panel {
+    position: absolute;
+    top: 0; right: 0;
+    width: min(280px, 82vw);
+    height: 100%;
+    background: #fff;
+    box-shadow: -4px 0 24px rgba(143,78,0,0.12);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.16,0.84,0.44,1);
+  }
+  .nav-mobile-drawer.open .nav-drawer-panel {
+    transform: translateX(0);
+  }
+  .nav-drawer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 20px 14px;
+    border-bottom: 1px solid #f0e8dc;
+  }
+  .nav-drawer-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #8f4e00;
+    letter-spacing: 0.01em;
+  }
+  .nav-drawer-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #8f4e00;
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: 4px 6px;
+  }
+  .nav-drawer-links {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0 24px;
+    flex: 1;
+    overflow-y: auto;
+  }
+  .nav-drawer-links a {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #5c3800;
+    padding: 13px 24px;
+    border-bottom: 1px solid #fdf3e8;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    text-decoration: none;
+  }
+  .nav-drawer-links a:hover,
+  .nav-drawer-links a.active-link {
+    background: #fdf3e8;
+    color: #8f4e00;
+    font-weight: 700;
+  }
+  .nav-drawer-darshan {
+    padding: 20px 24px;
+    border-top: 1px solid #f0e8dc;
+  }
+  .nav-drawer-darshan button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #8f4e00, #c47a1a);
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+
+ 
+  html { overflow-x: hidden; }
+*/
+  .nav-hamburger { display: none; }
+
+  @media (max-width: 1023px) {
+
+    .site-component-003 {
+      flex-wrap: nowrap !important;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+    
+    .site-component-006 { display: none !important; }
+    .site-component-008 { display: none !important; }
+  
+    .nav-hamburger {
+      display: flex !important;
+      margin-left: auto !important;
+      flex-shrink: 0 !important;
+    }
+  }
+
