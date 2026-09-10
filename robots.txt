@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://shriramjanmbhoomi.in/sitemap.xml
+Sitemap: https://shriramjanmbhoomi.in/sitemap.xml
