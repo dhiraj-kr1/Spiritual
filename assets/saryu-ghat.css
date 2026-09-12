@@ -1,0 +1,97 @@
+/* ============================================================
+   Saryu Ghat — Page-specific styles
+   Extends assets/style.css (do not duplicate shared variables)
+   ============================================================ */
+
+/* ── Significance Cards Grid ── */
+.saryu-significance-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* ── Ghat Row Layout ── */
+.saryu-ghat-row {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  display: flex;
+  align-items: flex-start;
+  gap: 22px;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.saryu-ghat-row:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-2px);
+}
+
+.saryu-ghat-number {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.saryu-ghat-content {
+  flex: 1;
+}
+
+/* ── Practical Guide Grid ── */
+.saryu-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* ── Aarti Stats Grid ── */
+.saryu-aarti-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .saryu-significance-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .saryu-guide-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .saryu-aarti-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .saryu-aarti-stats > div {
+    border-right: none !important;
+    border-bottom: 1px solid var(--border-card);
+  }
+
+  .saryu-aarti-stats > div:last-child {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .saryu-ghat-row {
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px;
+  }
+
+  .saryu-ghat-number {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+  }
+}
