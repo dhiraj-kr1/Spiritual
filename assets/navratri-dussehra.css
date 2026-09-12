@@ -1,0 +1,688 @@
+/* ============================================================
+   Navratri & Dussehra — Page-specific Styles
+   assets/navratri-dussehra.css
+   ============================================================ */
+
+/* ── Page container ── */
+.nd-page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 56px 24px 80px;
+}
+
+/* ── Universal section spacing ── */
+.nd-section {
+  margin-bottom: 80px;
+}
+
+/* ── Section header (eyebrow + title + subtitle) ── */
+.nd-section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.nd-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-jakarta);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 14px;
+}
+
+.nd-section-title {
+  font-family: var(--font-garamond);
+  font-size: clamp(26px, 3.6vw, 42px);
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  line-height: 1.15;
+  margin-bottom: 14px;
+}
+
+.nd-section-intro {
+  font-family: var(--font-jakarta);
+  font-size: 15px;
+  color: var(--color-on-surface-variant);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* ──────────────────────────────────────────────
+   1. SHARDIYA NAVRATRI — Tapasya section
+   ────────────────────────────────────────────── */
+.nd-navratri-intro {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 18px;
+  padding: 36px 36px 32px;
+  box-shadow: var(--card-shadow);
+  margin-bottom: 32px;
+}
+
+.nd-navratri-intro p {
+  font-family: var(--font-garamond);
+  font-size: 16px;
+  color: var(--text-body);
+  line-height: 1.85;
+  margin-bottom: 14px;
+}
+
+.nd-navratri-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.nd-navratri-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.nd-navratri-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 22px 18px;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.nd-navratri-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.nd-navratri-card-label {
+  font-family: var(--font-jakarta);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.nd-navratri-card h4 {
+  font-family: var(--font-garamond);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.nd-navratri-card p {
+  font-family: var(--font-jakarta);
+  font-size: 12.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.65;
+}
+
+.nd-navratri-card a {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: var(--font-jakarta);
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+.nd-navratri-card a:hover {
+  text-decoration: underline;
+}
+
+/* Navratri tags row */
+.nd-tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.nd-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-tinted-card);
+  border: 1px solid var(--border-light);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-family: var(--font-jakarta);
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--color-on-surface-variant);
+}
+
+/* ──────────────────────────────────────────────
+   2. VIJAYADASHAMI
+   ────────────────────────────────────────────── */
+.nd-vijaya-intro {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 18px;
+  padding: 36px 36px 28px;
+  box-shadow: var(--card-shadow);
+  margin-bottom: 32px;
+}
+
+.nd-vijaya-intro p {
+  font-family: var(--font-jakarta);
+  font-size: 15px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.75;
+}
+
+.nd-vijaya-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.nd-vijaya-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 26px 22px;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.nd-vijaya-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.nd-vijaya-card-icon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, var(--bg-badge-tithi), var(--gold-soft));
+  border: 1px solid var(--gold-border);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.nd-vijaya-card-icon .material-symbols-outlined {
+  font-size: 20px;
+  color: var(--primary-ochre);
+  font-variation-settings: 'FILL' 1;
+}
+
+.nd-vijaya-card h4 {
+  font-family: var(--font-garamond);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.nd-vijaya-card p {
+  font-family: var(--font-jakarta);
+  font-size: 12.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.65;
+  margin-bottom: 10px;
+}
+
+.nd-vijaya-card a {
+  display: inline-block;
+  font-family: var(--font-jakarta);
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.nd-vijaya-card a:hover { text-decoration: underline; }
+
+/* ──────────────────────────────────────────────
+   3. HERITAGE RAMILLA — Ayodhya Dham
+   ────────────────────────────────────────────── */
+.nd-ramlila-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 18px;
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+}
+
+.nd-ramlila-main {
+  padding: 36px 32px;
+  border-right: 1px solid var(--border-light);
+}
+
+.nd-ramlila-main p {
+  font-family: var(--font-garamond);
+  font-size: 16px;
+  color: var(--text-body);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.nd-ramlila-features {
+  padding: 36px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.nd-ramlila-feature {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.nd-ramlila-feature-icon {
+  width: 34px;
+  height: 34px;
+  background: var(--gold-soft);
+  border: 1px solid var(--gold-border);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.nd-ramlila-feature-icon .material-symbols-outlined {
+  font-size: 17px;
+  color: var(--primary-ochre);
+  font-variation-settings: 'FILL' 1;
+}
+
+.nd-ramlila-feature-body h5 {
+  font-family: var(--font-garamond);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 4px;
+}
+
+.nd-ramlila-feature-body p {
+  font-family: var(--font-jakarta);
+  font-size: 12.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.6;
+}
+
+/* ──────────────────────────────────────────────
+   4. GLOBAL RAMAYANA PRESENTATIONS
+   ────────────────────────────────────────────── */
+.nd-global-intro {
+  font-family: var(--font-jakarta);
+  font-size: 15px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.75;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 32px;
+}
+
+.nd-global-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.nd-global-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 26px 22px;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.nd-global-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.nd-global-card-label {
+  font-family: var(--font-jakarta);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.nd-global-card h4 {
+  font-family: var(--font-garamond);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.nd-global-card p {
+  font-family: var(--font-jakarta);
+  font-size: 12.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.65;
+}
+
+/* ──────────────────────────────────────────────
+   5. ETERNAL THRONE — Sovereign Ram Darbar
+   ────────────────────────────────────────────── */
+.nd-darbar-wrap {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 18px;
+  padding: 36px 36px 32px;
+  box-shadow: var(--card-shadow);
+}
+
+.nd-darbar-wrap > p {
+  font-family: var(--font-jakarta);
+  font-size: 15px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+.nd-darbar-roles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.nd-darbar-role {
+  background: var(--bg-tinted-card);
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  padding: 20px 20px;
+}
+
+.nd-darbar-role-title {
+  font-family: var(--font-jakarta);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 6px;
+}
+
+.nd-darbar-role h5 {
+  font-family: var(--font-garamond);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 6px;
+}
+
+.nd-darbar-role p {
+  font-family: var(--font-jakarta);
+  font-size: 12.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.6;
+}
+
+/* ──────────────────────────────────────────────
+   6. MAHA AARTI & SACRED OFFERINGS
+   ────────────────────────────────────────────── */
+.nd-aarti-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.nd-aarti-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 22px 18px;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.nd-aarti-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.nd-aarti-card-label {
+  font-family: var(--font-jakarta);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.nd-aarti-card h4 {
+  font-family: var(--font-garamond);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.nd-aarti-card p {
+  font-family: var(--font-jakarta);
+  font-size: 12px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.65;
+  margin-bottom: 10px;
+}
+
+.nd-aarti-card a {
+  display: inline-block;
+  font-family: var(--font-jakarta);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.nd-aarti-card a:hover { text-decoration: underline; }
+
+.nd-aarti-cta {
+  text-align: center;
+  padding: 20px;
+}
+
+.nd-aarti-cta a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-jakarta);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+  border: 1.5px solid var(--gold-border);
+  border-radius: 999px;
+  padding: 10px 24px;
+  transition: background 0.2s;
+}
+
+.nd-aarti-cta a:hover {
+  background: var(--gold-soft);
+}
+
+/* ──────────────────────────────────────────────
+   7. RAM KATHA — Wisdom of Fortitude
+   ────────────────────────────────────────────── */
+.nd-katha-intro {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 18px;
+  padding: 36px 36px 28px;
+  box-shadow: var(--card-shadow);
+  margin-bottom: 28px;
+}
+
+.nd-katha-intro p {
+  font-family: var(--font-jakarta);
+  font-size: 15px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.75;
+  margin-bottom: 14px;
+}
+
+.nd-katha-intro p:last-child { margin-bottom: 0; }
+
+.nd-katha-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.nd-katha-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 24px 20px;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.nd-katha-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.nd-katha-card-label {
+  font-family: var(--font-jakarta);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.nd-katha-card h4 {
+  font-family: var(--font-garamond);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.nd-katha-card p {
+  font-family: var(--font-jakarta);
+  font-size: 12.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.65;
+}
+
+/* ──────────────────────────────────────────────
+   8. ECSTATIC BHAJANS & AKHAND RAM DHUN
+   ────────────────────────────────────────────── */
+.nd-bhajan-intro {
+  font-family: var(--font-jakarta);
+  font-size: 15px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.75;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 32px;
+}
+
+.nd-bhajan-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.nd-bhajan-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 24px 20px;
+  box-shadow: var(--card-shadow);
+  text-align: center;
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.nd-bhajan-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.nd-bhajan-card-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, var(--bg-badge-tithi), var(--gold-soft));
+  border: 1px solid var(--gold-border);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+}
+
+.nd-bhajan-card-icon .material-symbols-outlined {
+  font-size: 22px;
+  color: var(--primary-ochre);
+  font-variation-settings: 'FILL' 1;
+}
+
+.nd-bhajan-card h4 {
+  font-family: var(--font-garamond);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 8px;
+}
+
+.nd-bhajan-card p {
+  font-family: var(--font-jakarta);
+  font-size: 12.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.65;
+}
+
+/* ──────────────────────────────────────────────
+   RESPONSIVE
+   ────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .nd-navratri-cards    { grid-template-columns: 1fr 1fr; }
+  .nd-vijaya-grid       { grid-template-columns: 1fr 1fr; }
+  .nd-ramlila-grid      { grid-template-columns: 1fr; }
+  .nd-ramlila-main      { border-right: none; border-bottom: 1px solid var(--border-light); }
+  .nd-global-grid       { grid-template-columns: 1fr 1fr; }
+  .nd-darbar-roles      { grid-template-columns: 1fr; }
+  .nd-aarti-grid        { grid-template-columns: 1fr 1fr; }
+  .nd-katha-grid        { grid-template-columns: 1fr 1fr; }
+  .nd-bhajan-grid       { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 600px) {
+  .nd-page              { padding: 32px 16px 60px; }
+  .nd-section           { margin-bottom: 56px; }
+  .nd-navratri-cards    { grid-template-columns: 1fr; }
+  .nd-vijaya-grid       { grid-template-columns: 1fr; }
+  .nd-global-grid       { grid-template-columns: 1fr; }
+  .nd-aarti-grid        { grid-template-columns: 1fr 1fr; }
+  .nd-katha-grid        { grid-template-columns: 1fr; }
+  .nd-bhajan-grid       { grid-template-columns: 1fr; }
+  .nd-navratri-intro,
+  .nd-vijaya-intro,
+  .nd-darbar-wrap,
+  .nd-katha-intro       { padding: 24px 20px; }
+}

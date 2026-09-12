@@ -1,0 +1,615 @@
+/* ============================================================
+   Ram Vivah Mahotsav — Page-specific Styles
+   assets/ram-vivah.css
+   ============================================================ */
+
+/* ── Page container ── */
+.rv-page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 56px 24px 80px;
+}
+
+/* ── Universal section spacing ── */
+.rv-section {
+  margin-bottom: 80px;
+}
+
+/* ── Section header (eyebrow + title + subtitle) ── */
+.rv-section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.rv-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-jakarta);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 14px;
+}
+
+.rv-section-title {
+  font-family: var(--font-garamond);
+  font-size: clamp(28px, 3.8vw, 44px);
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  line-height: 1.15;
+  margin-bottom: 14px;
+}
+
+.rv-section-intro {
+  font-family: var(--font-jakarta);
+  font-size: 15px;
+  color: var(--color-on-surface-variant);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* ── Ornamental divider ── */
+.rv-ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 0 auto 40px;
+  opacity: 0.5;
+  font-family: var(--font-devanagari);
+  color: var(--primary-gold);
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+.rv-ornament::before,
+.rv-ornament::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-border), transparent);
+}
+
+/* ──────────────────────────────────────────────
+   1. RAM VIVAH MAHOTSAV — Intro Section
+   ────────────────────────────────────────────── */
+.rv-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 18px;
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+}
+
+.rv-intro-main {
+  padding: 36px 32px;
+  border-right: 1px solid var(--border-light);
+}
+
+.rv-intro-main p {
+  font-family: var(--font-garamond);
+  font-size: 16px;
+  color: var(--text-body);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.rv-intro-sidebar {
+  padding: 36px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rv-sidebar-card {
+  background: var(--bg-tinted-card);
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+
+.rv-sidebar-card-icon {
+  width: 36px;
+  height: 36px;
+  background: var(--gold-soft);
+  border: 1px solid var(--gold-border);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.rv-sidebar-card-icon .material-symbols-outlined {
+  font-size: 18px;
+  color: var(--primary-ochre);
+  font-variation-settings: 'FILL' 1;
+}
+
+.rv-sidebar-card h4 {
+  font-family: var(--font-garamond);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 6px;
+}
+
+.rv-sidebar-card p {
+  font-family: var(--font-jakarta);
+  font-size: 13px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.6;
+}
+
+.rv-verse-box {
+  background: var(--bg-verse);
+  border-left: 3px solid var(--primary-gold);
+  border-radius: 0 10px 10px 0;
+  padding: 16px 18px;
+  margin-top: 20px;
+}
+
+.rv-verse-box p {
+  font-family: var(--font-devanagari);
+  font-size: 15px;
+  color: var(--primary-maroon);
+  line-height: 1.9;
+  margin: 0;
+}
+
+/* ──────────────────────────────────────────────
+   2. RAM–SITA VIVAH: DHANUSH PINAKA BHANJAN
+   ────────────────────────────────────────────── */
+.rv-pinaka-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.rv-pinaka-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 28px 24px;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.rv-pinaka-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.rv-pinaka-card-label {
+  font-family: var(--font-jakarta);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.rv-pinaka-card h3 {
+  font-family: var(--font-garamond);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.rv-pinaka-card p {
+  font-family: var(--font-jakarta);
+  font-size: 13px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+.rv-pinaka-verse {
+  background: var(--bg-verse);
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-family: var(--font-devanagari);
+  font-size: 13px;
+  color: var(--primary-maroon);
+  line-height: 1.9;
+}
+
+/* ──────────────────────────────────────────────
+   3. THE GRAND RAM BARAAT
+   ────────────────────────────────────────────── */
+.rv-baraat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.rv-baraat-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 24px 20px;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.rv-baraat-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.rv-baraat-num {
+  width: 38px;
+  height: 38px;
+  background: linear-gradient(135deg, var(--bg-badge-tithi), var(--gold-soft));
+  border: 1px solid var(--gold-border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-garamond);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary-maroon);
+  margin-bottom: 16px;
+}
+
+.rv-baraat-card h4 {
+  font-family: var(--font-garamond);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 10px;
+}
+
+.rv-baraat-card p {
+  font-family: var(--font-jakarta);
+  font-size: 12.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.7;
+}
+
+/* ──────────────────────────────────────────────
+   4. SACRED MANDAP CEREMONY
+   ────────────────────────────────────────────── */
+.rv-mandap-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.rv-mandap-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 26px 22px;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.rv-mandap-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.rv-mandap-icon-wrap {
+  font-family: var(--font-devanagari);
+  font-size: 26px;
+  color: var(--primary-gold);
+  line-height: 1;
+}
+
+.rv-mandap-card h4 {
+  font-family: var(--font-garamond);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  line-height: 1.3;
+}
+
+.rv-mandap-card .rv-mandap-label {
+  font-family: var(--font-jakarta);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.rv-mandap-card p {
+  font-family: var(--font-jakarta);
+  font-size: 13px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.7;
+  flex: 1;
+}
+
+/* ──────────────────────────────────────────────
+   5. SOULFUL VIVAH GEET
+   ────────────────────────────────────────────── */
+.rv-geet-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.rv-geet-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 26px 24px;
+  box-shadow: var(--card-shadow);
+}
+
+.rv-geet-card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+
+.rv-geet-type {
+  font-family: var(--font-jakarta);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.rv-geet-name {
+  font-family: var(--font-garamond);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+}
+
+.rv-geet-lyrics {
+  background: var(--bg-verse);
+  border-radius: 10px;
+  padding: 16px 18px;
+  font-family: var(--font-devanagari);
+  font-size: 15px;
+  color: var(--primary-maroon);
+  line-height: 2;
+  margin-bottom: 12px;
+}
+
+.rv-geet-desc {
+  font-family: var(--font-jakarta);
+  font-size: 12.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.7;
+}
+
+/* ──────────────────────────────────────────────
+   6. AARTI & POOJA VIDHI
+   ────────────────────────────────────────────── */
+.rv-aarti-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.rv-aarti-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 26px 22px;
+  box-shadow: var(--card-shadow);
+}
+
+.rv-aarti-card-num {
+  font-family: var(--font-jakarta);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.rv-aarti-card h4 {
+  font-family: var(--font-garamond);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.rv-aarti-card p {
+  font-family: var(--font-jakarta);
+  font-size: 13px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.7;
+}
+
+.rv-aarti-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rv-aarti-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-family: var(--font-jakarta);
+  font-size: 12.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.6;
+}
+
+.rv-aarti-list li .material-symbols-outlined {
+  font-size: 15px;
+  color: var(--primary-gold);
+  flex-shrink: 0;
+  margin-top: 1px;
+  font-variation-settings: 'FILL' 1;
+}
+
+/* ──────────────────────────────────────────────
+   7. RAM KATHA — ETERNAL PRINCIPLES
+   ────────────────────────────────────────────── */
+.rv-katha-vow {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 18px;
+  padding: 36px 36px 28px;
+  box-shadow: var(--card-shadow);
+  margin-bottom: 32px;
+}
+
+.rv-katha-vow h3 {
+  font-family: var(--font-garamond);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 14px;
+}
+
+.rv-katha-vow p {
+  font-family: var(--font-jakarta);
+  font-size: 14px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.75;
+}
+
+.rv-katha-principles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.rv-principle-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 24px 20px;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.rv-principle-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.rv-principle-card .rv-eyebrow {
+  margin-bottom: 10px;
+  font-size: 9.5px;
+}
+
+.rv-principle-card h4 {
+  font-family: var(--font-garamond);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.rv-principle-card p {
+  font-family: var(--font-jakarta);
+  font-size: 12.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.65;
+}
+
+/* ──────────────────────────────────────────────
+   8. SACRED VIVAH MAHAPRASAD
+   ────────────────────────────────────────────── */
+.rv-prasad-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.rv-prasad-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 22px 18px;
+  box-shadow: var(--card-shadow);
+  text-align: center;
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.rv-prasad-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.rv-prasad-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.rv-prasad-card h4 {
+  font-family: var(--font-garamond);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-brown-heading);
+  margin-bottom: 6px;
+}
+
+.rv-prasad-card .rv-prasad-type {
+  font-family: var(--font-jakarta);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.rv-prasad-card p {
+  font-family: var(--font-jakarta);
+  font-size: 12px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.6;
+}
+
+/* ──────────────────────────────────────────────
+   RESPONSIVE
+   ────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .rv-intro-grid        { grid-template-columns: 1fr; }
+  .rv-intro-main        { border-right: none; border-bottom: 1px solid var(--border-light); }
+  .rv-pinaka-grid       { grid-template-columns: 1fr 1fr; }
+  .rv-baraat-grid       { grid-template-columns: 1fr 1fr; }
+  .rv-mandap-grid       { grid-template-columns: 1fr 1fr; }
+  .rv-geet-grid         { grid-template-columns: 1fr; }
+  .rv-aarti-grid        { grid-template-columns: 1fr 1fr; }
+  .rv-katha-principles  { grid-template-columns: 1fr 1fr; }
+  .rv-prasad-grid       { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 600px) {
+  .rv-page              { padding: 32px 16px 60px; }
+  .rv-section           { margin-bottom: 56px; }
+  .rv-pinaka-grid       { grid-template-columns: 1fr; }
+  .rv-baraat-grid       { grid-template-columns: 1fr; }
+  .rv-mandap-grid       { grid-template-columns: 1fr; }
+  .rv-aarti-grid        { grid-template-columns: 1fr; }
+  .rv-katha-principles  { grid-template-columns: 1fr; }
+  .rv-prasad-grid       { grid-template-columns: 1fr 1fr; }
+  .rv-katha-vow         { padding: 24px 20px; }
+}
