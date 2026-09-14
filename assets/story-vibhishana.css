@@ -1,0 +1,151 @@
+/* ============================================================
+   Vibhishana Story — Page-specific styles
+   Extends assets/style.css (do not duplicate shared variables)
+   ============================================================ */
+
+/* Two-column grid */
+.vib-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* Three-column grid */
+.vib-three-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* Story flow steps */
+.vib-story-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-left: 3px solid var(--border-accent);
+  margin-left: 24px;
+}
+
+.vib-step {
+  display: flex;
+  gap: 28px;
+  padding: 0 0 40px 32px;
+  position: relative;
+}
+
+.vib-step:last-child {
+  padding-bottom: 0;
+}
+
+.vib-step-num {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: 50%;
+  font-family: var(--font-jakarta);
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -27px;
+  top: 0;
+  border: 3px solid var(--bg-warm-canvas);
+}
+
+.vib-step-content {
+  padding-top: 8px;
+}
+
+/* Debate layout */
+.vib-debate {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.vib-debate-card {
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--card-shadow);
+  padding: 28px 28px 24px;
+}
+
+.vib-debate-label {
+  font-family: var(--font-jakarta);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.vib-debate-vs {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-align: center;
+  opacity: 0.5;
+}
+
+/* Related stories */
+.vib-related {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.vib-related-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  padding: 24px 16px;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.vib-related-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .vib-two-col,
+  .vib-three-col {
+    grid-template-columns: 1fr;
+  }
+
+  .vib-debate {
+    grid-template-columns: 1fr;
+  }
+
+  .vib-debate-vs {
+    text-align: center;
+    padding: 4px 0;
+  }
+
+  .vib-related {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .vib-story-flow {
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .vib-related {
+    grid-template-columns: 1fr 1fr;
+  }
+}
