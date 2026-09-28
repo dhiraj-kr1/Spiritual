@@ -1,0 +1,68 @@
+/* Maa Kalaratri (Day 7) — Deep indigo / dark violet night palette */
+.kr-day-strip{background:linear-gradient(90deg,#1a0a2e,#2a0a40,#1e0e38);border-bottom:1px solid #4a2a60;padding:10px 0;position:sticky;top:0;z-index:90;}
+.kr-strip-inner{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.kr-chip{width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,0.08);border:1px solid #4a2a60;color:#c090f0;font-family:var(--font-jakarta);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;text-decoration:none;transition:background 0.2s,color 0.2s;}
+.kr-chip:hover{background:#9b59d6;color:#fff;border-color:#9b59d6;}
+.kr-chip-active{background:#9b59d6!important;color:#fff!important;border-color:#9b59d6!important;}
+.kr-strip-label{margin-left:auto;font-family:var(--font-jakarta);font-size:12px;color:#c090f0;}
+.kr-tag{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-jakarta);font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#9b59d6;margin-bottom:14px;}
+.kr-h2{font-family:var(--font-garamond);font-size:clamp(28px,3.8vw,42px);font-weight:700;color:var(--text-brown-heading);line-height:1.15;margin-bottom:16px;}
+.kr-lead{font-family:var(--font-jakarta);font-size:15px;color:var(--color-on-surface-variant);max-width:680px;margin:0 auto;line-height:1.7;}
+.kr-badge{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,0.1);border:1px solid rgba(155,89,214,0.4);border-radius:999px;padding:8px 16px;font-family:var(--font-jakarta);font-size:12.5px;font-weight:500;color:#f0d8ff;}
+
+/* Shubhankari banner */
+.kr-shubh-banner{display:flex;gap:20px;align-items:flex-start;background:linear-gradient(135deg,#f3eafd,#ede0ff);border:1px solid #c8a0e8;border-radius:var(--radius-lg);padding:28px 32px;margin-bottom:72px;}
+.kr-shubh-icon{flex-shrink:0;width:56px;height:56px;background:#fff;border:1px solid #d5b8f5;border-radius:14px;display:flex;align-items:center;justify-content:center;}
+
+.kr-icon-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.kr-icon-card{background:#fff;border:1px solid #d5b8f5;border-radius:var(--radius-lg);box-shadow:0 4px 18px rgba(100,40,160,0.07);padding:24px 20px;text-align:center;transition:box-shadow 0.2s,transform 0.2s;}
+.kr-icon-card:hover{box-shadow:0 8px 28px rgba(100,40,160,0.15);transform:translateY(-3px);}
+.kr-icon-wrap{width:54px;height:54px;background:#f3eafd;border:1px solid #d5b8f5;border-radius:14px;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;}
+.kr-icon-title{font-family:var(--font-garamond);font-size:16px;font-weight:700;color:#2a0a40;margin-bottom:8px;}
+.kr-icon-desc{font-family:var(--font-jakarta);font-size:12.5px;color:var(--color-on-surface-variant);line-height:1.65;}
+
+/* Verse box — dark */
+.kr-verse-box{background:linear-gradient(135deg,#1a0a2e,#2a0a40);border-left:4px solid #9b59d6;border-radius:var(--radius-md);padding:28px 32px;margin:0 0 72px;}
+
+/* Story flow */
+.kr-story-flow{display:flex;flex-direction:column;gap:0;border-left:3px solid #d5b8f5;margin-left:20px;}
+.kr-story-step{position:relative;padding:0 0 36px 36px;}
+.kr-story-step:last-child{padding-bottom:0;}
+.kr-story-dot{position:absolute;left:-11px;top:6px;width:20px;height:20px;border-radius:50%;background:#9b59d6;border:3px solid var(--bg-warm-canvas);box-shadow:0 0 10px rgba(155,89,214,0.4);}
+.kr-story-title{font-family:var(--font-garamond);font-size:20px;font-weight:700;color:#2a0a40;margin-bottom:10px;}
+.kr-story-body{font-family:var(--font-jakarta);font-size:13.5px;color:var(--color-on-surface-variant);line-height:1.75;background:#fff;border:1px solid #d5b8f5;border-radius:var(--radius-md);padding:16px 20px;margin:0;}
+
+/* Paradox grid */
+.kr-paradox-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px;}
+.kr-para-card{border-radius:var(--radius-lg);padding:32px 28px;}
+.kr-para-dark{background:linear-gradient(135deg,#1a0a2e,#2a0a40);border:1px solid #4a2a60;}
+.kr-para-light{background:#fff;border:1px solid #d5b8f5;box-shadow:0 4px 18px rgba(100,40,160,0.07);}
+.kr-para-label{font-family:var(--font-jakarta);font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:14px;}
+.kr-quote-box{background:linear-gradient(135deg,#f3eafd,#ede0ff);border:1px solid #c8a0e8;border-radius:var(--radius-lg);padding:28px 32px;text-align:center;}
+
+/* Mantra box — dark */
+.kr-mantra-box{background:linear-gradient(135deg,#1a0a2e,#2d0a48);border:1px solid #6a3a90;border-radius:var(--radius-lg);padding:36px 32px;margin:0 0 72px;text-align:center;}
+.kr-mantra-label{font-family:var(--font-jakarta);font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#9b59d6;margin-bottom:16px;}
+
+.kr-puja-list{display:flex;flex-direction:column;gap:16px;}
+.kr-puja-item{display:flex;gap:20px;background:#fff;border:1px solid #d5b8f5;border-radius:var(--radius-md);padding:22px 24px;align-items:flex-start;}
+.kr-puja-num{flex-shrink:0;width:36px;height:36px;background:#9b59d6;color:#fff;border-radius:50%;font-family:var(--font-jakarta);font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:2px;}
+.kr-puja-title{font-family:var(--font-garamond);font-size:18px;font-weight:700;color:#2a0a40;margin-bottom:8px;}
+.kr-puja-body{font-family:var(--font-jakarta);font-size:13px;color:var(--color-on-surface-variant);line-height:1.7;margin:0;}
+
+.kr-teach-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.kr-teach-card{background:#fff;border:1px solid #d5b8f5;border-radius:var(--radius-lg);box-shadow:0 4px 18px rgba(100,40,160,0.07);padding:28px 24px;text-align:center;transition:box-shadow 0.2s,transform 0.2s;}
+.kr-teach-card:hover{box-shadow:0 8px 28px rgba(100,40,160,0.15);transform:translateY(-3px);}
+
+.kr-nd-grid{display:grid;grid-template-columns:repeat(9,1fr);gap:10px;}
+.kr-nd-card{display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;border:1px solid #d5b8f5;border-radius:var(--radius-md);padding:16px 8px 12px;text-decoration:none;transition:box-shadow 0.2s,transform 0.2s;}
+.kr-nd-card:hover{box-shadow:0 6px 20px rgba(100,40,160,0.15);transform:translateY(-2px);}
+.kr-nd-active{background:linear-gradient(135deg,#9b59d6,#2a0a40);border-color:#9b59d6;}
+.kr-nd-active .kr-nd-num,.kr-nd-active .kr-nd-name,.kr-nd-active .kr-nd-sub{color:#fff!important;}
+.kr-nd-num{font-family:var(--font-jakarta);font-size:18px;font-weight:700;color:#9b59d6;margin-bottom:4px;}
+.kr-nd-name{font-family:var(--font-garamond);font-size:12px;font-weight:700;color:#2a0a40;margin-bottom:4px;line-height:1.2;}
+.kr-nd-sub{font-family:var(--font-jakarta);font-size:10px;color:var(--text-muted);line-height:1.3;}
+
+@media(max-width:900px){.kr-icon-grid,.kr-teach-grid{grid-template-columns:repeat(2,1fr);}.kr-nd-grid{grid-template-columns:repeat(3,1fr);}.kr-paradox-grid{grid-template-columns:1fr;}}
+@media(max-width:640px){.kr-icon-grid{grid-template-columns:1fr 1fr;}.kr-teach-grid{grid-template-columns:1fr;}.kr-strip-label{display:none;}.kr-shubh-banner{flex-direction:column;}.kr-nd-sub{display:none;}}
+@media(max-width:420px){.kr-icon-grid{grid-template-columns:1fr;}.kr-nd-grid{grid-template-columns:repeat(3,1fr);}}

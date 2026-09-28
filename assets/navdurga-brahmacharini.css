@@ -1,0 +1,208 @@
+/* ============================================================
+   Maa Brahmacharini (Nav Durga Day 2) — Page-specific styles
+   Extends assets/style.css (do not duplicate shared variables)
+   ============================================================ */
+
+/* ── Day strip ────────────────────────────────────────────── */
+.bc-day-strip {
+  background: linear-gradient(90deg, #fdf5e0, #faeacb, #fdf8f0);
+  border-bottom: 1px solid #e8d5a0;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 90;
+}
+.bc-day-strip-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.bc-day-chip {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #e8d5a0;
+  color: #c9860a;
+  font-family: var(--font-jakarta);
+  font-size: 11px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+.bc-day-chip:hover { background: #c9860a; color: #fff; border-color: #c9860a; }
+.bc-day-active { background: #c9860a !important; color: #fff !important; border-color: #c9860a !important; }
+.bc-day-label { margin-left: auto; font-family: var(--font-jakarta); font-size: 12px; color: #7a4a00; }
+
+/* ── Iconography grid ─────────────────────────────────────── */
+.bc-icon-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.bc-icon-card {
+  background: #fff;
+  border: 1px solid #e8d5a0;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 18px rgba(180,120,0,0.06);
+  padding: 24px 20px;
+  text-align: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.bc-icon-card:hover { box-shadow: 0 8px 28px rgba(180,120,0,0.12); transform: translateY(-3px); }
+.bc-icon-wrap {
+  width: 54px; height: 54px;
+  background: #fdf5e0;
+  border: 1px solid #e8d5a0;
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 14px;
+}
+.bc-icon-title { font-family: var(--font-garamond); font-size: 16px; font-weight: 700; color: #7a4a00; margin-bottom: 8px; }
+.bc-icon-desc { font-family: var(--font-jakarta); font-size: 12.5px; color: var(--color-on-surface-variant); line-height: 1.65; }
+
+/* ── Tapasya timeline ─────────────────────────────────────── */
+.bc-tapasya-timeline {
+  position: relative;
+  padding-left: 40px;
+  border-left: 3px solid #e8d5a0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.bc-tl-item {
+  position: relative;
+  padding-bottom: 40px;
+}
+.bc-tl-item:last-child { padding-bottom: 0; }
+.bc-tl-dot {
+  position: absolute;
+  left: -52px;
+  top: 4px;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px #e8d5a0;
+}
+.bc-tl-year {
+  font-family: var(--font-jakarta);
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #c9860a;
+  margin-bottom: 6px;
+}
+.bc-tl-title {
+  font-family: var(--font-garamond);
+  font-size: 21px; font-weight: 700;
+  color: #7a4a00;
+  margin-bottom: 10px;
+}
+.bc-tl-body {
+  font-family: var(--font-jakarta);
+  font-size: 13.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.75;
+  background: #fff;
+  border: 1px solid #e8d5a0;
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin: 0;
+}
+
+/* ── Teachings 3-col ──────────────────────────────────────── */
+.bc-teach-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.bc-teach-card {
+  background: #fff;
+  border: 1px solid #e8d5a0;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 18px rgba(180,120,0,0.06);
+  padding: 28px 24px;
+  text-align: center;
+}
+
+/* ── Puja 5-step grid ─────────────────────────────────────── */
+.bc-puja-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.bc-puja-card {
+  display: flex;
+  gap: 18px;
+  background: #fff;
+  border: 1px solid #e8d5a0;
+  border-radius: var(--radius-md);
+  padding: 22px 24px;
+  align-items: flex-start;
+}
+.bc-puja-num {
+  flex-shrink: 0;
+  width: 36px; height: 36px;
+  background: #c9860a;
+  color: #fff;
+  border-radius: 50%;
+  font-family: var(--font-jakarta);
+  font-size: 12px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  margin-top: 2px;
+}
+.bc-puja-title {
+  font-family: var(--font-garamond);
+  font-size: 17px; font-weight: 700;
+  color: #7a4a00; margin-bottom: 8px;
+}
+.bc-puja-text p {
+  font-family: var(--font-jakarta);
+  font-size: 13px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ── Nav Durga 9-grid ─────────────────────────────────────── */
+.bc-navdurga-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 10px;
+}
+.bc-nd-card {
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  background: #fff; border: 1px solid #e8d5a0;
+  border-radius: var(--radius-md); padding: 16px 8px 12px;
+  text-decoration: none;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.bc-nd-card:hover { box-shadow: 0 6px 20px rgba(180,120,0,0.13); transform: translateY(-2px); }
+.bc-nd-active { background: linear-gradient(135deg, #c9860a, #8f5200); border-color: #c9860a; }
+.bc-nd-active .bc-nd-day,
+.bc-nd-active .bc-nd-name,
+.bc-nd-active .bc-nd-sub { color: #fff !important; }
+.bc-nd-day { font-family: var(--font-jakarta); font-size: 18px; font-weight: 700; color: #c9860a; margin-bottom: 4px; }
+.bc-nd-name { font-family: var(--font-garamond); font-size: 12px; font-weight: 700; color: #7a4a00; margin-bottom: 4px; line-height: 1.2; }
+.bc-nd-sub { font-family: var(--font-jakarta); font-size: 10px; color: var(--text-muted); line-height: 1.3; }
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .bc-icon-grid, .bc-teach-grid { grid-template-columns: repeat(2, 1fr); }
+  .bc-navdurga-grid { grid-template-columns: repeat(3, 1fr); }
+  .bc-puja-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .bc-icon-grid { grid-template-columns: 1fr 1fr; }
+  .bc-teach-grid { grid-template-columns: 1fr; }
+  .bc-day-label { display: none; }
+  .bc-tapasya-timeline { padding-left: 28px; }
+  .bc-tl-dot { left: -40px; }
+  .bc-nd-sub { display: none; }
+}
+@media (max-width: 420px) {
+  .bc-icon-grid { grid-template-columns: 1fr; }
+  .bc-navdurga-grid { grid-template-columns: repeat(3, 1fr); }
+}

@@ -1,0 +1,169 @@
+/* ============================================================
+   Mahishasura Mardini Stotram — Page-specific styles
+   Deep crimson / saffron / gold palette
+   ============================================================ */
+
+/* Hero */
+.mm-hero {
+  background: linear-gradient(135deg, #2a0808, #4a1010, #3a0a18, #1e0808, #2e0a10) !important;
+  position: relative;
+  overflow: hidden;
+}
+.mm-hero-glow {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px; height: 400px;
+  background: radial-gradient(ellipse, rgba(255,180,0,0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+.mm-badge {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: rgba(255,255,255,0.1); border: 1px solid rgba(255,215,0,0.3);
+  border-radius: 999px; padding: 8px 16px;
+  font-family: var(--font-jakarta); font-size: 12.5px; font-weight: 500; color: #fff8d0;
+}
+
+/* Tag / headings */
+.mm-tag { display:inline-flex; align-items:center; gap:6px; font-family:var(--font-jakarta); font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#b06000; margin-bottom:14px; }
+.mm-h2 { font-family:var(--font-garamond); font-size:clamp(26px,3.5vw,38px); font-weight:700; color:var(--text-brown-heading); line-height:1.15; margin-bottom:16px; }
+
+/* About grid */
+.mm-about-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+.mm-about-card { background:#fff; border:1px solid #e8c898; border-radius:var(--radius-lg); padding:22px 18px; text-align:center; box-shadow:0 3px 14px rgba(160,80,0,0.07); transition:box-shadow 0.2s,transform 0.2s; }
+.mm-about-card:hover { box-shadow:0 7px 24px rgba(160,80,0,0.14); transform:translateY(-3px); }
+.mm-about-icon { width:48px; height:48px; background:#fff8e0; border:1px solid #e8c898; border-radius:12px; display:flex; align-items:center; justify-content:center; margin:0 auto 12px; }
+.mm-about-title { font-family:var(--font-garamond); font-size:16px; font-weight:700; color:#5a2800; margin-bottom:8px; }
+.mm-about-body { font-family:var(--font-jakarta); font-size:12.5px; color:var(--color-on-surface-variant); line-height:1.65; margin:0; }
+
+/* Refrain box */
+.mm-refrain-box {
+  background: linear-gradient(135deg, #fff8e0, #ffefc0);
+  border: 2px solid #e8c060;
+  border-radius: var(--radius-lg);
+  padding: 28px 32px;
+  margin: 0 0 40px;
+  text-align: center;
+}
+.mm-refrain-label {
+  font-family: var(--font-jakarta); font-size: 11px; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase; color: #b06000;
+  margin-bottom: 14px;
+}
+
+/* Verse navigation */
+.mm-verse-nav {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  background: #fff; border: 1px solid #e8c898; border-radius: var(--radius-lg);
+  padding: 14px 20px; margin-bottom: 40px;
+}
+.mm-vn-label { font-family:var(--font-jakarta); font-size:12px; font-weight:700; color:#b06000; text-transform:uppercase; letter-spacing:0.08em; white-space:nowrap; }
+.mm-vn-chips { display:flex; flex-wrap:wrap; gap:6px; }
+.mm-vn-chip {
+  width: 30px; height: 30px; border-radius: 50%;
+  background: #fff8e0; border: 1px solid #e8c898;
+  color: #b06000; font-family:var(--font-jakarta); font-size:11px; font-weight:700;
+  display:flex; align-items:center; justify-content:center;
+  text-decoration:none; cursor:pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.mm-vn-chip:hover { background:#b06000; color:#fff; border-color:#b06000; }
+.mm-vn-chip.mm-vn-active { background:#8a3000; color:#fff; border-color:#8a3000; }
+
+/* Individual verse cards */
+.mm-verse {
+  background: #fff;
+  border: 1px solid #e8c898;
+  border-radius: var(--radius-lg);
+  padding: 28px 32px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 16px rgba(160,80,0,0.06);
+  scroll-margin-top: 90px;
+  transition: box-shadow 0.2s;
+}
+.mm-verse:hover { box-shadow: 0 6px 24px rgba(160,80,0,0.12); }
+.mm-verse-last {
+  background: linear-gradient(135deg, #fff8e0, #fff4d0);
+  border: 2px solid #e8c060;
+}
+.mm-verse-header {
+  display: flex; align-items: center; gap: 14px;
+  margin-bottom: 18px; padding-bottom: 14px;
+  border-bottom: 1px solid #f0d8a0;
+}
+.mm-vnum {
+  flex-shrink: 0;
+  width: 36px; height: 36px;
+  background: #8a3000; color: #fff;
+  border-radius: 50%;
+  font-family: var(--font-devanagari); font-size: 15px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+}
+.mm-vtitle {
+  font-family: var(--font-garamond); font-size: 17px; font-weight: 700;
+  color: #5a2800;
+}
+.mm-sanskrit {
+  font-family: var(--font-devanagari);
+  font-size: clamp(16px, 2vw, 20px);
+  color: #3a0808;
+  line-height: 2;
+  margin-bottom: 14px;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #fdf5e0, #faf0d8);
+  border-radius: var(--radius-md);
+  border-left: 3px solid #c8a000;
+}
+.mm-roman {
+  font-family: var(--font-garamond);
+  font-size: 14.5px;
+  font-style: italic;
+  color: #8a5000;
+  line-height: 1.9;
+  margin-bottom: 14px;
+  padding: 0 4px;
+}
+.mm-meaning {
+  font-family: var(--font-jakarta);
+  font-size: 13.5px;
+  color: var(--color-on-surface-variant);
+  line-height: 1.75;
+  padding: 14px 16px;
+  background: #faf8f2;
+  border-radius: var(--radius-md);
+  border-left: 3px solid #e0c878;
+}
+
+/* Phala shruti */
+.mm-phala-box {
+  background: linear-gradient(135deg, #fff8e0, #fef0c0);
+  border: 1px solid #e8c060;
+  border-radius: var(--radius-lg);
+  padding: 28px 32px;
+}
+.mm-phala-header {
+  display: flex; align-items: center; gap: 10px;
+  font-family: var(--font-garamond); font-size: 20px; font-weight: 700;
+  color: #5a2800; margin-bottom: 16px;
+}
+.mm-phala-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.mm-phala-item { display:flex; align-items:center; gap:8px; font-family:var(--font-jakarta); font-size:13px; color:var(--color-on-surface-variant); }
+
+/* Related */
+.mm-related-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+.mm-related-card { display:flex; flex-direction:column; align-items:center; text-align:center; background:#fff; border:1px solid #e8c898; border-radius:var(--radius-lg); padding:22px 16px; text-decoration:none; transition:box-shadow 0.2s,transform 0.2s; }
+.mm-related-card:hover { box-shadow:0 6px 20px rgba(160,80,0,0.14); transform:translateY(-3px); }
+
+/* Responsive */
+@media(max-width:900px) {
+  .mm-about-grid { grid-template-columns:1fr 1fr; }
+  .mm-related-grid { grid-template-columns:repeat(2,1fr); }
+}
+@media(max-width:640px) {
+  .mm-about-grid { grid-template-columns:1fr; }
+  .mm-verse { padding:20px; }
+  .mm-sanskrit { font-size:15px; }
+  .mm-phala-grid { grid-template-columns:1fr; }
+  .mm-related-grid { grid-template-columns:1fr 1fr; }
+  .mm-verse-nav { flex-direction:column; align-items:flex-start; }
+}

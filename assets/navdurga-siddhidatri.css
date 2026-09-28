@@ -1,0 +1,81 @@
+/* Maa Siddhidatri (Day 9) — Royal violet / gold finale palette */
+.sd-day-strip{background:linear-gradient(90deg,#f5e8ff,#ede0ff,#f8f0ff);border-bottom:1px solid #c8a0e8;padding:10px 0;position:sticky;top:0;z-index:90;}
+.sd-strip-inner{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.sd-chip{width:32px;height:32px;border-radius:50%;background:#fff;border:1px solid #c8a0e8;color:#8040c0;font-family:var(--font-jakarta);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;text-decoration:none;transition:background 0.2s,color 0.2s;}
+.sd-chip:hover{background:#8040c0;color:#fff;border-color:#8040c0;}
+.sd-chip-active{background:#8040c0!important;color:#fff!important;border-color:#8040c0!important;}
+.sd-strip-label{margin-left:auto;font-family:var(--font-jakarta);font-size:12px;color:#4a1880;}
+
+/* Complete pill */
+.sd-complete-pill{display:inline-block;background:linear-gradient(90deg,#8040c0,#c060e0,#8040c0);background-size:200% auto;animation:shimmer 3s linear infinite;color:#fff;font-family:var(--font-jakarta);font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;border-radius:999px;padding:6px 18px;margin-bottom:8px;}
+@keyframes shimmer{0%{background-position:0%}100%{background-position:200%}}
+
+.sd-tag{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-jakarta);font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#8040c0;margin-bottom:14px;}
+.sd-h2{font-family:var(--font-garamond);font-size:clamp(28px,3.8vw,42px);font-weight:700;color:var(--text-brown-heading);line-height:1.15;margin-bottom:16px;}
+.sd-lead{font-family:var(--font-jakarta);font-size:15px;color:var(--color-on-surface-variant);max-width:680px;margin:0 auto;line-height:1.7;}
+.sd-badge{display:inline-flex;align-items:center;gap:7px;background:#fff;border:1px solid #d5b8f5;border-radius:999px;padding:8px 16px;font-family:var(--font-jakarta);font-size:12.5px;font-weight:500;color:#4a1880;}
+
+.sd-icon-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.sd-icon-card{background:#fff;border:1px solid #d5b8f5;border-radius:var(--radius-lg);box-shadow:0 4px 18px rgba(120,50,180,0.07);padding:24px 20px;text-align:center;transition:box-shadow 0.2s,transform 0.2s;}
+.sd-icon-card:hover{box-shadow:0 8px 28px rgba(120,50,180,0.15);transform:translateY(-3px);}
+.sd-icon-wrap{width:54px;height:54px;background:#f5e8ff;border:1px solid #d5b8f5;border-radius:14px;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;}
+.sd-icon-title{font-family:var(--font-garamond);font-size:16px;font-weight:700;color:#4a1880;margin-bottom:8px;}
+.sd-icon-desc{font-family:var(--font-jakarta);font-size:12.5px;color:var(--color-on-surface-variant);line-height:1.65;}
+
+/* 8 siddhis grid */
+.sd-siddhi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:24px;}
+.sd-siddhi-card{background:#fff;border:1px solid #d5b8f5;border-radius:var(--radius-lg);padding:22px 18px;text-align:center;transition:box-shadow 0.2s,transform 0.2s;}
+.sd-siddhi-card:hover{box-shadow:0 8px 24px rgba(120,50,180,0.14);transform:translateY(-3px);}
+.sd-siddhi-num{font-family:var(--font-jakarta);font-size:11px;font-weight:700;color:#8040c0;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px;}
+.sd-siddhi-name{font-family:var(--font-garamond);font-size:19px;font-weight:700;color:#4a1880;margin-bottom:8px;}
+.sd-siddhi-desc{font-family:var(--font-jakarta);font-size:12px;color:var(--color-on-surface-variant);line-height:1.6;}
+.sd-siddhi-note{display:flex;gap:14px;align-items:flex-start;background:linear-gradient(135deg,#f5e8ff,#ede0ff);border:1px solid #c8a0e8;border-radius:var(--radius-md);padding:20px 24px;}
+
+.sd-verse-box{background:#f5e8ff;border-left:4px solid #8040c0;border-radius:var(--radius-md);padding:28px 32px;margin:0 0 72px;}
+
+.sd-shiva-card{display:flex;gap:28px;background:#fff;border:1px solid #d5b8f5;border-radius:var(--radius-lg);box-shadow:0 4px 18px rgba(120,50,180,0.07);padding:32px;}
+.sd-shiva-left{flex-shrink:0;display:flex;flex-direction:column;align-items:center;width:80px;}
+.sd-shiva-icon{width:60px;height:60px;background:#f5e8ff;border:1px solid #d5b8f5;border-radius:16px;display:flex;align-items:center;justify-content:center;}
+
+/* Journey grid */
+.sd-journey-grid{display:grid;grid-template-columns:repeat(9,1fr);gap:10px;margin-bottom:24px;}
+.sd-journey-card{display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;border:1px solid #d5b8f5;border-radius:var(--radius-md);padding:16px 8px 14px;text-decoration:none;transition:box-shadow 0.2s,transform 0.2s;}
+.sd-journey-card:hover{box-shadow:0 6px 20px rgba(120,50,180,0.15);transform:translateY(-2px);}
+.sd-journey-active{background:linear-gradient(135deg,#8040c0,#4a1880);border-color:#8040c0;}
+.sd-journey-active .sd-jc-num,.sd-journey-active .sd-jc-name,.sd-journey-active .sd-jc-theme{color:#fff!important;}
+.sd-jc-num{font-family:var(--font-jakarta);font-size:16px;font-weight:700;color:#8040c0;margin-bottom:4px;}
+.sd-jc-name{font-family:var(--font-garamond);font-size:11px;font-weight:700;color:#4a1880;margin-bottom:4px;line-height:1.2;}
+.sd-jc-theme{font-family:var(--font-jakarta);font-size:9.5px;color:var(--text-muted);line-height:1.3;font-style:italic;}
+.sd-journey-quote{background:linear-gradient(135deg,#f5e8ff,#ede0ff);border:1px solid #c8a0e8;border-radius:var(--radius-lg);padding:32px;text-align:center;}
+
+/* Mantra box */
+.sd-mantra-box{background:linear-gradient(135deg,#f5e8ff,#ddc8f8);border:1px solid #c8a0e8;border-radius:var(--radius-lg);padding:36px 32px;margin:0 0 72px;text-align:center;}
+.sd-mantra-label{font-family:var(--font-jakarta);font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#8040c0;margin-bottom:16px;}
+
+.sd-puja-list{display:flex;flex-direction:column;gap:16px;}
+.sd-puja-item{display:flex;gap:20px;background:#fff;border:1px solid #d5b8f5;border-radius:var(--radius-md);padding:22px 24px;align-items:flex-start;}
+.sd-puja-num{flex-shrink:0;width:36px;height:36px;background:#8040c0;color:#fff;border-radius:50%;font-family:var(--font-jakarta);font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:2px;}
+.sd-puja-title{font-family:var(--font-garamond);font-size:18px;font-weight:700;color:#4a1880;margin-bottom:8px;}
+.sd-puja-body{font-family:var(--font-jakarta);font-size:13px;color:var(--color-on-surface-variant);line-height:1.7;margin:0;}
+
+.sd-teach-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.sd-teach-card{background:#fff;border:1px solid #d5b8f5;border-radius:var(--radius-lg);box-shadow:0 4px 18px rgba(120,50,180,0.07);padding:28px 24px;text-align:center;transition:box-shadow 0.2s,transform 0.2s;}
+.sd-teach-card:hover{box-shadow:0 8px 28px rgba(120,50,180,0.15);transform:translateY(-3px);}
+
+/* Complete banner */
+.sd-complete-banner{background:linear-gradient(135deg,#f5e8ff,#fff8e0,#f5e8ff);border:2px solid #c8a0e8;border-radius:var(--radius-xl,20px);padding:48px 40px;text-align:center;position:relative;overflow:hidden;}
+.sd-cb-om{font-family:var(--font-devanagari);font-size:100px;color:rgba(128,64,192,0.08);position:absolute;top:-20px;left:50%;transform:translateX(-50%);line-height:1;pointer-events:none;}
+.sd-cb-text{position:relative;}
+
+.sd-nd-grid{display:grid;grid-template-columns:repeat(9,1fr);gap:10px;}
+.sd-nd-card{display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;border:1px solid #d5b8f5;border-radius:var(--radius-md);padding:16px 8px 12px;text-decoration:none;transition:box-shadow 0.2s,transform 0.2s;}
+.sd-nd-card:hover{box-shadow:0 6px 20px rgba(120,50,180,0.15);transform:translateY(-2px);}
+.sd-nd-active{background:linear-gradient(135deg,#8040c0,#4a1880);border-color:#8040c0;}
+.sd-nd-active .sd-nd-num,.sd-nd-active .sd-nd-name,.sd-nd-active .sd-nd-sub{color:#fff!important;}
+.sd-nd-num{font-family:var(--font-jakarta);font-size:18px;font-weight:700;color:#8040c0;margin-bottom:4px;}
+.sd-nd-name{font-family:var(--font-garamond);font-size:12px;font-weight:700;color:#4a1880;margin-bottom:4px;line-height:1.2;}
+.sd-nd-sub{font-family:var(--font-jakarta);font-size:10px;color:var(--text-muted);line-height:1.3;}
+
+@media(max-width:900px){.sd-icon-grid,.sd-teach-grid,.sd-siddhi-grid{grid-template-columns:repeat(2,1fr);}.sd-nd-grid,.sd-journey-grid{grid-template-columns:repeat(3,1fr);}.sd-shiva-card{flex-direction:column;}}
+@media(max-width:640px){.sd-icon-grid{grid-template-columns:1fr 1fr;}.sd-teach-grid{grid-template-columns:1fr;}.sd-strip-label{display:none;}.sd-nd-sub,.sd-jc-theme{display:none;}.sd-complete-banner{padding:32px 20px;}}
+@media(max-width:420px){.sd-icon-grid,.sd-siddhi-grid{grid-template-columns:1fr;}.sd-nd-grid,.sd-journey-grid{grid-template-columns:repeat(3,1fr);}}

@@ -1,0 +1,79 @@
+/* ============================================================
+   Navratri Vrat Recipes — Page-specific styles
+   Forest green / cream / white palette
+   ============================================================ */
+
+.vr-subtitle{font-family:var(--font-garamond);font-size:clamp(16px,2.2vw,22px);font-style:italic;color:#0a7a40;margin-bottom:14px;letter-spacing:0.02em;}
+.vr-badge{display:inline-flex;align-items:center;gap:7px;background:#fff;border:1px solid #a8d8b8;border-radius:999px;padding:8px 16px;font-family:var(--font-jakarta);font-size:12.5px;font-weight:500;color:#064a22;}
+
+/* Rules box */
+.vr-rules-box{background:#fff;border:1px solid #a8d8b8;border-radius:var(--radius-lg);padding:28px 32px;margin-bottom:40px;box-shadow:0 3px 16px rgba(0,100,50,0.07);}
+.vr-rules-title{display:flex;align-items:center;gap:10px;font-family:var(--font-garamond);font-size:20px;font-weight:700;color:#064a22;margin-bottom:20px;}
+.vr-rules-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+.vr-rule{border-radius:var(--radius-md);padding:18px 20px;}
+.vr-rule-yes{background:#e8f5ee;border:1px solid #a8d8b8;}
+.vr-rule-no{background:#fff0f0;border:1px solid #f0b8b8;}
+.vr-rule-label{font-family:var(--font-jakarta);font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:12px;}
+.vr-rule-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:6px;}
+.vr-rule-list li{font-family:var(--font-jakarta);font-size:13px;color:var(--color-on-surface-variant);padding-left:4px;}
+.vr-rule-yes .vr-rule-list li::before{content:'✓ ';color:#0a7a40;font-weight:700;}
+.vr-rule-no .vr-rule-list li::before{content:'✗ ';color:#c83030;font-weight:700;}
+
+/* Recipe navigation */
+.vr-recipe-nav{background:#fff;border:1px solid #a8d8b8;border-radius:var(--radius-lg);padding:16px 20px;margin-bottom:36px;}
+.vr-nav-label{font-family:var(--font-jakarta);font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#0a7a40;margin-bottom:12px;}
+.vr-nav-chips{display:flex;flex-wrap:wrap;gap:8px;}
+.vr-nav-chip{font-family:var(--font-jakarta);font-size:11.5px;font-weight:600;color:#064a22;background:#e8f5ee;border:1px solid #a8d8b8;border-radius:999px;padding:5px 12px;text-decoration:none;transition:background 0.15s,color 0.15s;}
+.vr-nav-chip:hover{background:#0a7a40;color:#fff;border-color:#0a7a40;}
+
+/* Recipe cards */
+.vr-recipes-list{display:flex;flex-direction:column;gap:24px;}
+.vr-recipe{background:#fff;border:1px solid #c8e8d0;border-radius:var(--radius-xl,20px);overflow:hidden;box-shadow:0 3px 16px rgba(0,100,50,0.07);scroll-margin-top:90px;transition:box-shadow 0.2s;}
+.vr-recipe:hover{box-shadow:0 7px 28px rgba(0,100,50,0.12);}
+
+.vr-recipe-top{display:flex;align-items:flex-start;gap:18px;padding:22px 28px 18px;border-bottom:1px solid #e0f0e8;background:linear-gradient(135deg,#f0fff6,#e8f8ee);}
+.vr-rnum{flex-shrink:0;width:44px;height:44px;background:#0a7a40;color:#fff;border-radius:50%;font-family:var(--font-jakarta);font-size:15px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:2px;}
+.vr-rtitle{font-family:var(--font-garamond);font-size:clamp(19px,2.5vw,24px);font-weight:700;color:#064a22;margin-bottom:6px;}
+.vr-rmeta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-family:var(--font-jakarta);font-size:12px;color:var(--color-on-surface-variant);}
+.vr-tag-main{background:#e8f5ee;color:#0a7a40;border:1px solid #a8d8b8;border-radius:999px;padding:2px 10px;font-size:11px;font-weight:700;}
+.vr-tag-sweet{background:#fff0e0;color:#c86000;border:1px solid #e8c898;border-radius:999px;padding:2px 10px;font-size:11px;font-weight:700;}
+.vr-tag-snack{background:#f0f0ff;color:#5060b0;border:1px solid #c0c8f0;border-radius:999px;padding:2px 10px;font-size:11px;font-weight:700;}
+
+.vr-recipe-content{display:grid;grid-template-columns:1fr 1.6fr;gap:0;}
+.vr-col-ing{padding:22px 24px;border-right:1px solid #e0f0e8;}
+.vr-col-method{padding:22px 24px;}
+.vr-col-label{font-family:var(--font-jakarta);font-size:10.5px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0a7a40;margin-bottom:12px;}
+
+.vr-ing-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:7px;}
+.vr-ing-list li{display:flex;gap:8px;align-items:baseline;font-family:var(--font-jakarta);font-size:13px;color:var(--color-on-surface-variant);padding-bottom:6px;border-bottom:1px dashed #d8f0e0;}
+.vr-ing-list li:last-child{border-bottom:none;}
+.vr-q{flex-shrink:0;font-weight:700;color:#0a7a40;min-width:52px;font-size:12px;}
+
+.vr-method-list{padding-left:18px;margin:0 0 14px;display:flex;flex-direction:column;gap:10px;}
+.vr-method-list li{font-family:var(--font-jakarta);font-size:13.5px;color:var(--color-on-surface-variant);line-height:1.7;}
+
+.vr-tip{display:flex;gap:10px;background:#f0fff4;border:1px solid #a8d8b8;border-radius:var(--radius-md);padding:12px 16px;font-family:var(--font-jakarta);font-size:12.5px;color:var(--color-on-surface-variant);line-height:1.65;}
+.vr-tip::before{content:'💡';flex-shrink:0;}
+
+/* Related */
+.vr-related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+.vr-related-card{display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;border:1px solid #c8e8d0;border-radius:var(--radius-lg);padding:22px 16px;text-decoration:none;transition:box-shadow 0.2s,transform 0.2s;}
+.vr-related-card:hover{box-shadow:0 6px 20px rgba(0,100,50,0.13);transform:translateY(-3px);}
+
+/* Responsive */
+@media(max-width:900px){
+  .vr-rules-grid{grid-template-columns:1fr;}
+  .vr-related-grid{grid-template-columns:repeat(2,1fr);}
+  .vr-recipe-content{grid-template-columns:1fr;}
+  .vr-col-ing{border-right:none;border-bottom:1px solid #e0f0e8;padding-bottom:18px;}
+}
+@media(max-width:640px){
+  .vr-recipe-top{padding:16px 18px;}
+  .vr-col-ing,.vr-col-method{padding:16px 18px;}
+  .vr-related-grid{grid-template-columns:1fr 1fr;}
+  .vr-nav-chips{gap:6px;}
+  .vr-nav-chip{font-size:10.5px;padding:4px 10px;}
+}
+@media(max-width:420px){
+  .vr-related-grid{grid-template-columns:1fr;}
+}

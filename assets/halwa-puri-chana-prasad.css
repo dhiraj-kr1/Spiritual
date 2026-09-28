@@ -1,0 +1,104 @@
+/* ============================================================
+   Halwa Puri Chana Prasad — Page-specific styles
+   Deep saffron / golden / indigo palette
+   ============================================================ */
+
+/* Hero */
+.hp-hero { position:relative; overflow:hidden; }
+.hp-hero-bg {
+  position:absolute; inset:0;
+  background:linear-gradient(135deg,#2a0800,#5a1800,#3a0e00,#1e0600,#4a1400);
+  z-index:0;
+}
+/* hero-om-watermark is absolutely positioned in HTML — keep stamp and content in flow */
+.hp-hero .hero-content,
+.hp-hero .hero-stamp { position:relative; z-index:1; }
+.hp-badge { display:inline-flex; align-items:center; gap:7px; background:rgba(255,255,255,0.12); border:1px solid rgba(255,200,80,0.35); border-radius:999px; padding:7px 14px; font-family:var(--font-jakarta); font-size:12.5px; font-weight:500; color:#fff8d0; }
+
+/* Section pieces */
+.hp-tag { display:inline-flex; align-items:center; gap:6px; font-family:var(--font-jakarta); font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#c87000; margin-bottom:14px; }
+.hp-h2 { font-family:var(--font-garamond); font-size:clamp(26px,3.5vw,38px); font-weight:700; color:var(--text-brown-heading); line-height:1.15; margin-bottom:16px; }
+.hp-lead { font-family:var(--font-jakarta); font-size:15px; color:var(--color-on-surface-variant); max-width:700px; margin:0 auto; line-height:1.7; }
+
+/* Story grid */
+.hp-story-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:20px; }
+.hp-story-card { background:#fff; border:1px solid #e8c898; border-radius:var(--radius-lg); padding:26px 24px; box-shadow:0 3px 14px rgba(160,80,0,0.06); transition:box-shadow 0.2s,transform 0.2s; }
+.hp-story-card:hover { box-shadow:0 7px 24px rgba(160,80,0,0.13); transform:translateY(-3px); }
+.hp-story-icon { font-size:32px; margin-bottom:12px; }
+.hp-story-title { font-family:var(--font-garamond); font-size:19px; font-weight:700; color:#6a2800; margin-bottom:10px; }
+.hp-story-body { font-family:var(--font-jakarta); font-size:13px; color:var(--color-on-surface-variant); line-height:1.72; margin:0; }
+
+/* Thali visual */
+.hp-thali-banner { background:linear-gradient(135deg,#fff8e0,#ffefc0,#fff4d0); border:2px solid #e8c060; border-radius:var(--radius-xl,20px); padding:36px 24px 24px; margin:0 0 48px; text-align:center; }
+.hp-thali-center { display:flex; justify-content:center; gap:40px; margin-bottom:20px; flex-wrap:wrap; }
+.hp-thali-item { display:flex; flex-direction:column; align-items:center; gap:8px; }
+.hp-thali-emoji { font-size:56px; filter:drop-shadow(0 4px 8px rgba(0,0,0,0.12)); transition:transform 0.3s ease; }
+.hp-thali-item:hover .hp-thali-emoji { transform:scale(1.15) rotate(-4deg); }
+.hp-thali-name { font-family:var(--font-garamond); font-size:18px; font-weight:700; color:#5a2800; }
+.hp-thali-sub { font-family:var(--font-devanagari); font-size:15px; color:#c87000; }
+.hp-thali-label { font-family:var(--font-jakarta); font-size:12px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8a5000; margin-top:4px; }
+
+/* Recipe sections */
+.hp-recipe-section { background:#fff; border:1px solid #e8c898; border-radius:var(--radius-xl,20px); margin-bottom:32px; overflow:hidden; box-shadow:0 4px 20px rgba(160,80,0,0.08); scroll-margin-top:90px; }
+.hp-recipe-header { display:flex; align-items:flex-start; gap:20px; padding:24px 32px; border-bottom:1px solid #f0d8a0; }
+.hp-recipe-badge { flex-shrink:0; width:48px; height:48px; border-radius:50%; color:#fff; font-family:var(--font-jakarta); font-size:16px; font-weight:700; display:flex; align-items:center; justify-content:center; margin-top:4px; }
+.hp-recipe-eyebrow { display:inline-block; font-family:var(--font-jakarta); font-size:10px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#8a4000; background:#fff0d0; border-radius:999px; padding:3px 10px; margin-bottom:6px; }
+.hp-recipe-title { font-family:var(--font-garamond); font-size:clamp(21px,3vw,28px); font-weight:700; color:#5a2800; margin-bottom:6px; }
+.hp-recipe-meta { display:flex; flex-wrap:wrap; gap:14px; font-family:var(--font-jakarta); font-size:12.5px; color:var(--color-on-surface-variant); }
+.hp-recipe-body { padding:28px 32px; display:flex; flex-direction:column; gap:22px; }
+.hp-significance-bar { border-left:4px solid #c87000; border-radius:0 var(--radius-md) var(--radius-md) 0; padding:16px 20px; }
+
+/* Two column layout */
+.hp-two-col { display:grid; grid-template-columns:1fr 1.5fr; gap:24px; align-items:start; }
+.hp-col-label { font-family:var(--font-jakarta); font-size:10.5px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#c87000; margin-bottom:12px; }
+
+/* Ingredients */
+.hp-ingredients { background:#fffbf0; border:1px solid #e8d8a0; border-radius:var(--radius-md); padding:18px 20px; }
+.hp-ing-table { display:flex; flex-direction:column; gap:6px; }
+.hp-ing-row { display:flex; gap:10px; align-items:baseline; padding:5px 0; border-bottom:1px dashed #f0d8a0; font-family:var(--font-jakarta); font-size:13px; color:var(--color-on-surface-variant); }
+.hp-ing-row:last-child { border-bottom:none; }
+.hp-qty { flex-shrink:0; font-weight:700; color:#c87000; min-width:58px; font-size:12px; }
+
+/* Method */
+.hp-method { padding:4px 0; }
+.hp-steps { padding-left:18px; margin:0; display:flex; flex-direction:column; gap:12px; }
+.hp-steps li { font-family:var(--font-jakarta); font-size:13.5px; color:var(--color-on-surface-variant); line-height:1.7; }
+
+/* Tips */
+.hp-tip-row { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.hp-tip { display:flex; gap:10px; align-items:flex-start; background:#fff8e8; border:1px solid #e8c898; border-radius:var(--radius-md); padding:14px 16px; font-family:var(--font-jakarta); font-size:12.5px; color:var(--color-on-surface-variant); line-height:1.65; }
+.hp-tip span { flex-shrink:0; font-size:18px; }
+
+/* Puja steps */
+.hp-puja-steps { display:flex; flex-direction:column; gap:0; border-left:3px solid #e8c898; margin-left:22px; }
+.hp-puja-step { position:relative; padding:0 0 32px 36px; }
+.hp-puja-step:last-child { padding-bottom:0; }
+.hp-puja-num { position:absolute; left:-24px; top:0; width:44px; height:44px; background:#c87000; color:#fff; border-radius:50%; font-family:var(--font-jakarta); font-size:13px; font-weight:700; display:flex; align-items:center; justify-content:center; border:3px solid var(--bg-warm-canvas); }
+.hp-puja-title { font-family:var(--font-garamond); font-size:20px; font-weight:700; color:#6a2800; margin-bottom:10px; }
+.hp-puja-body { font-family:var(--font-jakarta); font-size:13.5px; color:var(--color-on-surface-variant); line-height:1.75; background:#fff; border:1px solid #f0d8a0; border-radius:var(--radius-md); padding:14px 18px; margin:0; }
+
+/* Related */
+.hp-related-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+.hp-related-card { display:flex; flex-direction:column; align-items:center; text-align:center; background:#fff; border:1px solid #e8c898; border-radius:var(--radius-lg); padding:22px 16px; text-decoration:none; transition:box-shadow 0.2s,transform 0.2s; }
+.hp-related-card:hover { box-shadow:0 6px 20px rgba(160,80,0,0.14); transform:translateY(-3px); }
+
+/* Responsive */
+@media(max-width:900px){
+  .hp-story-grid { grid-template-columns:1fr; }
+  .hp-two-col { grid-template-columns:1fr; }
+  .hp-tip-row { grid-template-columns:1fr; }
+  .hp-related-grid { grid-template-columns:repeat(2,1fr); }
+  .hp-thali-center { gap:24px; }
+}
+@media(max-width:640px){
+  .hp-recipe-header { padding:18px 20px; flex-direction:column; }
+  .hp-recipe-body { padding:20px; }
+  .hp-thali-emoji { font-size:44px; }
+  .hp-related-grid { grid-template-columns:1fr 1fr; }
+  .hp-puja-steps { margin-left:14px; }
+  .hp-puja-step { padding-left:28px; }
+}
+@media(max-width:420px){
+  .hp-related-grid { grid-template-columns:1fr; }
+  .hp-thali-center { gap:16px; }
+}
